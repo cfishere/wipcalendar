@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+#page{
+	width:480px;
+	padding: 30px;
+	margin:50px auto;
+	border: #E9E8E8 1px solid;
+	border-radius: 5px;
+}
+#banner{
+	padding: 30px 0px 15px 0px;
+	background-color: #B3A80F;
+	margin: 15px 0px;
+	border-bottom: 3px #D13A3A solid;
+	border-top-left-radius:5px;border-top-right-radius:5px
+	}
+#miniform{
+	width: 270px;
+	margin: 10px auto;
+}
+.center{text-align:center;}
+h1,h2,h3,h4{
+	font-weight:bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin: 30px auto;
+	color: #6B9DD9;
+	padding-bottom: 15px;
+	
+	text-align:center;
+}
+.T_RexTitle{
+	font-size: 55px;
+}
+#banner *{
+	color:#FFFFFF;
+}
+#msg{
+	width: 380px; 
+	margin: 15px auto;
+	background-color: beige;
+	border: #BD0000 1px solid;
+	border-radius: 5px;
+	padding: 5px;
+	display:block;
+	text-align:center;
+}
+#footer{	
+	font-size: 14px; margin: 40px 0 0 0; background-color: aliceblue; color:#B5C7CC; border-bottom-left-radius:5px;border-bottom-right-radius:5px; 
+}

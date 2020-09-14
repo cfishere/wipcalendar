@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE calendars [
+<!ENTITY nbsp "&#160;">
+<!ENTITY amp "&#38;#38;">
+<!ELEMENT calendars (calendar)>
+<!ELEMENT calendar (year)*>
+<!ELEMENT year (month)*>
+<!ELEMENT month (week)*>
+<!ELEMENT week (day)*>
+<!-- * 'day' can have zero or more 'job' child elements --><!ELEMENT day (job)*>
+<!ELEMENT job (#PCDATA)>
+<!ATTLIST calendar id CDATA #REQUIRED>
+<!ATTLIST year ordinal CDATA #REQUIRED>
+<!ATTLIST month ordinal CDATA #REQUIRED>
+<!ATTLIST month name CDATA #REQUIRED>
+<!ATTLIST week ordinal CDATA #REQUIRED>
+<!ATTLIST day ordinal CDATA #REQUIRED>
+<!ATTLIST day name CDATA #REQUIRED>
+<!ATTLIST day date CDATA #REQUIRED>
+<!ATTLIST job number CDATA #REQUIRED>
+]>
+<calendars>
+  <calendar id="Outdoor Images">
+    <year ordinal="2020">
+      <month ordinal="1" name="January">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date="1"></day>
+          <day ordinal="5" name="Thursday" date="2"></day>
+          <day ordinal="6" name="Friday" date="3"></day>
+          <day ordinal="7" name="Saturday" date="4"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5"></day>
+          <day ordinal="9" name="Monday" date="6"></day>
+          <day ordinal="10" name="Tuesday" date="7"></day>
+          <day ordinal="11" name="Wednesday" date="8"></day>
+          <day ordinal="12" name="Thursday" date="9"></day>
+          <day ordinal="13" name="Friday" date="10"></day>
+          <day ordinal="14" name="Saturday" date="11"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"></day>
+          <day ordinal="16" name="Monday" date="13"></day>
+          <day ordinal="17" name="Tuesday" date="14"></day>
+          <day ordinal="18" name="Wednesday" date="15"></day>
+          <day ordinal="19" name="Thursday" date="16"></day>
+          <day ordinal="20" name="Friday" date="17"></day>
+          <day ordinal="21" name="Saturday" date="18"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"></day>
+          <day ordinal="23" name="Monday" date="20"></day>
+          <day ordinal="24" name="Tuesday" date="21"></day>
+          <day ordinal="25" name="Wednesday" date="22"></day>
+          <day ordinal="26" name="Thursday" date="23"></day>
+          <day ordinal="27" name="Friday" date="24"></day>
+          <day ordinal="28" name="Saturday" date="25"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26"></day>
+          <day ordinal="30" name="Monday" date="27"></day>
+          <day ordinal="31" name="Tuesday" date="28"></day>
+          <day ordinal="32" name="Wednesday" date="29"></day>
+          <day ordinal="33" name="Thursday" date="30"></day>
+          <day ordinal="34" name="Friday" date="31"></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="2" name="February">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date=""></day>
+          <day ordinal="6" name="Friday" date=""></day>
+          <day ordinal="7" name="Saturday" date="1"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"></day>
+          <day ordinal="9" name="Monday" date="3"></day>
+          <day ordinal="10" name="Tuesday" date="4"></day>
+          <day ordinal="11" name="Wednesday" date="5"></day>
+          <day ordinal="12" name="Thursday" date="6"></day>
+          <day ordinal="13" name="Friday" date="7"></day>
+          <day ordinal="14" name="Saturday" date="8"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"></day>
+          <day ordinal="16" name="Monday" date="10"></day>
+          <day ordinal="17" name="Tuesday" date="11"></day>
+          <day ordinal="18" name="Wednesday" date="12"></day>
+          <day ordinal="19" name="Thursday" date="13"></day>
+          <day ordinal="20" name="Friday" date="14"></day>
+          <day ordinal="21" name="Saturday" date="15"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"></day>
+          <day ordinal="23" name="Monday" date="17"></day>
+          <day ordinal="24" name="Tuesday" date="18"></day>
+          <day ordinal="25" name="Wednesday" date="19"></day>
+          <day ordinal="26" name="Thursday" date="20"></day>
+          <day ordinal="27" name="Friday" date="21"></day>
+          <day ordinal="28" name="Saturday" date="22"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"></day>
+          <day ordinal="30" name="Monday" date="24"></day>
+          <day ordinal="31" name="Tuesday" date="25"></day>
+          <day ordinal="32" name="Wednesday" date="26"></day>
+          <day ordinal="33" name="Thursday" date="27"></day>
+          <day ordinal="34" name="Friday" date="28"></day>
+          <day ordinal="35" name="Saturday" date="29"></day>
+        </week>
+      </month>
+      <month ordinal="3" name="March">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"></day>
+          <day ordinal="2" name="Monday" date="2"></day>
+          <day ordinal="3" name="Tuesday" date="3"></day>
+          <day ordinal="4" name="Wednesday" date="4"></day>
+          <day ordinal="5" name="Thursday" date="5"></day>
+          <day ordinal="6" name="Friday" date="6"></day>
+          <day ordinal="7" name="Saturday" date="7"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"></day>
+          <day ordinal="9" name="Monday" date="9"></day>
+          <day ordinal="10" name="Tuesday" date="10"></day>
+          <day ordinal="11" name="Wednesday" date="11"></day>
+          <day ordinal="12" name="Thursday" date="12"></day>
+          <day ordinal="13" name="Friday" date="13"></day>
+          <day ordinal="14" name="Saturday" date="14"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"></day>
+          <day ordinal="16" name="Monday" date="16"></day>
+          <day ordinal="17" name="Tuesday" date="17"></day>
+          <day ordinal="18" name="Wednesday" date="18"></day>
+          <day ordinal="19" name="Thursday" date="19"></day>
+          <day ordinal="20" name="Friday" date="20"></day>
+          <day ordinal="21" name="Saturday" date="21"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"></day>
+          <day ordinal="23" name="Monday" date="23"></day>
+          <day ordinal="24" name="Tuesday" date="24"></day>
+          <day ordinal="25" name="Wednesday" date="25"></day>
+          <day ordinal="26" name="Thursday" date="26"></day>
+          <day ordinal="27" name="Friday" date="27"></day>
+          <day ordinal="28" name="Saturday" date="28"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"></day>
+          <day ordinal="30" name="Monday" date="30"></day>
+          <day ordinal="31" name="Tuesday" date="31"></day>
+          <day ordinal="32" name="Wednesday" date=""></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="4" name="April">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date="1"></day>
+          <day ordinal="5" name="Thursday" date="2"></day>
+          <day ordinal="6" name="Friday" date="3"></day>
+          <day ordinal="7" name="Saturday" date="4"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5"></day>
+          <day ordinal="9" name="Monday" date="6"></day>
+          <day ordinal="10" name="Tuesday" date="7"></day>
+          <day ordinal="11" name="Wednesday" date="8"></day>
+          <day ordinal="12" name="Thursday" date="9"></day>
+          <day ordinal="13" name="Friday" date="10"></day>
+          <day ordinal="14" name="Saturday" date="11"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"></day>
+          <day ordinal="16" name="Monday" date="13"></day>
+          <day ordinal="17" name="Tuesday" date="14"></day>
+          <day ordinal="18" name="Wednesday" date="15"></day>
+          <day ordinal="19" name="Thursday" date="16"></day>
+          <day ordinal="20" name="Friday" date="17"></day>
+          <day ordinal="21" name="Saturday" date="18"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"></day>
+          <day ordinal="23" name="Monday" date="20"></day>
+          <day ordinal="24" name="Tuesday" date="21"></day>
+          <day ordinal="25" name="Wednesday" date="22"></day>
+          <day ordinal="26" name="Thursday" date="23"></day>
+          <day ordinal="27" name="Friday" date="24"></day>
+          <day ordinal="28" name="Saturday" date="25"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26"></day>
+          <day ordinal="30" name="Monday" date="27"></day>
+          <day ordinal="31" name="Tuesday" date="28"></day>
+          <day ordinal="32" name="Wednesday" date="29"></day>
+          <day ordinal="33" name="Thursday" date="30"></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="5" name="May">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date=""></day>
+          <day ordinal="6" name="Friday" date="1"></day>
+          <day ordinal="7" name="Saturday" date="2"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="3"></day>
+          <day ordinal="9" name="Monday" date="4"></day>
+          <day ordinal="10" name="Tuesday" date="5"></day>
+          <day ordinal="11" name="Wednesday" date="6"></day>
+          <day ordinal="12" name="Thursday" date="7"></day>
+          <day ordinal="13" name="Friday" date="8"></day>
+          <day ordinal="14" name="Saturday" date="9"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="10"></day>
+          <day ordinal="16" name="Monday" date="11"></day>
+          <day ordinal="17" name="Tuesday" date="12"></day>
+          <day ordinal="18" name="Wednesday" date="13"></day>
+          <day ordinal="19" name="Thursday" date="14"></day>
+          <day ordinal="20" name="Friday" date="15"></day>
+          <day ordinal="21" name="Saturday" date="16"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="17"></day>
+          <day ordinal="23" name="Monday" date="18"></day>
+          <day ordinal="24" name="Tuesday" date="19"></day>
+          <day ordinal="25" name="Wednesday" date="20"></day>
+          <day ordinal="26" name="Thursday" date="21"></day>
+          <day ordinal="27" name="Friday" date="22"></day>
+          <day ordinal="28" name="Saturday" date="23"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="24"></day>
+          <day ordinal="30" name="Monday" date="25"></day>
+          <day ordinal="31" name="Tuesday" date="26"></day>
+          <day ordinal="32" name="Wednesday" date="27"></day>
+          <day ordinal="33" name="Thursday" date="28"></day>
+          <day ordinal="34" name="Friday" date="29"></day>
+          <day ordinal="35" name="Saturday" date="30"></day>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="31"></day>
+          <day ordinal="37" name="Monday" date=""></day>
+          <day ordinal="38" name="Tuesday" date=""></day>
+          <day ordinal="39" name="Wednesday" date=""></day>
+          <day ordinal="40" name="Thursday" date=""></day>
+          <day ordinal="41" name="Friday" date=""></day>
+          <day ordinal="42" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="6" name="June">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date="1"></day>
+          <day ordinal="3" name="Tuesday" date="2"></day>
+          <day ordinal="4" name="Wednesday" date="3"></day>
+          <day ordinal="5" name="Thursday" date="4"></day>
+          <day ordinal="6" name="Friday" date="5"></day>
+          <day ordinal="7" name="Saturday" date="6"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"></day>
+          <day ordinal="9" name="Monday" date="8"></day>
+          <day ordinal="10" name="Tuesday" date="9"></day>
+          <day ordinal="11" name="Wednesday" date="10"></day>
+          <day ordinal="12" name="Thursday" date="11"></day>
+          <day ordinal="13" name="Friday" date="12"></day>
+          <day ordinal="14" name="Saturday" date="13"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"></day>
+          <day ordinal="16" name="Monday" date="15"></day>
+          <day ordinal="17" name="Tuesday" date="16"></day>
+          <day ordinal="18" name="Wednesday" date="17"></day>
+          <day ordinal="19" name="Thursday" date="18"></day>
+          <day ordinal="20" name="Friday" date="19"></day>
+          <day ordinal="21" name="Saturday" date="20"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"></day>
+          <day ordinal="23" name="Monday" date="22"></day>
+          <day ordinal="24" name="Tuesday" date="23"></day>
+          <day ordinal="25" name="Wednesday" date="24"></day>
+          <day ordinal="26" name="Thursday" date="25"></day>
+          <day ordinal="27" name="Friday" date="26"></day>
+          <day ordinal="28" name="Saturday" date="27"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"></day>
+          <day ordinal="30" name="Monday" date="29"></day>
+          <day ordinal="31" name="Tuesday" date="30"></day>
+          <day ordinal="32" name="Wednesday" date=""></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="7" name="July">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date="1"></day>
+          <day ordinal="5" name="Thursday" date="2"></day>
+          <day ordinal="6" name="Friday" date="3"></day>
+          <day ordinal="7" name="Saturday" date="4"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5"></day>
+          <day ordinal="9" name="Monday" date="6"></day>
+          <day ordinal="10" name="Tuesday" date="7"></day>
+          <day ordinal="11" name="Wednesday" date="8"></day>
+          <day ordinal="12" name="Thursday" date="9"></day>
+          <day ordinal="13" name="Friday" date="10"></day>
+          <day ordinal="14" name="Saturday" date="11"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"></day>
+          <day ordinal="16" name="Monday" date="13"></day>
+          <day ordinal="17" name="Tuesday" date="14"></day>
+          <day ordinal="18" name="Wednesday" date="15"></day>
+          <day ordinal="19" name="Thursday" date="16"></day>
+          <day ordinal="20" name="Friday" date="17"></day>
+          <day ordinal="21" name="Saturday" date="18"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"></day>
+          <day ordinal="23" name="Monday" date="20"></day>
+          <day ordinal="24" name="Tuesday" date="21"></day>
+          <day ordinal="25" name="Wednesday" date="22"></day>
+          <day ordinal="26" name="Thursday" date="23"></day>
+          <day ordinal="27" name="Friday" date="24"></day>
+          <day ordinal="28" name="Saturday" date="25"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26"></day>
+          <day ordinal="30" name="Monday" date="27"></day>
+          <day ordinal="31" name="Tuesday" date="28"></day>
+          <day ordinal="32" name="Wednesday" date="29"><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2282 Allen Industries / Aldi #89 / Ocala - Survey Cut out in fascia to confirm size is correct for proposed recessed wall sign. No freestanding sign survey.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date="30"></day>
+          <day ordinal="34" name="Friday" date="31"><job number="2193-3">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2193-3"#$#2193-3*^*span#$# Cummings / 7-11 #36012~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: TRIMCAP 2 EACH 2'X2' WALL SIGN FACES*^*span#$#
+*^*li#$#
+</job><job number="1376">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1376"#$#~~i class="ic-users"#$#*^*i#$#1376*^*span#$# First Communities/Palms at Cortez~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PERMIT IN-HAND TARGET DATE*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="8" name="August">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date=""></day>
+          <day ordinal="6" name="Friday" date=""></day>
+          <day ordinal="7" name="Saturday" date="1"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"></day>
+          <day ordinal="9" name="Monday" date="3"><job number="2208">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2208"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2208*^*span#$# Dollar General~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Remove 3 large wall signs (Patch &amp; Paint), Install 5x24 Lit Wall Sign, 4x18 ACM Wall Panel, 4x12 ACM Panel &amp; 2'x3' ACM Panel*^*span#$#
+*^*li#$#</job><job number="copyof2208">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof2208"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2208 [CONT.] *^*span#$# Dollar General~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Remove 3 large wall signs (Patch &amp; Paint), Install 5x24 Lit Wall Sign, 4x18 ACM Wall Panel, 4x12 ACM Panel &amp; 2'x3' ACM Panel*^*span#$#
+*^*li#$#
+</job><job number="copyof2208 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof2208 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2208 [CONT.] *^*span#$# Dollar General~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Remove 3 large wall signs (Patch &amp; Paint), Install 5x24 Lit Wall Sign, 4x18 ACM Wall Panel, 4x12 ACM Panel &amp; 2'x3' ACM Panel*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="4"><job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN - EARLY START - MEET INSPECTORS - AT 2 DIFFERENT 7-11 SITES IN TAMPA*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BE IN TAMPA BY 8AM*^*span#$#
+*^*li#$#</job><job number="copyof2208">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof2208"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2208 [CONT.] *^*span#$# Dollar General~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Remove 3 large wall signs (Patch &amp; Paint), Install 5x24 Lit Wall Sign, 4x18 ACM Wall Panel, 4x12 ACM Panel &amp; 2'x3' ACM Panel*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 8/4/2020 - AS REQUIRED TO COMPLETE JOB*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH RYAN*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cummings / 7-11 #36012 / Orlando (E. Colonial) - R&amp;R 2 each 2'x2' Trim-Capped Faces*^*span#$#
+*^*li#$#
+</job><job number="2300">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_2300"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#2300*^*span#$# Tamney Partnership~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Oviedo - R&amp;R 5 Parking Lot Light Fixtues on Poles (New Fixtures on Site)*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="5"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - OFF*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN - Available 1/2 day (Before or after meeting inspector)*^*span#$#
+*^*li#$#
+</job><job number="1972-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1972-2"#$#1972-2*^*span#$# Cummings / 7-Eleven #25548~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Palm Harbor - Return trip to install 1 (left corner) Bronze panel*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH RYAN*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1985-2 Cummings / 7-11 #32725 / Port Richey - Return trip to install 2 small bronze filler panels. *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH RYAN*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin - Meet Inspector / 7-11 #25975 / Lake Mary (Permit is posted on site) WORK OUT DETAILS WITH PAT ON 8/4/2020*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="6"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - OFF*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: RYAN &amp; MARVIN - COCOA YARD CLEAN-UP, DUMP RUNS, RECYCLING*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - CONTINUE NEW TRUCK PREP*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="7"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - OFF*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: RYAN - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="8"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"></day>
+          <day ordinal="16" name="Monday" date="10"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD &amp; MARVIN AVAIL. ALL DAY*^*span#$#
+*^*li#$#
+</job><job number="2213-2">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2213-2"#$#~~i class="ic-users"#$#*^*i#$#2213-2*^*span#$# MC/Spectrum~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando (N. Alafaya) - 2 sets reverse CL (30" / 15") - No Monument Vinyl*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="11"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD OVERNIGHT - OCALA*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN AVAILABLE ALL DAY*^*span#$#
+*^*li#$#
+</job><job number="copyof2213-2">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2213-2"#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2213-2 [CONT.] *^*span#$# MC/Spectrum~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando (N. Alafaya) - 2 sets reverse CL (30" / 15") - No Monument Vinyl*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WRAP UP WIRING AS NEEDED*^*span#$#
+*^*li#$#
+</job><job number="2087-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2087-1"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#2087-1*^*span#$# Ocala Recreation and Parks/Jerey Gantt~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EMC Service*^*span#$#
+*^*li#$#
+</job><job number="2270">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2270"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#2270*^*span#$# Ocala Recreation/Reilly Arts Center~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EMC Service*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2282 Allen Industries / Aldi HAI.89 / Ocala - Finish Wall Sign Survey, take photos and confirm progress on monument sign footers *^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="12"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN &amp; RYAN OVERNIGHT / OCALA*^*span#$#
+*^*li#$#
+</job><job number="2297">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2297"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#2297*^*span#$# AGI~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jenkins Hyundai / Ocala - Resecure pylon pole cover panels with tek screws. touch-up paint all screw heads. *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: DO IN MORNING BEFORE REST OF STAFF GETS TO OCALA*^*span#$#
+*^*li#$#
+</job><job number="2223-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2223-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2223-2*^*span#$# MC/Spectrum/Ocala~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3 sets flush CL &amp; 1 blade Sign*^*span#$#
+*^*li#$#
+</job><job number="copyof2223-2 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2223-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2223-2 [CONT.] *^*span#$# MC/Spectrum/Ocala~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3 sets flush CL &amp; 1 blade Sign*^*span#$#
+*^*li#$#
+</job><job number="copyof2223-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof2223-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2223-2 [CONT.] *^*span#$# MC/Spectrum/Ocala~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3 sets flush CL &amp; 1 blade Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="13"><job number="copyof2223-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2223-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2223-2 [CONT.] *^*span#$# MC/Spectrum/Ocala~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3 sets flush CL &amp; 1 blade Sign*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WRAP UP INSTALL /WIRING AS NEEDED*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2212-3 Cummings / 7-11 #34270 / Orlando (S. Avalon) - Paint and prep signs for next day install*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="14"><job number="copyof2212-3">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2212-3"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2212-3 [CONT.] *^*span#$# Cummings Signs / 7-11 #34270~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Normal-sized storefront &amp; 5 Section Wall Sign - NEEDS DONE IN 1 DAY*^*span#$#
+*^*li#$#</job><job number="copyof2212-3 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2212-3 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2212-3 [CONT.] *^*span#$# Cummings Signs / 7-11 #34270~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Normal-sized storefront &amp; 5 Section Wall Sign - NEEDS DONE IN 1 DAY*^*span#$#
+*^*li#$#</job><job number="2212-3">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2212-3"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2212-3*^*span#$# Cummings Signs / 7-11 #34270~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Normal-sized storefront &amp; 5 Section Wall Sign - NEEDS DONE IN 1 DAY*^*span#$#
+*^*li#$#</job><job number="2284">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2284"#$#2284*^*span#$# Allen Industries (OH) / T-Mobile #515172*^*li#$#</job><job number="2287">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2287"#$#2287*^*span#$# Unlimited Stone Designs*^*li#$#</job><job number="2299">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2299"#$#2299*^*span#$# Cardiovascular Institute~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Michelle to Deliver to Customer. *^*span#$#
+*^*li#$#
+</job><job number="2268-1">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2268-1"#$#2268-1*^*span#$# Allen Industries (OH) / Little Caesars~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Permit In-hand target date*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ALL JOBS WITH 2242 BASE # ARE PERMIT ONLY - THESE ARE IN-HAND TARGET DATES ONLY. *^*span#$#
+*^*li#$#
+</job><job number="2242-1">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2242-1"#$#2242-1*^*span#$# Allen Industries (OH)/T-Mobile #513140*^*li#$#
+</job><job number="2242-2">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-2"#$#2242-2*^*span#$# Allen Industries (OH)/ T-Mobile #513343*^*li#$#
+</job><job number="2242-3">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-3"#$#2242-3*^*span#$# Allen Industries (OH) / T-Mobile #513500*^*li#$#
+</job><job number="2242-4">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-4"#$#2242-4*^*span#$# Allen Industries (OH)/T-Mobile #514038*^*li#$#
+</job><job number="2242-6">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-6"#$#2242-6*^*span#$# Allen Industries (OH)/T-Mobile #515171*^*li#$#
+</job><job number="2242-8">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-8"#$#2242-8*^*span#$# Allen Industries (OH) / T-Mobile #524974*^*li#$#
+</job><job number="2242-9">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-9"#$#2242-9*^*span#$# Allen Industries (OH) / T-Mobile #540411*^*li#$#
+</job><job number="2242-10">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-10"#$#2242-10*^*span#$# Allen Industries (OH) / T-Mobile #513501*^*li#$#
+</job><job number="2242-11">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-11"#$#2242-11*^*span#$# Allen Industries (OH) - T-Mobile #544068*^*li#$#
+</job><job number="2242-12">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-12"#$#2242-12*^*span#$# Allen Industries (OH)/T-Mobile #545364*^*li#$#
+</job><job number="2242-13">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-13"#$#2242-13*^*span#$# Allen Industries (OH) / T-Mobile #515036*^*li#$#
+</job><job number="2242-14">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-14"#$#2242-14*^*span#$# Allen Industries (OH) / T0Mobile #514923*^*li#$#
+</job><job number="2242-15">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-15"#$#2242-15*^*span#$# Allen Industries (OH) / T-Mobile #544326*^*li#$#
+</job><job number="2242-16">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-16"#$#2242-16*^*span#$# Allen Industries (OH) / T-Mobile #544425*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t5" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2242-17 IS A VOIDED WO #*^*span#$#
+*^*li#$#
+</job><job number="2242-18">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-18"#$#2242-18*^*span#$# Allen Industries (OH)/T-Mobile #544174*^*li#$#
+</job><job number="2242-19">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-19"#$#2242-19*^*span#$# Allen Industries (OH) / T-Mobile #513730*^*li#$#
+</job><job number="2242-20">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-20"#$#2242-20*^*span#$# Allen Industries (OH) / T-Mobile #545080*^*li#$#
+</job><job number="2242-21">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-21"#$#2242-21*^*span#$# Allen Industries (OH)/ T-Mobile #544675*^*li#$#
+</job><job number="2242-22">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-22"#$#2242-22*^*span#$# Allen Industries (OH)/T-Mobile #544434*^*li#$#
+</job><job number="2242-23">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-23"#$#2242-23*^*span#$# Allen Industries (OH)/ T-Mobile #544804*^*li#$#
+</job><job number="2242-24">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2242-24"#$#2242-24*^*span#$# Allen Industries (OH) / T-Mobile #544052*^*li#$#</job><job number="2242-25">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-25"#$#2242-25*^*span#$# Allen Industries (OH)/ T-Mobile #545416*^*li#$#
+</job><job number="2242-26">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-26"#$#2242-26*^*span#$# Allen Industries (OH) / T-Mobile #514071*^*li#$#
+</job><job number="2242-27">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-27"#$#2242-27*^*span#$# Allen Industries (OH) / T-Mobile #532409*^*li#$#</job><job number="2242-28">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-28"#$#2242-28*^*span#$# Allen Industries (OH)/ T-Mobile #545416*^*li#$#
+</job><job number="2242-29">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-29"#$#2242-29*^*span#$# Allen Industries / T-Mobile #544260*^*li#$#</job><job number="2242-30">~~li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2242-30"#$#2242-30*^*span#$# Allen Industries (OH) / T-Mobile #544520*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="15"><job number="2258">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2258"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2258*^*span#$# FC-Courtney Trace*^*li#$#</job><job number="copyof2148">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof2148"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2148 [CONT.] *^*span#$# PEPSIBO001~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - 4'x28' RW CL*^*span#$#
+*^*li#$#
+</job><job number="2148">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2148"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2148*^*span#$# PEPSIBO001~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - 4'x28' RW CL*^*span#$#
+*^*li#$#
+</job><job number="1990">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1990"#$#1990*^*span#$# Outdoor Images INC. Cocoa*^*li#$#</job></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"></day>
+          <day ordinal="23" name="Monday" date="17"><job number="2176-1">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2176-1"#$#2176-1*^*span#$# WPC/Highline Apartments*^*li#$#
+</job><job number="2176">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2176"#$#2176*^*span#$# Winter Park Construction / Highline Apartments*^*li#$#</job><job number="2176-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2176-2"#$#2176-2*^*span#$# Winter Park Construction*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="18"><job number="copyof2176">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof2176"#$#2176 [CONT.] *^*span#$# Winter Park Construction / Highline Apartments*^*li#$#
+</job><job number="copyof2176-1">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof2176-1"#$#2176-1 [CONT.] *^*span#$# WPC/Highline Apartments*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="19"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PAT - OFF AT NOON*^*span#$#
+*^*li#$#</job><job number="copyof2176 [CONT.]">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof2176 [CONT.]"#$#2176 [CONT.] *^*span#$# Winter Park Construction / Highline Apartments*^*li#$#
+</job><job number="copyof2176-1 [CONT.]">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof2176-1 [CONT.]"#$#2176-1 [CONT.] *^*span#$# WPC/Highline Apartments*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="20"><job number="2227-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2227-2"#$#2227-2*^*span#$# Allen Ind. - Harmon Sign Div. / Aldi HAI.88*^*li#$#</job><job number="2272">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2272"#$#2272*^*span#$# Allen Industries (OH) / T-Mobile #513140*^*li#$#
+</job><job number="2281">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2281"#$#2281*^*span#$# Allen Industries (OH) / T-Mobile #515036*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="21"><job number="2271">~~li class="lineEntry t9" title="Right-Click for Options"#$#  	 ~~span id="job_2271"#$#2271*^*span#$# Simed Health~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Gainesville - MICHELLE TO DELIVER*^*span#$#
+*^*li#$#</job><job number="1999-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1999-2"#$#1999-2*^*span#$# Clarkson Eye*^*li#$#
+</job><job number="2286">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2286"#$#2286*^*span#$# Vines Hospital*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="22"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: T-Mobile #545080 / Orlando (Fashion Sq. Mall) - Interior removal &amp; Install - NIGHT WORK - LEAVE SHOP 6PM - START WORK ON SITE 7PM*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: RYAN TO ASSIST*^*span#$#
+*^*li#$#</job></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"></day>
+          <day ordinal="30" name="Monday" date="24"><job number="2185-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2185-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2185-2*^*span#$# Federal Heath / Harrington Industrial~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Install 30" Flush CL &amp; 11" FCO letters to Wall above main office*^*span#$#
+*^*li#$#
+</job><job number="copyof2185-2">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof2185-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2185-2 [CONT.] *^*span#$# Federal Heath / Harrington Industrial~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Install 30" Flush CL &amp; 11" FCO letters to Wall above main office*^*span#$#
+*^*li#$#</job><job number="2007-4">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2007-4"#$#2007-4*^*span#$# Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tampa (N. Dale Mabry) / Pylon Vinyl (1'x3') ONE SIDE OF PYLON ONLY*^*span#$#
+*^*li#$#</job><job number="2161">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2161"#$#2161*^*span#$# Ocala Cove Motel*^*li#$#
+</job><job number="2253">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2253"#$#2253*^*span#$# Impact RTO/Rent A Center*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="25"><job number="1828-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1828-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1828-2*^*span#$# Cummings / 7-11 #32607~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Eustis - Small Fascia &amp; 3 Section Wall sign*^*span#$#
+*^*li#$#</job><job number="copyof1828-2">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1828-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1828-2 [CONT.] *^*span#$# Cummings / 7-11 #32607~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Eustis - Small Fascia &amp; 3 Section Wall sign*^*span#$#
+*^*li#$#
+</job><job number="copyof1828-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1828-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1828-2 [CONT.] *^*span#$# Cummings / 7-11 #32607~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Eustis - Small Fascia &amp; 3 Section Wall sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="26"><job number="1871-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1871-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1871-2*^*span#$# Cummings / 7-11 #32645~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Cloud - Normal-Sized Fascia (48" Panels) &amp; 3 section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1871-2">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1871-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1871-2 [CONT.] *^*span#$# Cummings / 7-11 #32645~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Cloud - Normal-Sized Fascia (48" Panels) &amp; 3 section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1871-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1871-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1871-2 [CONT.] *^*span#$# Cummings / 7-11 #32645~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Cloud - Normal-Sized Fascia (48" Panels) &amp; 3 section Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date="27"><job number="2268-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2268-2"#$#2268-2*^*span#$# Allen Industries (OH) / Little Caesars*^*li#$#
+</job><job number="2269">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2269"#$#2269*^*span#$# FC/The Lory of Perimeter*^*li#$#</job></day>
+          <day ordinal="34" name="Friday" date="28"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2250 Allen Industries / Aldi #16 / Orlando (E. Colonial) - Replace 2 ea. 7'-6"x6'-3" pre-stretched wall sign flex faces on wall signs. R&amp;R 2 ea. 8'x6' rigid monument faces. *^*span#$#
+*^*li#$#</job><job number="copyof&gt;">~~li class="lineEntry t2" title="Right Click for Options" style=""#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2250 Allen Industries / Aldi #16 / Orlando (E. Colonial) - Replace 2 ea. 7'-6"x6'-3" pre-stretched wall sign flex faces on wall signs. R&amp;R 2 ea. 8'x6' rigid monument faces. *^*span#$#
+*^*li#$#</job><job number="2200">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2200"#$#2200*^*span#$# Jones Sign / Dogtopia*^*li#$#</job><job number="2137">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2137"#$#2137*^*span#$# Town Of Palm Shores*^*li#$#
+</job><job number="2250">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2250"#$#2250*^*span#$# Allen Industries / Harmon Sign Div.  - Aldi HAI #16*^*li#$#
+</job><job number="2178-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2178-1"#$#2178-1*^*span#$# Fast Signs Nat'l / Farmers Insurance*^*li#$#</job><job number="2302">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2302"#$#2302*^*span#$# First Communities*^*li#$#</job></day>
+          <day ordinal="35" name="Saturday" date="29"></day>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30"></day>
+          <day ordinal="37" name="Monday" date="31"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]:  CHACHELLE / OFF*^*span#$#
+*^*li#$#
+</job><job number="2280">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_2280"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2280*^*span#$# Allen Industries (OH)/T-Mobile #515026~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Leesburg - Inst. 1 ea. 2'x10' RW CL display.*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN / RYAN LOAD FOR WEST COAST RUN*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="38" name="Tuesday" date=""></day>
+          <day ordinal="39" name="Wednesday" date=""></day>
+          <day ordinal="40" name="Thursday" date=""></day>
+          <day ordinal="41" name="Friday" date=""></day>
+          <day ordinal="42" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="9" name="September">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date="1"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN &amp; CHAD - CDL DRIVER TEST FOR SHAWN - SANFORD - BRINK MANUAL TRANSMISSION TRUCK FOR TEST.*^*span#$#
+*^*li#$#</job><job number="2277">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2277"#$#2277*^*span#$# Allen Industries (OH) / T-Mobile #513730*^*li#$#
+</job><job number="2003-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2003-1"#$#2003-1*^*span#$# Clarkson Eye*^*li#$#</job></day>
+          <day ordinal="4" name="Wednesday" date="2"><job number="1830-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1830-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1830-2*^*span#$# Cummings / 7-11 #32702~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Dover - 50' Fascia (48") &amp; 3 section Wall Sign*^*span#$#
+*^*li#$#</job><job number="copyof1830-2">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1830-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1830-2 [CONT.] *^*span#$# Cummings / 7-11 #32702~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Dover - 50' Fascia (48") &amp; 3 section Wall Sign*^*span#$#
+*^*li#$#</job><job number="copyof1830-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1830-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1830-2 [CONT.] *^*span#$# Cummings / 7-11 #32702~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Dover - 50' Fascia (48") &amp; 3 section Wall Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="5" name="Thursday" date="3"><job number="1836-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1836-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1836-2*^*span#$# Cummings / 7-11 #20109~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tampa (Temple Terrace Hwy) - Large Fascia &amp; 5 section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1836-2">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1836-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1836-2 [CONT.] *^*span#$# Cummings / 7-11 #20109~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tampa (Temple Terrace Hwy) - Large Fascia &amp; 5 section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1836-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1836-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1836-2 [CONT.] *^*span#$# Cummings / 7-11 #20109~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tampa (Temple Terrace Hwy) - Large Fascia &amp; 5 section Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="4"><job number="copyof1836-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1836-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1836-2 [CONT.] *^*span#$# Cummings / 7-11 #20109~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tampa (Temple Terrace Hwy) - Large Fascia &amp; 5 section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1830-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1830-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1830-2 [CONT.] *^*span#$# Cummings / 7-11 #32702~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Dover - 50' Fascia (48") &amp; 3 section Wall Sign*^*span#$#
+*^*li#$#</job><job number="copyof1830-2 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1830-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1830-2 [CONT.] *^*span#$# Cummings / 7-11 #32702~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Dover - 50' Fascia (48") &amp; 3 section Wall Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="5"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="6"></day>
+          <day ordinal="9" name="Monday" date="7"><job number="1849-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1849-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1849-2*^*span#$# Cummings / 7-11 #32899~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Longwood - 48" Panels &amp; 5 Section Wall Sign*^*span#$#
+*^*li#$#</job><job number="copyof1849-2">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1849-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1849-2 [CONT.] *^*span#$# Cummings / 7-11 #32899~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Longwood - 48" Panels &amp; 5 Section Wall Sign*^*span#$#
+*^*li#$#</job><job number="copyof1849-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1849-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1849-2 [CONT.] *^*span#$# Cummings / 7-11 #32899~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Longwood - 48" Panels &amp; 5 Section Wall Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="8"><job number="1845-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1845-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1845-2*^*span#$# Cummings / 7-11 #23662~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: New Port Richey - Normal-sized fascia (48" Panels) &amp; 5 Section Wall Sign*^*span#$#
+*^*li#$#</job><job number="copyof1845-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1845-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1845-2 [CONT.] *^*span#$# Cummings / 7-11 #23662~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: New Port Richey - Normal-sized fascia (48" Panels) &amp; 5 Section Wall Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="9"><job number="2275">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2275"#$#2275*^*span#$# Allen Industries (OH) / T-Mobile #513500*^*li#$#
+</job><job number="1975-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1975-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1975-2*^*span#$# Cummings / 7-Eleven #33048~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tarpon Springs - Normal sized fascia (48" Panels) &amp; 5 Section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1975-2">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1975-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1975-2 [CONT.] *^*span#$# Cummings / 7-Eleven #33048~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tarpon Springs - Normal sized fascia (48" Panels) &amp; 5 Section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1975-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1975-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1975-2 [CONT.] *^*span#$# Cummings / 7-Eleven #33048~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tarpon Springs - Normal sized fascia (48" Panels) &amp; 5 Section Sign*^*span#$#
+*^*li#$#</job><job number="2276">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2276"#$#2276*^*span#$# Allen Industries (OH) / T-Mobile #513501*^*li#$#
+</job><job number="2278">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2278"#$#2278*^*span#$# Allen Industries (OH) / T-Mobile #514038*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="10"><job number="copyof1975-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1975-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1975-2 [CONT.] *^*span#$# Cummings / 7-Eleven #33048~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tarpon Springs - Normal sized fascia (48" Panels) &amp; 5 Section Sign*^*span#$#
+*^*li#$#
+</job><job number="copyof1975-2 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1975-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1975-2 [CONT.] *^*span#$# Cummings / 7-Eleven #33048~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tarpon Springs - Normal sized fascia (48" Panels) &amp; 5 Section Sign*^*span#$#
+*^*li#$#
+</job><job number="copyof1845-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1845-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1845-2 [CONT.] *^*span#$# Cummings / 7-11 #23662~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: New Port Richey - Normal-sized fascia (48" Panels) &amp; 5 Section Wall Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="11"><job number="2256">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2256"#$#2256*^*span#$# FC/The Lory of Augusta*^*li#$#</job><job number="2261">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2261"#$#2261*^*span#$# Hold Thyssen/Town Square*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="12"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="13"></day>
+          <day ordinal="16" name="Monday" date="14"><job number="1976-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1976-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1976-2*^*span#$# Cummings / 7-Eleven #32782~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Wesley Chapel - 48" Panels &amp; 5 Section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1976-2">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1976-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1976-2 [CONT.] *^*span#$# Cummings / 7-Eleven #32782~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Wesley Chapel - 48" Panels &amp; 5 Section Sign*^*span#$#
+*^*li#$#</job><job number="copyof1976-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1976-2 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1976-2 [CONT.] *^*span#$# Cummings / 7-Eleven #32782~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Wesley Chapel - 48" Panels &amp; 5 Section Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="15"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2282 Allen Industries / Aldi #89 / Ocala - Install 2 recessed wall signs (9'x8') and monument cabinet on existing footer/masonry base. TWO TRUCKS REQ'D*^*span#$#
+*^*li#$#</job><job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2282 Allen Industries / Aldi #89 / Ocala - Install 2 recessed wall signs (9'x8') and monument cabinet on existing footer/masonry base. TWO TRUCKS REQ'D*^*span#$#
+*^*li#$#</job><job number="2282">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2282"#$#2282*^*span#$# Allen Ind. - Harmon Sign Div. / Aldi HAI.89*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="16"><job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2282 Allen Industries / Aldi #89 / Ocala - Install 2 recessed wall signs (9'x8') and monument cabinet on existing footer/masonry base. TWO TRUCKS REQ'D*^*span#$#
+*^*li#$#</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2282 Allen Industries / Aldi #89 / Ocala - Install 2 recessed wall signs (9'x8') and monument cabinet on existing footer/masonry base. TWO TRUCKS REQ'D*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2273 Hunters Ridge / Ocala - Mount 2 ea. 3'x7' ACM panels on community entry walls.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="17"><job number="1999-1">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1999-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1999-1*^*span#$# Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Winter Springs (Red Bug Lk Rd.) - 1 set 17"/10" RW CL &amp; 2'x2' RW Logo - No Pylon/Mnmt Vinyl*^*span#$#
+*^*li#$#
+</job><job number="copyof1999-1">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1999-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#1999-1 [CONT.] *^*span#$# Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Winter Springs (Red Bug Lk Rd.) - 1 set 17"/10" RW CL &amp; 2'x2' RW Logo - No Pylon/Mnmt Vinyl*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="18"></day>
+          <day ordinal="21" name="Saturday" date="19"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="20"></day>
+          <day ordinal="23" name="Monday" date="21"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1376 First Communities / Palms at Cortez / Brandenton - Post &amp; Panel, Door #s Bldg. #s, Leasing wall sign. *^*span#$#
+*^*li#$#
+</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1376 First Communities / Palms at Cortez / Brandenton - Post &amp; Panel, Door #s Bldg. #s, Leasing wall sign. *^*span#$#
+*^*li#$#
+</job><job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1376 First Communities / Palms at Cortez / Brandenton - Post &amp; Panel, Door #s Bldg. #s, Leasing wall sign. *^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="22"><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1376 First Communities / Palms at Cortez / Brandenton - Post &amp; Panel, Door #s Bldg. #s, Leasing wall sign. *^*span#$#
+*^*li#$#
+</job><job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1376 First Communities / Palms at Cortez / Brandenton - Post &amp; Panel, Door #s Bldg. #s, Leasing wall sign. *^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="23"><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1376 First Communities / Palms at Cortez / Brandenton - Post &amp; Panel, Door #s Bldg. #s, Leasing wall sign. *^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="24"><job number="copyof1998-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1998-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1998-1 [CONT.] *^*span#$# Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - R&amp;R 2 sets flush mt. CL &amp; 2 *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Need SW 7519 (Mexican Sand) Paint*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="25"><job number="1998-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1998-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1998-1*^*span#$# Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - R&amp;R 2 sets flush mt. CL &amp; 2 *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Need SW 7519 (Mexican Sand) Paint*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="26"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="27"></day>
+          <day ordinal="30" name="Monday" date="28"><job number="copyof2121-1">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2121-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2121-1 [CONT.] *^*span#$# Eyecare Partners/Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando (Lk. Nona) - Install 1 set Flush CL &amp; 2 monument faces*^*span#$#
+*^*li#$#</job><job number="2121-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2121-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2121-1*^*span#$# Eyecare Partners/Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando (Lk. Nona) - Install 1 set Flush CL &amp; 2 monument faces*^*span#$#
+*^*li#$#</job><job number="2122-1">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_2122-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2122-1*^*span#$# Eyecare Partners/Clarkson Eye~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Maitland - 1 set RW mounted CL (17") - No pylon or door vinyl*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="29"></day>
+          <day ordinal="32" name="Wednesday" date="30"><job number="2146">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2146"#$#2146*^*span#$# MS&amp; L/ Simed Health~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Gainesville (NW 8th) - Remv. Post &amp; Panel - New footers, post &amp; Panel &amp; ACM Wall Sign*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="10" name="October">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date="1"></day>
+          <day ordinal="6" name="Friday" date="2"></day>
+          <day ordinal="7" name="Saturday" date="3"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"></day>
+          <day ordinal="9" name="Monday" date="5"></day>
+          <day ordinal="10" name="Tuesday" date="6"></day>
+          <day ordinal="11" name="Wednesday" date="7"></day>
+          <day ordinal="12" name="Thursday" date="8"></day>
+          <day ordinal="13" name="Friday" date="9"></day>
+          <day ordinal="14" name="Saturday" date="10"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"></day>
+          <day ordinal="16" name="Monday" date="12"></day>
+          <day ordinal="17" name="Tuesday" date="13"></day>
+          <day ordinal="18" name="Wednesday" date="14"></day>
+          <day ordinal="19" name="Thursday" date="15"></day>
+          <day ordinal="20" name="Friday" date="16"></day>
+          <day ordinal="21" name="Saturday" date="17"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"></day>
+          <day ordinal="23" name="Monday" date="19"></day>
+          <day ordinal="24" name="Tuesday" date="20"></day>
+          <day ordinal="25" name="Wednesday" date="21"></day>
+          <day ordinal="26" name="Thursday" date="22"></day>
+          <day ordinal="27" name="Friday" date="23"></day>
+          <day ordinal="28" name="Saturday" date="24"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"></day>
+          <day ordinal="30" name="Monday" date="26"></day>
+          <day ordinal="31" name="Tuesday" date="27"></day>
+          <day ordinal="32" name="Wednesday" date="28"></day>
+          <day ordinal="33" name="Thursday" date="29"></day>
+          <day ordinal="34" name="Friday" date="30"></day>
+          <day ordinal="35" name="Saturday" date="31"></day>
+        </week>
+      </month>
+      <month ordinal="11" name="November">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"></day>
+          <day ordinal="2" name="Monday" date="2"></day>
+          <day ordinal="3" name="Tuesday" date="3"></day>
+          <day ordinal="4" name="Wednesday" date="4"></day>
+          <day ordinal="5" name="Thursday" date="5"></day>
+          <day ordinal="6" name="Friday" date="6"></day>
+          <day ordinal="7" name="Saturday" date="7"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"></day>
+          <day ordinal="9" name="Monday" date="9"></day>
+          <day ordinal="10" name="Tuesday" date="10"></day>
+          <day ordinal="11" name="Wednesday" date="11"></day>
+          <day ordinal="12" name="Thursday" date="12"></day>
+          <day ordinal="13" name="Friday" date="13"></day>
+          <day ordinal="14" name="Saturday" date="14"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"></day>
+          <day ordinal="16" name="Monday" date="16"></day>
+          <day ordinal="17" name="Tuesday" date="17"></day>
+          <day ordinal="18" name="Wednesday" date="18"></day>
+          <day ordinal="19" name="Thursday" date="19"></day>
+          <day ordinal="20" name="Friday" date="20"></day>
+          <day ordinal="21" name="Saturday" date="21"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"></day>
+          <day ordinal="23" name="Monday" date="23"></day>
+          <day ordinal="24" name="Tuesday" date="24"></day>
+          <day ordinal="25" name="Wednesday" date="25"></day>
+          <day ordinal="26" name="Thursday" date="26"></day>
+          <day ordinal="27" name="Friday" date="27"></day>
+          <day ordinal="28" name="Saturday" date="28"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"></day>
+          <day ordinal="30" name="Monday" date="30"></day>
+          <day ordinal="31" name="Tuesday" date=""></day>
+          <day ordinal="32" name="Wednesday" date=""></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="0" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="12" name="December">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date="1"></day>
+          <day ordinal="4" name="Wednesday" date="2"></day>
+          <day ordinal="5" name="Thursday" date="3"></day>
+          <day ordinal="6" name="Friday" date="4"></day>
+          <day ordinal="7" name="Saturday" date="5"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="6"></day>
+          <day ordinal="9" name="Monday" date="7"></day>
+          <day ordinal="10" name="Tuesday" date="8"></day>
+          <day ordinal="11" name="Wednesday" date="9"></day>
+          <day ordinal="12" name="Thursday" date="10"></day>
+          <day ordinal="13" name="Friday" date="11"></day>
+          <day ordinal="14" name="Saturday" date="12"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="13"></day>
+          <day ordinal="16" name="Monday" date="14"></day>
+          <day ordinal="17" name="Tuesday" date="15"></day>
+          <day ordinal="18" name="Wednesday" date="16"></day>
+          <day ordinal="19" name="Thursday" date="17"></day>
+          <day ordinal="20" name="Friday" date="18"></day>
+          <day ordinal="21" name="Saturday" date="19"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="20"></day>
+          <day ordinal="23" name="Monday" date="21"></day>
+          <day ordinal="24" name="Tuesday" date="22"></day>
+          <day ordinal="25" name="Wednesday" date="23"></day>
+          <day ordinal="26" name="Thursday" date="24"></day>
+          <day ordinal="27" name="Friday" date="25"></day>
+          <day ordinal="28" name="Saturday" date="26"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="27"></day>
+          <day ordinal="30" name="Monday" date="28"></day>
+          <day ordinal="31" name="Tuesday" date="29"></day>
+          <day ordinal="32" name="Wednesday" date="30"></day>
+          <day ordinal="33" name="Thursday" date="31"></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+    </year>
+  </calendar>
+</calendars>

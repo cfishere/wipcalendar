@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+<!ENTITY nbsp "&#160;">
+]>
+<calendars>
+  <calendar id="Outdoor Images">
+    <year ordinal="2018">
+      <month ordinal="1" name="January">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date="1"></day>
+          <day ordinal="3" name="Tuesday" date="2"><job number="1263-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1263-1"#$#1263-1*^*span#$# Jones Sign / Value Pawn #B1803*^*li#$#</job></day>
+          <day ordinal="4" name="Wednesday" date="3"></day>
+          <day ordinal="5" name="Thursday" date="4"><job number="1148-6">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1148-6"#$#1148-6*^*span#$# Egan Sign / Famous Footwear #3580*^*li#$#
+</job><job number="1265">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1265"#$#1265*^*span#$# Archer Sign / University Blvd.*^*li#$#
+</job><job number="1270">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1270"#$#1270*^*span#$# MC/T-Mobile*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="5"></day>
+          <day ordinal="7" name="Saturday" date="6"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"></day>
+          <day ordinal="9" name="Monday" date="8"></day>
+          <day ordinal="10" name="Tuesday" date="9"></day>
+          <day ordinal="11" name="Wednesday" date="10"><job number="1249">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1249"#$#1249*^*span#$# ROSS Stores / Bill Moore - DD's #5219*^*li#$#</job><job number="1148-7">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1148-7"#$#1148-7*^*span#$# Egan Sign / Famous Footwear #3580*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="11"><job number="1276">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1276"#$#1276*^*span#$# Persona / Aldi*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="12"><job number="1266">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1266"#$#1266*^*span#$# Boone High School*^*li#$#</job><job number="1132-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1132-2"#$#1132-2*^*span#$# Pattison Sign Group - KFC  Y309216*^*li#$#
+</job><job number="1275">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1275"#$#1275*^*span#$# Custom Sign Center, Inc*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="13"><job number="1231-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1231-1"#$#1231-1*^*span#$# Pattison Sign Group / Gerber Collision*^*li#$#</job></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"></day>
+          <day ordinal="16" name="Monday" date="15"><job number="1278">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1278"#$#1278*^*span#$# Oerther/McDonald's*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="16"></day>
+          <day ordinal="18" name="Wednesday" date="17"></day>
+          <day ordinal="19" name="Thursday" date="18"></day>
+          <day ordinal="20" name="Friday" date="19"><job number="1193-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1193-1"#$#1193-1*^*span#$# Custom Sign Center / Wendy's #01762*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="20"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"></day>
+          <day ordinal="23" name="Monday" date="22"><job number="1241">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1241"#$#1241*^*span#$# C &amp; S Press*^*li#$#</job><job number="1232-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1232-1"#$#1232-1*^*span#$# Cummings Resources LLC / Burger King #5990*^*li#$#</job><job number="1261">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1261"#$#1261*^*span#$# Hogan Law*^*li#$#
+</job><job number="1264">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1264"#$#1264*^*span#$# Hogan Law*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="23"><job number="1229-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1229-1"#$#1229-1*^*span#$# Pattison Sign Group / Gerber Collision*^*li#$#</job><job number="1285">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1285"#$#1285*^*span#$# Marion Signs &amp; Lighting / Newby Mgmt. / Rolling Greens*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="24"></day>
+          <day ordinal="26" name="Thursday" date="25"><job number="1201">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1201"#$#1201*^*span#$# Archer Sign / Bar Louie*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="26"><job number="1030-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1030-1"#$#1030-1*^*span#$# Cummings Resources, LLC / 7-11 #26801*^*li#$#</job><job number="1154">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1154"#$#1154*^*span#$# Persona / Holiday Inn Express*^*li#$#
+</job><job number="1212">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1212"#$#1212*^*span#$# Bahia Shrine Center*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="27"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"></day>
+          <day ordinal="30" name="Monday" date="29"><job number="1280">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1280"#$#1280*^*span#$# Custom Sign Center / Wendy's #11329*^*li#$#
+</job><job number="1287">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1287"#$#1287*^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="30"><job number="1292">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1292"#$#1292*^*span#$# Cummings / Taco Bell #15803*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="31"><job number="1185">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1185"#$#1185*^*span#$# Pattison Sign Group - KFC  Y309216*^*li#$#</job><job number="1201-3">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1201-3"#$#1201-3*^*span#$# Archer Sign / Bar Louie*^*li#$#
+</job><job number="1288">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1288"#$#1288*^*span#$# Persona / Aldi*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="2" name="February">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date="1"><job number="1255-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1255-1"#$#1255-1*^*span#$# Chandler Signs (West Coast)*^*li#$#
+</job><job number="1206">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1206"#$#1206*^*span#$# ROSS Stores Inc c/o Bill Moore &amp; Associates*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="2"><job number="1188-3">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1188-3"#$#1188-3*^*span#$# Custom Sign Center / Wendy's #01775*^*li#$#
+</job><job number="1273">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1273"#$#1273*^*span#$# Ross Stores c/o BMA / ROSS #0537*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="3"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"></day>
+          <day ordinal="9" name="Monday" date="5"><job number="1283">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1283"#$#1283*^*span#$# Marion Signs &amp; Lighting / Sbarro Pizza*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="6"></day>
+          <day ordinal="11" name="Wednesday" date="7"><job number="1036">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1036"#$#1036*^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="8"><job number="1294">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1294"#$#1294*^*span#$# Bahia Shrine Center*^*li#$#
+</job><job number="1201-6">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1201-6"#$#1201-6*^*span#$# Archer Sign / Bar Louie*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="9"><job number="1232-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1232-2"#$#1232-2*^*span#$# Cummings Resources LLC / Burger King #5990*^*li#$#
+</job><job number="1286">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1286"#$#1286*^*span#$# First Communities*^*li#$#
+</job><job number="1290">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1290"#$#1290*^*span#$# Jones Sign  / Value Pawn #B1804*^*li#$#
+</job><job number="1267">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1267"#$#1267*^*span#$# C &amp; S Press*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="10"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"></day>
+          <day ordinal="16" name="Monday" date="12"><job number="1258-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1258-1"#$#1258-1*^*span#$# Chandler Signs / United Rentals*^*li#$#
+</job><job number="1293">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1293"#$#1293*^*span#$# ROSS Stores / c/o BMA / Ross #0736*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="13"></day>
+          <day ordinal="18" name="Wednesday" date="14"></day>
+          <day ordinal="19" name="Thursday" date="15"></day>
+          <day ordinal="20" name="Friday" date="16"><job number="1282">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1282"#$#1282*^*span#$# C &amp; S Press*^*li#$#
+</job><job number="1241-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1241-1"#$#1241-1*^*span#$# C &amp; S Press*^*li#$#
+</job><job number="1193">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1193"#$#1193*^*span#$# Custom Sign Center / Wendy's #01762*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="17"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"></day>
+          <day ordinal="23" name="Monday" date="19"><job number="1297-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1297-1"#$#1297-1*^*span#$# Marx Realty/Southgate Plaza*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="20"><job number="1255-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1255-2"#$#1255-2*^*span#$# Chandler Signs / United Rentals*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="21"><job number="1291">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1291"#$#1291*^*span#$# Chandler Signs / United Rentals*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="22"></day>
+          <day ordinal="27" name="Friday" date="23"><job number="1201-4">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1201-4"#$#1201-4*^*span#$# Archer Sign / Bar Louie*^*li#$#
+</job><job number="1303">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1303"#$#1303*^*span#$# Cummings Resources, LLC / 7-Eleven*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="24"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"></day>
+          <day ordinal="30" name="Monday" date="26"><job number="1284">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1284"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1284*^*span#$# Marion Signs &amp; Lighting / Newby Mgmt. / Rolling Greens~~div id="x"#$#
+~~button onclick="saveNote(this)"#$#Save*^*button#$#~~input type="textarea" id="y" value=""#$#
+*^*div#$#
+*^*li#$#
+</job><job number="1023-3">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1023-3"#$#1023-3*^*span#$# Cummings Resources, LLC / 7/11 #35766*^*li#$#
+</job><job number="admin-note">~~li contenteditable="false" class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="27"><job number="1308">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1308"#$#1308*^*span#$# Marion Signs &amp; Lighting*^*li#$#</job><job number="1309">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1309"#$#1309*^*span#$# MS&amp;L /RMC/Ocala Center*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="28"><job number="972-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_972-1"#$#972-1*^*span#$# Jones Sign / Value Pawn #B1803*^*li#$#
+</job><job number="1148-8">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1148-8"#$#1148-8*^*span#$# Egan Sign / Famous Footwear #3580*^*li#$#</job><job number="1312">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1312"#$#1312*^*span#$# MS&amp;L / Fast Signs Nat'l / Edward Jones*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="3" name="March">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date="1"></day>
+          <day ordinal="6" name="Friday" date="2"><job number="1258-2">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1258-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1258-2*^*span#$# Chandler Signs / United Rentals*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="3"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"></day>
+          <day ordinal="9" name="Monday" date="5"><job number="copyof1023-2">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1023-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1023-2 [CONT.] *^*span#$# Cummings Resources, LLC / 7-11 #26801*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="6"></day>
+          <day ordinal="11" name="Wednesday" date="7"><job number="1201-5">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1201-5"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1201-5*^*span#$# Archer Sign / Bar Louie*^*li#$#</job><job number="1201-8">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1201-8"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-inf"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1201-8*^*span#$# Archer Sign / Bar Louie*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="8"><job number="1188">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1188"#$#1188*^*span#$# Custom Sign Center / Wendy's #01775*^*li#$#
+</job><job number="1188-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1188-2"#$#1188-2*^*span#$# Custom Sign Center / Wendy's #01775*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="9"><job number="1323">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1323"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1323*^*span#$# MS&amp;L / Federal Heath / Big Lots #516*^*li#$#</job><job number="1307">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1307"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1307*^*span#$# MS&amp;L / Little Caesar's*^*li#$#</job><job number="1313">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1313"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1313*^*span#$# MS&amp;L / Principle Group / Village Cadillac*^*li#$#
+</job><job number="1300-1">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1300-1"#$#~~i class="ic-p-inf"#$#*^*i#$#1300-1*^*span#$# Ardon Visual Communications / Ideal Image*^*li#$#
+</job><job number="1201-9">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1201-9"#$#~~i class="ic-users"#$#*^*i#$#1201-9*^*span#$# Archer Sign / Bar Louie*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="10"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"></day>
+          <day ordinal="16" name="Monday" date="12"><job number="1324">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1324"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1324*^*span#$# Seed of Arbraham Ministries*^*li#$#</job><job number="1327">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1327"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1327*^*span#$# Custom Sign Center, Inc. / Wendy's #01737*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="13"><job number="1315">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1315"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1315*^*span#$# MS&amp;L / Phil. Sign / BBVA #4420 - Compass Bank*^*li#$#</job><job number="1319">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1319"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1319*^*span#$# MS&amp;L / Kieffer / Grainger*^*li#$#</job><job number="1320">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1320"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1320*^*span#$# MS&amp;L / Persona / Checkers*^*li#$#</job><job number="1321">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1321"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1321*^*span#$# MS&amp;L / ASG / Roses*^*li#$#</job><job number="1322">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1322"#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1322*^*span#$# MS&amp;L / Ocala Gainesville Poker*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="14"><job number="1254">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1254"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1254*^*span#$# Autohaus Autobody*^*li#$#</job><job number="1275-2">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1275-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1275-2*^*span#$# Custom Sign Center, Inc. / Simply Self Storage*^*li#$#</job><job number="admin-note">~~li contenteditable="false" class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="15"><job number="1172-2">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1172-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1172-2*^*span#$# Pattison Sign Group / Toyota of Deland*^*li#$#
+</job><job number="1276-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1276-1"#$#1276-1*^*span#$# Persona / Aldi*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="16"><job number="1295">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1295"#$#1295*^*span#$# Boone High School*^*li#$#
+</job><job number="1328">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1328"#$#1328*^*span#$# Marion Signs &amp; Lighting / Quick Primary Care*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="17"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"></day>
+          <day ordinal="23" name="Monday" date="19"><job number="1333">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1333"#$#1333*^*span#$# Cummings Resources, LLC (CA)*^*li#$#</job><job number="1337">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1337"#$#1337*^*span#$# Principle / Cricket Wireless*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="20"><job number="1339">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1339"#$#1339*^*span#$# Jones Sign*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="21"><job number="1318">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1318"#$#1318*^*span#$# Marion Signs / Icon (IL) / Quest Diagnostics*^*li#$#</job><job number="1318-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1318-1"#$#1318-1*^*span#$# Marion Signs / Icon (IL) / Quest Diagnostics*^*li#$#
+</job><job number="1338">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1338"#$#1338*^*span#$# MS&amp;L / Federal Heath (Tampa) / Sonny's BBQ*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="22"><job number="1314">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1314"#$#1314*^*span#$# MS&amp;L / Colite / TD Ameritrade*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="23"></day>
+          <day ordinal="28" name="Saturday" date="24"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"><job number="1201-7">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1201-7"#$#1201-7*^*span#$# Archer Sign / Bar Louie*^*li#$#</job></day>
+          <day ordinal="30" name="Monday" date="26"><job number="1275-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1275-1"#$#1275-1*^*span#$# Custom Sign Center, Inc. / Simply Self Storage*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="27"></day>
+          <day ordinal="32" name="Wednesday" date="28"><job number="1048-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1048-2"#$#1048-2*^*span#$# Custom Sign Center / Kiddie Academy*^*li#$#</job><job number="1316-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1316-1"#$#1316-1*^*span#$# Figueroa Law Firm*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date="29"><job number="1178-1">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1178-1"#$#1178-1*^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="34" name="Friday" date="30"><job number="1272-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1272-1"#$#1272-1*^*span#$# Custom Sign Center, Inc. - Simply Self Storage*^*li#$#
+</job><job number="1329">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1329"#$#1329*^*span#$# Boone High School*^*li#$#</job></day>
+          <day ordinal="35" name="Saturday" date="31"></day>
+        </week>
+      </month>
+      <month ordinal="4" name="April">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"></day>
+          <day ordinal="2" name="Monday" date="2"><job number="1260">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1260"#$#1260*^*span#$# The Lory of Clemson Ridge - Senaca SC~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Michelle's Job. Installed by SignARama in N. Carolina*^*span#$#
+*^*li#$#</job><job number="1311">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1311"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1311*^*span#$# MS&amp;L / McDonald's (Ocala - Hwy 328)*^*li#$#</job></day>
+          <day ordinal="3" name="Tuesday" date="3"><job number="1030-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1030-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1030-2*^*span#$# Cummings Resources, LLC / 7/11 #35766~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin &amp; Joe with Chad*^*span#$#
+*^*li#$#</job><job number="copyof1311">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1311"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1311 [CONT.] *^*span#$# MS&amp;L / McDonald's (Ocala - Hwy 328)
+
+*^*li#$#</job></day>
+          <day ordinal="4" name="Wednesday" date="4"><job number="1343">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1343"#$#1343*^*span#$# Bonamy's Bangin Bar-B-Cue~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Car Magnets arrived in Cocoa*^*span#$#
+*^*li#$#</job><job number="copyof1030-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1030-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1030-2 [CONT.] *^*span#$# Cummings Resources, LLC / 7/11 #35766~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe 1/2 day - Marvin 1/2 Day with Chad*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="5" name="Thursday" date="5"><job number="1259-1">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1259-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1259-1*^*span#$# Jones Sign / EZ-Value Pawn #B1113~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit*^*span#$#
+*^*li#$#
+</job><job number="1344">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1344"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1344*^*span#$# Space Coast Jet Center~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Either Shawn or Marvin will assist Chad*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="6"><job number="1300">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1300"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1300*^*span#$# Ardon Visual Communications / Ideal Image~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Either Shawn or Marvin will assist Chad*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="7"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"></day>
+          <day ordinal="9" name="Monday" date="9"><job number="1353">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1353"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1353*^*span#$# MS&amp;L / Bergen Sign Co. / Aeropostale~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+*^*li#$#</job><job number="1272">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1272"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#1272*^*span#$# Custom Sign Center, Inc. - Simply Self Storage~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: With Joe (Lobby Sign) - POST PERMIT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN / MARVIN*^*span#$#
+*^*li#$#</job><job number="1350">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1350"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1350*^*span#$# MS&amp;L / Motel 6 (Ocala)*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="10"><job number="1355">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1355"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1355*^*span#$# MS&amp;L / AGI / Target #T2058*^*li#$#</job><job number="1340">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1340"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1340*^*span#$# MS&amp;L / Extreme Ink Tatoo*^*li#$#</job><job number="copyof1350">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1350"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1350 [CONT.] *^*span#$# MS&amp;L / Motel 6 (Ocala)*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tom to take Night Completion Photos - Pattison / Toyota of Deland*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="11"><job number="1277">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1277"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1277*^*span#$# Marion Signs/75 Chrome Shop*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Chad / Joe - Rolling Greens Electrical*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="12"><job number="copyof1277">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1277"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1277 [CONT.] *^*span#$# Marion Signs/75 Chrome Shop*^*li#$#</job><job number="copyof1277 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1277 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1277 [CONT.] *^*span#$# Marion Signs/75 Chrome Shop*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="13"><job number="1330-1">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1330-1"#$#1330-1*^*span#$# Custom Sign Center/Kiddie Academy~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: THIS IS A PERMIT*^*span#$#
+*^*li#$#</job><job number="1296-1">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1296-1"#$#1296-1*^*span#$# Custom Sign Center / Wendy's #12044~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: THIS IS A PERMIT*^*span#$#
+*^*li#$#</job><job number="1345">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1345"#$#1345*^*span#$# Boone High School~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MICHELLE TO DELIVER - NO INSTALL REQ'D*^*span#$#
+*^*li#$#
+</job><job number="copyof1277 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1277 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1277 [CONT.] *^*span#$# Marion Signs/75 Chrome Shop*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="14"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"></day>
+          <day ordinal="16" name="Monday" date="16"><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Shawn - Meet Inspector at Circle K (Geneva) &amp; 7-11 (Goldenrod)*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="17"><job number="copyof1287-2">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1287-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1287-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#
+</job><job number="1356">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1356"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1356*^*span#$# MS&amp;L / Starlite / Core &amp; Main*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="18"><job number="1287-2">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1287-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1287-2*^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#</job><job number="copyof1287-2">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1287-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1287-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey Little Caesar's (Jax)*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="19"><job number="copyof1287-2">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1287-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1287-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#</job><job number="copyof1287-2 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1287-2 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1287-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Wendy's #12044 (Jax - Firestone Rd) - Stake monument location for locate.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="20"><job number="copyof1287-2 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1287-2 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1287-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #01774*^*li#$#</job><job number="1299">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1299"#$#1299*^*span#$# Custom Sign Center / Wendy's #12044~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit*^*span#$#
+*^*li#$#
+</job><job number="1364">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1364"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1364*^*span#$# Custom Sign Center / Wendy's #11555*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="21"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"><job number="1303-1">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1303-1"#$#1303-1*^*span#$# Cummings Resources, LLC / 7-Eleven~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="23" name="Monday" date="23"><job number="1244">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1244"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1244*^*span#$# Lee Forrest Design*^*li#$#
+</job><job number="1316">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1316"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1316*^*span#$# Figueroa Law Firm*^*li#$#</job><job number="1148-9">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1148-9"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1148-9*^*span#$# Egan Sign / Famous Footwear #3580*^*li#$#</job><job number="copyof&gt;">~~li class="lineEntry" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tom to order rental lift for Old Navy install*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="24"><job number="1281">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1281"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1281*^*span#$# Benderson/Lake Howell Square*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: TOM TO SCHEDULE UTILITY LOCATE FOR WENDY'S (FIRESTONE RD.)*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="25"><job number="1348">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1348"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1348*^*span#$# MS&amp;L / Federal Heath / CK #2722005*^*li#$#
+</job><job number="1347">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1347"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1347*^*span#$# MS&amp;L / Jones Sign / Value Pawn #B1702*^*li#$#</job><job number="1194-1">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1194-1"#$#1194-1*^*span#$# Fast Signs National / Edward Jones~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ROLL OFF DUMPSTER TO DELIVER TO OCALA SHOP*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="26"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: RECEIVE ALDI (LADY LAKE) PYLON FACES AT OCALA SHOP*^*span#$#
+*^*li#$#</job><job number="1361">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1361"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1361*^*span#$# MS&amp;L / Acentria Insurance*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="27"><job number="1358">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1358"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1358*^*span#$# Bamboo Bistro~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Shawn / Marvin on site 9AM*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Need long extension ladder*^*span#$#
+*^*li#$#</job><job number="1369">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1369"#$#1369*^*span#$# Pattison Sign Group / Service King~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Initial Service visit by Tom this date. Waiting on Customer to determine next step. *^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="28"><job number="1157-1">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1157-1"#$#1157-1*^*span#$# Autonation Toyota~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit.*^*span#$#
+*^*li#$#</job></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"><job number="1188-4">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1188-4"#$#1188-4*^*span#$# Custom Sign Center / Wendy's #01775~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: This is a permit*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="30" name="Monday" date="30"><job number="admin-note">~~li class="lineEntry" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Scissor Lift Delivered and Immediate Pick up/return ordered via HR 2*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date=""></day>
+          <day ordinal="32" name="Wednesday" date=""></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="0" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="5" name="May">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date="1"><job number="1259-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1259-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1259-2*^*span#$# Jones Sign / EZ-Value Pawn #B1113~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist Chad*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN TO ASSIST SHAWN*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Chad working on MS&amp;L Crane controls*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="4" name="Wednesday" date="2"><job number="972-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_972-2"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#972-2*^*span#$# Jones Sign / Value Pawn #B1803~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist Shawn*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="5" name="Thursday" date="3"><job number="1368">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_1368"#$#1368*^*span#$# Kove Restaurants Ent. / Little Caesar's~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+*^*li#$#
+</job><job number="1371">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1371"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1371*^*span#$# Marion Signs &amp; Lighting / Regal Pest Control*^*li#$#</job><job number="copyof972-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof972-2"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#972-2 [CONT.] *^*span#$# Jones Sign / Value Pawn #B1803~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist Shawn*^*span#$#
+*^*li#$#</job><job number="copyof1372">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1372"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1372 [CONT.] *^*span#$# Marion Signs &amp; Lighting / Hobby Lobby*^*li#$#</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD LEWIS - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="4"><job number="1363">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1363"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1363*^*span#$# MS&amp;L / Starlite Signs / Core &amp; Main~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist*^*span#$#
+*^*li#$#</job><job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD LEWIS - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="5"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="6"></day>
+          <day ordinal="9" name="Monday" date="7"><job number="1336">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1336"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1336*^*span#$# Custom Sign Center / Wendy's #01775~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Mount C/L to Wall*^*span#$#
+*^*li#$#
+</job><job number="1296">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1296"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296*^*span#$# Custom Sign Center / Wendy's #12044*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="8"><job number="copyof1296">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1296"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296 [CONT.] *^*span#$# Custom Sign Center / Wendy's #12044*^*li#$#
+</job><job number="copyof1296 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1296 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296 [CONT.] *^*span#$# Custom Sign Center / Wendy's #12044*^*li#$#</job><job number="1375">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1375"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1375*^*span#$# Apex Sign Group / Carters-Osh Kosh~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Install subcontracted to Fluid Prints*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WENDY'S #01774 POST ST. - APPLY PERMIT STICKERS*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="9"><job number="copyof1296 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1296 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296 [CONT.] *^*span#$# Custom Sign Center / Wendy's #12044*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="10"><job number="copyof1296 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1296 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296 [CONT.] *^*span#$# Custom Sign Center / Wendy's #12044*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="11"><job number="1276-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1276-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1276-2*^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin &amp; Joe to Assist Chad*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Needs breaker locks and Meet Inspectors*^*span#$#
+*^*li#$#</job><job number="copyof1276-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1276-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1276-2 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin &amp; Joe to Assist Chad*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Needs breaker locks and Meet Inspectors*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="12"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="13"></day>
+          <day ordinal="16" name="Monday" date="14"><job number="copyof1296 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1296 [CONT.]"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296 [CONT.] *^*span#$# Custom Sign Center / Wendy's #12044*^*li#$#</job><job number="1237-1">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1237-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1237-1*^*span#$# Custom Sign Center, Inc. / Simply Self Storage*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="15"><job number="1360">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1360"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-cog"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1360*^*span#$# MS&amp;L / Neibhborhood Storage~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Broken Neon Unit to Michelle on 4/18/18. Return trip needed to re-install.*^*span#$#
+*^*li#$#</job><job number="copyof1342">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1342"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1342 [CONT.] *^*span#$# MS&amp;L / RMC / Ocala Plaza*^*li#$#
+</job><job number="1342">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1342"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1342*^*span#$# MS&amp;L / RMC / Ocala Plaza*^*li#$#
+</job><job number="1385">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1385"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1385*^*span#$# Marion Signs &amp; Lighting~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Care Spot - Pylon Service*^*span#$#
+*^*li#$#</job><job number="1386">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1386"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1386*^*span#$# MS&amp;L / Philadephia Sign / Regions Bank~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Service ATM Signs - Need 10' Lamps*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li contenteditable="false" class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="16"><job number="1384-1">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1384-1"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1384-1*^*span#$# Exchange Beauty Supply*^*li#$#</job><job number="1377">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_1377"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1377*^*span#$# Walton Signage / Daltile~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+*^*li#$#</job><job number="1366">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1366"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1366*^*span#$# Folsom Services~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: w/ Joe - Service EMC*^*span#$#
+*^*li#$#</job><job number="copyof972-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof972-2"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#972-2 [CONT.] *^*span#$# Jones Sign / Value Pawn #B1803~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist Shawn*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Monument Face Replacement only*^*span#$#
+*^*li#$#
+</job><job number="1327-1">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1327-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1327-1*^*span#$# Custom Sign Center, Inc. / Wendy's #01737~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist Shawn.*^*span#$#
+*^*li#$#</job><job number="copyof1327-1">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1327-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1327-1 [CONT.] *^*span#$# Custom Sign Center, Inc. / Wendy's #01737~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Joe to Assist Shawn.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="17"><job number="1297">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1297"#$#~~i class="ic-cog"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1297*^*span#$# Marx Realty/Southgate Plaza~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin to Assist Chad*^*span#$#
+*^*li#$#
+</job><job number="copyof1297">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1297"#$#~~i class="ic-cog"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1297 [CONT.] *^*span#$# Marx Realty/Southgate Plaza~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin to Assist Chad*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="18"><job number="1374">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1374"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1374*^*span#$# OBT Property Holding LLC~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: w/ Joe - Key Suites - Stretch Corner of Flex Faces*^*span#$#
+*^*li#$#</job><job number="1275-3">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1275-3"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1275-3*^*span#$# Custom Sign Center, Inc. / Simply Self Storage~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin to assist Shawn*^*span#$#
+*^*li#$#</job><job number="1325">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1325"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1325*^*span#$# First Communities*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="19"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="20"></day>
+          <day ordinal="23" name="Monday" date="21"><job number="1351">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1351"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1351*^*span#$# MS&amp;L / Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: The Vinyl has shipped to Ocala Shop. Signs shipping to Cocoa*^*span#$#
+*^*li#$#</job><job number="copyof1351">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1351"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1351 [CONT.] *^*span#$# MS&amp;L / Persona / Aldi*^*li#$#</job><job number="1375-1">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1375-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1375-1*^*span#$# Apex Sign Group / Carters-Osh Kosh~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PERMIT INVOICED*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="22"><job number="1372">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1372"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1372*^*span#$# Marion Signs &amp; Lighting / Hobby Lobby*^*li#$#</job><job number="1367">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1367"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1367*^*span#$# MS&amp;L / Fed Heath (Daytona) / Hear USA*^*li#$#</job><job number="copyof1351">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1351"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1351 [CONT.] *^*span#$# MS&amp;L / Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: The Vinyl has shipped to Ocala Shop. Signs shipping to Cocoa*^*span#$#
+*^*li#$#</job><job number="copyof1351 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1351 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1351 [CONT.] *^*span#$# MS&amp;L / Persona / Aldi*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="23"><job number="1194-2">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1194-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1194-2*^*span#$# Fast Signs National / Edward Jones*^*li#$#
+</job><job number="1129-1">~~li class="lineEntry t4" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1129-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1129-1*^*span#$# ROSS Stores Inc c/o Bill Moore &amp; Associates*^*li#$#</job><job number="copyof1330">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1330"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1330 [CONT.] *^*span#$# Custom Sign Center/Kiddie Academy~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Exterior Wall Sign, Interior Signs &amp; Door Vinyl - Monument footer &amp; Sign at later date.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="24"><job number="1383">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1383"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1383*^*span#$# MS&amp;L / Vixxo / Pep Boys*^*li#$#</job><job number="1365">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1365"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1365*^*span#$# MS&amp;L / Affiliated Title~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: w/ Marvin*^*span#$#
+*^*li#$#
+</job><job number="1385-1">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_1385-1"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1385-1*^*span#$# MS&amp;L / Egan Sign / CareSpot~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SURVEY*^*span#$#
+*^*li#$#
+</job><job number="1385-2">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_1385-2"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1385-2*^*span#$# MS&amp;L / Egan Sign / CareSpot~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2ND PYLON SERVICE*^*span#$#
+*^*li#$#
+</job><job number="copyof1360">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1360"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1360 [CONT.] *^*span#$# MS&amp;L / Neibhborhood Storage~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Broken Neon Unit to Michelle on 4/18/18. Return trip needed to re-install.*^*span#$#
+*^*li#$#</job><job number="copyof1297">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1297"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1297 [CONT.] *^*span#$# Marx Realty/Southgate Plaza~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin to Assist Chad*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li contenteditable="false" class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="25"><job number="1394">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1394"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1394*^*span#$# Fluid Prints/PC Academy*^*li#$#
+</job><job number="1359">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1359"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1359*^*span#$# MS&amp;L / Colite / TD Ameritrade*^*li#$#
+</job><job number="1395-1">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1395-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1395-1*^*span#$# Fast Eddie's Vape*^*li#$#
+</job><job number="copyof1297">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1297"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1297 [CONT.] *^*span#$# Marx Realty/Southgate Plaza~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Marvin to Assist Chad*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Post Permit at Aldi (Lady Lake)*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="26"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="27"></day>
+          <day ordinal="30" name="Monday" date="28"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MEMORIAL DAY - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="29"><job number="1349">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1349"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1349*^*span#$# Burton Signworks, Inc. / Lake Nona Town Center*^*li#$#
+</job><job number="1392">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1392"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1392*^*span#$# First Class Cleaners*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN / JOE - AUTOHAUS - INSTALL NEW MONUMENT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="30"><job number="1401">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1401"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1401*^*span#$# Fast Signs National / PrimeLending-Jet Home Loans*^*li#$#
+</job><job number="1375-2">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1375-2"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1375-2*^*span#$# Apex Sign Group / Carters-Osh Kosh~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Subcontract to Fluid Prints*^*span#$#
+*^*li#$#</job><job number="copyof1368">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1368"#$#1368 [CONT.] *^*span#$# Kove Restaurants Ent. / Little Caesar's~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Letter Pattern and Removal*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Wendy's #01774 (Firestone Rd.) Jacksonville - Service Pylon Cabinet - NEED PO*^*span#$#
+*^*li#$#
+</job><job number="1375-3">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1375-3"#$#1375-3*^*span#$# Apex Sign Group / Carters-Osh Kosh*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date="31"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - Shop - Mount Little Caesar's C/L to raceway. *^*span#$#
+*^*li#$#
+</job><job number="1310">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1310"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1310*^*span#$# Walton Signage / Old Navy #6416~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Receive Rental Scissor Lift on Site*^*span#$#
+*^*li#$#
+</job><job number="copyof1310">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1310"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1310 [CONT.] *^*span#$# Walton Signage / Old Navy #6416*^*li#$#
+</job><job number="1351-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1351-1"#$#1351-1*^*span#$# MS&amp;L / Persona / Aldi*^*li#$#</job></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="0" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="6" name="June">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date=""></day>
+          <day ordinal="6" name="Friday" date="1"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ALL STAFF OFF DUE TO PREVIOUS DAY &amp; NIGHT WORK*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="2"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="3"></day>
+          <day ordinal="9" name="Monday" date="4"><job number="1390">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1390"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1390*^*span#$# Jones Sign / InvenTrust~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: UNIVERSITY / ORLANDO*^*span#$#
+*^*li#$#</job><job number="1389">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1389"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1389*^*span#$# Jones Sign / InvenTrust Properties~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCOEE*^*span#$#
+*^*li#$#</job><job number="1380-1">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1380-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1380-1*^*span#$# FC/Monticello - Station 42 Tampa, FL*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="5"><job number="1369-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1369-1"#$#1369-1*^*span#$# Pattison Sign Group / Service King*^*li#$#</job><job number="1400">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1400"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1400*^*span#$# Vixxo/Music &amp; Art*^*li#$#
+</job><job number="1275-4">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1275-4"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1275-4*^*span#$# Custom Sign Center, Inc. / Simply Self Storage*^*li#$#</job><job number="1393">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1393"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1393*^*span#$# Marion Signs &amp; Lighting / Sign Desk / Dollar +*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: TD Ameritrade - Ocala - 1 line door vinyl. *^*span#$#
+*^*li#$#
+</job><job number="1405">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1405"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1405*^*span#$# MS&amp;L / Fast Signs (Tampa) / CBRE*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="6"><job number="1403">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1403"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1403*^*span#$# MS&amp;L / Federal Heath (CA) / CK #2721120*^*li#$#
+</job><job number="copyof1368 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1368 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1368 [CONT.] *^*span#$# Kove Restaurants Ent. / Little Caesar's~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Letter Pattern and Removal*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Install Raceway*^*span#$#
+*^*li#$#
+</job><job number="1391">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1391"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1391*^*span#$# Jones Sign / InvenTrust*^*li#$#</job><job number="1404">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1404"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1404*^*span#$# First Class Cleaners*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN - MEET INSPECTORS - CLEAN ORLANDO SHOP*^*span#$#
+*^*li#$#
+</job><job number="1406">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1406"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1406*^*span#$# Vixxo/Bright Now Dental*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="7"><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - WEN #01774 (POST RD) - PAINT BOTTOM OF PYLON PIPE. WENDY'S #12044 - SVC PYLON CABINET*^*span#$#
+*^*li#$#</job><job number="copyof&gt;">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN - MEET INSPECTORS - CLEAN ORLANDO SHOP*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="8"><job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: AAMCO JOB CANCELLED - SHAWN / MARVIN / JOE - ORLANDO SHOP CLEAN-UP*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="9"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="10"></day>
+          <day ordinal="16" name="Monday" date="11"><job number="1157">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1157"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1157*^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job><job number="1178">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1178"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1178*^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job><job number="1176">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1176"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1176*^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="12"><job number="copyof1157">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1157"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1157 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job><job number="copyof1178">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1178"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1178 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job><job number="copyof1176">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1176"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1176 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="13"><job number="copyof1157 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1157 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1157 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job><job number="copyof1178 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1178 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1178 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job><job number="copyof1176 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1176 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1176 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="14"><job number="copyof1310-3">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1310-3"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1310-3 [CONT.] *^*span#$# Walton Signage / Old Navy #6416~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EARLY START - PAINT*^*span#$#
+*^*li#$#</job><job number="1411">~~li class="lineEntry" title="Right-Click for Options"#$#  	 ~~span id="job_1411"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1411*^*span#$# MS&amp;L / Persona / Holiday Inn Express~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PHOTO SURVEY HANDLED BY TOM B. *^*span#$#
+*^*li#$#
+</job><job number="1310-3">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1310-3"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1310-3*^*span#$# Walton Signage / Old Navy #6416~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EARLY START - PAINT*^*span#$#
+*^*li#$#</job><job number="copyof1157 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1157 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1157 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#
+</job><job number="copyof1178 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1178 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1178 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#
+</job><job number="copyof1176 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1176 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1176 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="15"><job number="1401-1">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1401-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1401-1*^*span#$# Fast Signs National Advertising Council, Inc.*^*li#$#</job><job number="copyof1157 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1157 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1157 [CONT.] *^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH SHAWN &amp; JOE*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="16"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="17"></day>
+          <day ordinal="23" name="Monday" date="18"><job number="1334">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1334"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1334*^*span#$# Cecils's BBQ~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Footer Excavation - Need Asphalt Saw*^*span#$#
+*^*li#$#
+</job><job number="1413">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1413"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1413*^*span#$# MS&amp;L / Federal Heath / Stein Mart~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Simple Survey*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Chad - Fabricate Y C/L face for Beauty Shop*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="19"><job number="copyof1303-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1303-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1303-2 [CONT.] *^*span#$# Cummings Resources, LLC / 7-Eleven~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: JOB MUST BE COMPLETED IN 1 DAY*^*span#$#
+*^*li#$#
+</job><job number="1303-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1303-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#1303-2*^*span#$# Cummings Resources, LLC / 7-Eleven~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: JOB MUST BE COMPLETED IN 1 DAY*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="20"><job number="1331">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1331"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#1331*^*span#$# Benderson/Home 2~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Post &amp; Panel Install*^*span#$#
+*^*li#$#</job><job number="copyof1334">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1334"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1334 [CONT.] *^*span#$# Cecils's BBQ~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Set Pipe, &amp; Pour Concrete*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Mount Sign Cabinet &amp; Wire*^*span#$#
+*^*li#$#
+</job><job number="copyof1303-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1303-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#1303-2 [CONT.] *^*span#$# Cummings Resources, LLC / 7-Eleven~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: JOB MUST BE COMPLETED IN 1 DAY*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="21"><job number="1387">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1387"#$#~~i class="ic-p-appr"#$#*^*i#$#1387*^*span#$# Marion Signs &amp; Lighting / Cardiovascular Inst.*^*li#$#
+</job><job number="1388">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1388"#$#~~i class="ic-p-appr"#$#*^*i#$#1388*^*span#$# Marion Signs &amp; Lighting / Cardiovascular Inst.*^*li#$#
+</job><job number="1415">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1415"#$#~~i class="ic-cog"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1415*^*span#$# Custom Sign Center, Inc. - Wendy's #02587~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: COME TO TO COCOA TO GET TRUCK - Service / Survey / Pattern*^*span#$#
+*^*li#$#
+</job><job number="1384">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1384"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1384*^*span#$# Exchange Beauty Supply~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Install "Y" channel letter face*^*span#$#
+*^*li#$#
+</job><job number="copyof1334 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1334 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1334 [CONT.] *^*span#$# Cecils's BBQ~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Set Pipe, &amp; Pour Concrete*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Mount Sign Cabinet &amp; Wire*^*span#$#
+
+*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="22"><job number="1417">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1417"#$#~~i class="ic-p-appr"#$#*^*i#$#1417*^*span#$# Castle Motors*^*li#$#</job><job number="1409">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1409"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1409*^*span#$# Marion Signs &amp; Lighting / Microtel~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Hi-Rise Pylon Service*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CANCELLED*^*span#$#
+*^*li#$#</job><job number="1030-3">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1030-3"#$#1030-3*^*span#$# Cummings Resources, LLC / 7/11 #35766~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Permit Date*^*span#$#
+*^*li#$#</job><job number="1296-3">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1296-3"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1296-3*^*span#$# Custom Sign Center / Wendy's #12044~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Service Pylon Cameo &amp; D/T Canopy Lights*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 13406-1 - SHAWN/MARVIN - COAST TO COAST TRAILERS - SVY*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="23"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="24"></day>
+          <day ordinal="30" name="Monday" date="25"><job number="1412">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1412"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1412*^*span#$# Marion Signs &amp; Lighting~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Federal Heath / CK #2722110 (Sanford) *^*span#$#
+*^*li#$#</job><job number="1275-5">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1275-5"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1275-5*^*span#$# Custom Sign Center, Inc. / Simply Self Storage*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="26"><job number="1375-4">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1375-4"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1375-4*^*span#$# Apex Sign Group / Carters-Osh Kosh~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Night Work - Interior - On site 9PM*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: NOW DAYTIME WORK - AFTER OLD NAVY SURVEY*^*span#$#
+*^*li#$#
+</job><job number="1421">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1421"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1421*^*span#$# Walton Signage / Old Navy~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ON SITE BY 8AM FOR INTERIOR SVY BEFORE MALL OPENS*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="27"><job number="1420">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1420"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1420*^*span#$# Sign Crafters, Inc. / Perry Ellis*^*li#$#</job><job number="1422">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1422"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1422*^*span#$# Vixxo/Sally's #3886*^*li#$#
+</job><job number="1424">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1424"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1424*^*span#$# Pattision Sign Group / Space Coast Honda*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date="28"><job number="1276-3">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1276-3"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1276-3*^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Install Breaker Locks &amp; Meet Inspector*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="34" name="Friday" date="29"></day>
+          <day ordinal="0" name="Saturday" date="30"></day>
+        </week>
+      </month>
+      <month ordinal="7" name="July">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"></day>
+          <day ordinal="2" name="Monday" date="2"><job number="copyof1412">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1412"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1412 [CONT.] *^*span#$# Marion Signs &amp; Lighting~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Federal Heath / CK #2722110 (Sanford) *^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="3" name="Tuesday" date="3"><job number="1302">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1302"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1302*^*span#$# Custom Sign Center, Inc. / Simply Self Storage~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: APPROVED PERMIT DATE*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN / MARVIN / JOE - ORLANDO SHOP CLEAN-OUT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="4" name="Wednesday" date="4"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OFF - INDEPENDENCE DAY*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="5" name="Thursday" date="5"><job number="1402">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1402"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1402*^*span#$# Vixxo~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Install*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN / JOE - ORLANDO SHOP CLEAN-OUT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="6"><job number="1428">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_1428"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1428*^*span#$# Marion Signs &amp; Lighting~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Philadelphia Sign / Regions Bank / Ocala / Monument Service*^*span#$#
+*^*li#$#</job><job number="1430">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1430"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1430*^*span#$# Sign Crafters, Inc. / Original Penguin*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="7"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"></day>
+          <day ordinal="9" name="Monday" date="9"><job number="1433">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1433"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1433*^*span#$# Fast Eddy's Vape*^*li#$#</job><job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN - OFF - NO WORK*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="10"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD / SHAWN / JOE - Wrap up Orlando Clean-out*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="11"><job number="1176-3">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1176-3"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1176-3*^*span#$# Pattison Sign Group (Toronto) / Auto Nation Toyota~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Chad - Paint radius on 1030 pylon*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="12"><job number="1419">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1419"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1419*^*span#$# MS&amp;L / Action Labor~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SMALL INSTALL*^*span#$#
+*^*li#$#</job><job number="1427">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1427"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1427*^*span#$# MS&amp;L / Philadelphia Sign / Regions Bank~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SERVICE 6X12 D/T SIGN*^*span#$#
+*^*li#$#</job><job number="1434">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1434"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1434*^*span#$# MS&amp;L / Coast to Coast Trailers~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: REFACE*^*span#$#
+*^*li#$#</job><job number="1435">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1435"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1435*^*span#$# MS&amp;L / Bill Lovell Insurance~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SURVEY*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="13"><job number="1439">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1439"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1439*^*span#$# TDI Signs / StorQuest~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SURVEY - GAINESVILL*^*span#$#
+*^*li#$#
+</job><job number="1146-1">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1146-1"#$#1146-1*^*span#$# ROSS Stores Inc c/o Bill Moore &amp; Associates~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Variance Submit Date*^*span#$#
+*^*li#$#</job><job number="1438">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1438"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1438*^*span#$# MS&amp;L / Fed Heath / CK #2722123~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SURVEY MID PYLON*^*span#$#
+*^*li#$#</job><job number="copyof1399">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1399"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1399 [CONT.] *^*span#$# MS&amp;L / Magna Sign Int'l / Pandora~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: GAINESVILLE - INTERIOR NIGHT JOB*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SURVEY ON 7/13/18*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ALL HANDS - MARION SHOP CLEAN-OUT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="14"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"></day>
+          <day ordinal="16" name="Monday" date="16"></day>
+          <day ordinal="17" name="Tuesday" date="17"><job number="1408">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1408"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1408*^*span#$# Bo Scallions, LLC*^*li#$#
+</job><job number="copyof1408 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1408 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1408 [CONT.] *^*span#$# Bo Scallions, LLC*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="18"><job number="copyof1408">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1408"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1408 [CONT.] *^*span#$# Bo Scallions, LLC*^*li#$#
+</job><job number="copyof1408 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1408 [CONT.]"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#1408 [CONT.] *^*span#$# Bo Scallions, LLC*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="19"><job number="1302-1">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1302-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1302-1*^*span#$# Custom Sign Center/TD Self Storage*^*li#$#
+</job><job number="1353-1">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1353-1"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1353-1*^*span#$# MS&amp;L / Bergen Sign Co. / Aeropostale~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: NIGHT WORK - MARVIN TO ASSIST*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCALA - LOAD IN AT 8:30PM*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="20"><job number="copyof1425-1 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1425-1 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1425-1 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - SUPERVISE AUGER FOOTER EXCAVATION AND PLUMB FOR ELECTRICAL*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MOUNT AND WIRE PYLON CABINET*^*span#$#
+*^*li#$#</job><job number="1429">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1429"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1429*^*span#$# MS&amp;L / Icon / PNC Bank #p213~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3PM START - ALL HANDS*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCALA*^*span#$#
+*^*li#$#
+</job><job number="copyof1429">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1429"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1429 [CONT.] *^*span#$# MS&amp;L / Icon / PNC Bank #p213~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3PM START - ALL HANDS - OCALA*^*span#$#
+*^*li#$#</job><job number="1410">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1410"#$#1410*^*span#$# Uni-Structures, Inc. / CFA #1399~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: TAMPA - PERMIT SUBMITTAL TARGET DATE*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="21"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"></day>
+          <day ordinal="23" name="Monday" date="23"><job number="1443">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1443"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1443*^*span#$# Folsom Services~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: KISSIMMEE - SERVICE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN*^*span#$#
+*^*li#$#
+</job><job number="1447-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1447-2"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1447-2*^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON - SURVEY*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON - SURVEY*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Shawn - Return Lift, Meet Inspector (AutoNation Toyota)*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="24"><job number="1373">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1373"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1373*^*span#$# MS&amp;L / ASG / Roses~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCALA - INSTALL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OVERNIGHT*^*span#$#
+*^*li#$#
+</job><job number="1446">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1446"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1446*^*span#$# MS&amp;L / Gordon Reiss Insurance~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCALA - SERVICE 2 PYLON CABINETS*^*span#$#
+*^*li#$#
+</job><job number="1454">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1454"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1454*^*span#$# MS&amp;L / Long John Silver's~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SERVICE D/T MENU - AVOID 11AM-1PM*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1445 - SHAWN / MARVIN - MS&amp;L / Philadelphia Sign / Regions Bank / Ocala - Svc Pylon Sign*^*span#$#
+*^*li#$#
+</job><job number="1442">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1442"#$#1442*^*span#$# FC/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ESTIMATED DATE FOR BANNER TO ARRIVE TO CUSTOMER*^*span#$#
+*^*li#$#
+</job><job number="1455">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1455"#$#1455*^*span#$# MS&amp;L / Regions Bank #RFC272100*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="25"><job number="copyof1415">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1415"#$#~~i class="ic-cog"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1415 [CONT.] *^*span#$# Custom Sign Center, Inc. - Wendy's #02587~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: COME TO TO COCOA TO GET TRUCK - Service / Survey / Pattern*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 7/27 - Install "W" face, Service Wall Cameo &amp; Install Cameo face*^*span#$#
+*^*li#$#</job><job number="1449">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1449"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1449*^*span#$# Castle Motors~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cocoa - Install banner*^*span#$#
+*^*li#$#
+</job><job number="1453">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1453"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1453*^*span#$# Fluid Prints/PC Academy~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - WITH MARVIN*^*span#$#
+*^*li#$#</job><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MARVIN'S TRUCK NEEDS GONE FROM ORLANDO SHOP*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="26"><job number="copyof1443">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1443"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1443 [CONT.] *^*span#$# Folsom Services~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: KISSIMMEE - SERVICE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN*^*span#$#
+*^*li#$#</job><job number="copyof1362">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1362"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1362 [CONT.] *^*span#$# TDI Signs - StoreQuest Express~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: INSTALL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 7/26 = Survey*^*span#$#
+*^*li#$#</job><job number="copyof1373">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1373"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1373 [CONT.] *^*span#$# MS&amp;L / ASG / Roses~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCALA - INSTALL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OVERNIGHT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - PYLON REFACE*^*span#$#
+*^*li#$#
+</job><job number="1399">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1399"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1399*^*span#$# MS&amp;L / Magna Sign Int'l / Pandora~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: GAINESVILLE - INTERIOR NIGHT JOB*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ON SITE 8:30PM - START WORK 9PM*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN*^*span#$#
+*^*li#$#
+</job><job number="1354">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1354"#$#1354*^*span#$# FC/The Lory of Augusta~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Install by Others*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="27"><job number="1395">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1395"#$#1395*^*span#$# Fast Eddie's Vape*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - AFTEROON TRUCK MAINT.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="28"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"><job number="1425">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1425"#$#1425*^*span#$# ~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Persona / Aldi / Orlando - Permit Date*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="30" name="Monday" date="30"><job number="1423">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1423"#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1423*^*span#$# MS&amp;L / White's Furniture~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: JOE TO ASSIST - TRUCK VINYL*^*span#$#
+*^*li#$#
+</job><job number="copyof1458">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1458"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1458 [CONT.] *^*span#$# MS&amp;L/ Icon (Rolling Meadows) / CVS #3175~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SURVEY - BRING ALL DRAWINGS &amp; SW COLOR MATCH CHART*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - SANITAS MEDICAL / KISSIMMEE - SURVEY*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="31"><job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1253 - Shawn / Marvin - CSC / Kiddie Academy / Apopka - Replace Faces both Sets channel letters - Relocate 1 set channel letters*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date=""></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="0" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="8" name="August">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date="1"><job number="1407">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1407"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1407*^*span#$# Uni-Structures, Inc. / CFA #768~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: OCOEE - 2 D/T MENUS ON EXIST. BASES*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PRODUCT IS ON SITE. CAN USE ON SITE BIN TO DISPOSE OF CRATING.*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: TOM CALL IN LOCATE FOR STATION 42*^*span#$#
+*^*li#$#
+</job><job number="1461">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1461"#$#1461*^*span#$# Fluid Prints/Pinecrest Academy Avalon*^*li#$#</job></day>
+          <day ordinal="5" name="Thursday" date="2"><job number="1448-10">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1448-10"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#1448-10*^*span#$# Egan Sign / Famous Footwear #3580*^*li#$#</job></day>
+          <day ordinal="6" name="Friday" date="3"><job number="1437">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1437"#$#1437*^*span#$# Cummings Resources (CA) / 7-11 #25061~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PROJECTED PERMIT APPVL DATE*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="7" name="Saturday" date="4"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5"></day>
+          <day ordinal="9" name="Monday" date="6"><job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN - OFF*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="7"></day>
+          <day ordinal="11" name="Wednesday" date="8"></day>
+          <day ordinal="12" name="Thursday" date="9"><job number="1436">~~li class="lineEntry t4" title="Right-Click for Options"#$#  	 ~~span id="job_1436"#$#1436*^*span#$# Cummings Resources /7-11 #32164~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ESTIMATED PERMIT APPROVAL DATE*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="10"><job number="1451">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1451"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1451*^*span#$# MS&amp;L / Ocala Heating &amp; Air~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - INSTALL 2 RB CABINETS ON PYLON PIPE*^*span#$#
+*^*li#$#
+</job><job number="1435-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1435-1"#$#1435-1*^*span#$# MS&amp;amp;L / Bill Lovell Insurance*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="11"><job number="1401-3">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1401-3"#$#1401-3*^*span#$# Fast Signs Nat'l / Jet Homeloans~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ESTIMATED PERMIT APPVL DATE*^*span#$#
+*^*li#$#</job></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"></day>
+          <day ordinal="16" name="Monday" date="13"><job number="1379">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1379"#$#1379*^*span#$# Cummings Resources / 7-Eleven #26299~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PERMIT ETA DATE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WINTER PARK - ACM &amp; WALL SIGN*^*span#$#
+*^*li#$#
+</job><job number="copyof1379">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1379"#$#1379 [CONT.] *^*span#$# Cummings Resources / 7-Eleven #26299~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PERMIT ETA DATE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WINTER PARK - ACM &amp; WALL SIGN*^*span#$#
+*^*li#$#
+</job><job number="1456">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1456"#$#1456*^*span#$# BHSSA Capital Campaign~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PRODUCT ONLY - BEING SHIPPED DIRECTLY TO CUSTOMER*^*span#$#
+*^*li#$#</job><job number="1457">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1457"#$#1457*^*span#$# BHSSA Capital Campaign~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PRODUCT ONLY - BEING SHIPPED DIRECTLY TO CUSTOMER*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="14"><job number="1396">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1396"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1396*^*span#$# Cummings Resources, LLC / KFC~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: POINCIANA - INSTALL DAY #1*^*span#$#
+*^*li#$#
+</job><job number="copyof1379 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1379 [CONT.]"#$#1379 [CONT.] *^*span#$# Cummings Resources / 7-Eleven #26299~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PERMIT ETA DATE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WINTER PARK - ACM &amp; WALL SIGN*^*span#$#
+*^*li#$#
+</job><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: TOM SCHEDULE CONCRETE DELIVERY FOR ALDI ON 8/17/18*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="18" name="Wednesday" date="15"><job number="copyof1396">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1396"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1396 [CONT.] *^*span#$# Cummings Resources, LLC / KFC~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: POINCIANA - INSTALL DAY #2*^*span#$#
+*^*li#$#
+</job><job number="1425-1">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1425-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1425-1*^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - SUPERVISE AUGER FOOTER EXCAVATION AND PLUMB FOR ELECTRICAL*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="16"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1425-1 - Persona / Aldi / Orlando (Curry) / Install*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MOUNT 2 WALL CABINETS - CONFIRM FOOTER INSPECTION APPROVED*^*span#$#
+*^*li#$#
+</job><job number="copyof&gt;">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1425-1 - Persona / Aldi / Orlando (Curry) / Install*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MOUNT 2 WALL CABINETS - CONFIRM FOOTER INSPECTION APPROVED*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="20" name="Friday" date="17"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1425-1 - Persona / Aldi / Orlando (Curry) / Install*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SET PYLON PIPES - SUPERVISE CONCRETE POUR - FINISH WALL SIGNS*^*span#$#
+*^*li#$#
+</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t2" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1425-1 - Persona / Aldi / Orlando (Curry) / Install*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SET PYLON PIPES - SUPERVISE CONCRETE POUR - FINISH WALL SIGNS*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="21" name="Saturday" date="18"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"></day>
+          <day ordinal="23" name="Monday" date="20"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="copyof1425-1">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1425-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1425-1 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - SUPERVISE AUGER FOOTER EXCAVATION AND PLUMB FOR ELECTRICAL*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MOUNT AND WIRE PYLON CABINET*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="21"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="1362">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1362"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1362*^*span#$# TDI Signs - StoreQuest Express~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: INSTALL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: DELTONA*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHAWN WITH JOE*^*span#$#
+*^*li#$#
+</job><job number="1460">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1460"#$#1460*^*span#$# Walton Signage / Old Navy*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="22"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="1380">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1380"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1380*^*span#$# FC/Monticello - Station 42 Tampa, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+*^*li#$#
+</job><job number="copyof1380">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1380"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1380 [CONT.] *^*span#$# FC/Monticello - Station 42 Tampa, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="23"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="copyof1380">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1380"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1380 [CONT.] *^*span#$# FC/Monticello - Station 42 Tampa, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+*^*li#$#
+</job><job number="copyof1380 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1380 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1380 [CONT.] *^*span#$# FC/Monticello - Station 42 Tampa, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="24"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#
+*^*li#$#
+</job><job number="copyof1380 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span class="copyof1380 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1380 [CONT.] *^*span#$# FC/Monticello - Station 42 Tampa, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="28" name="Saturday" date="25"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26"></day>
+          <day ordinal="30" name="Monday" date="27"><job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WALTON / OLD NAVY - ST. PETE - NIGHT WORK*^*span#$#
+*^*li#$#</job><job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WALTON / OLD NAVY - ST. PETE - NIGHT WORK*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="28"><job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WALTON / OLD NAVY - ST. PETE - NIGHT WORK*^*span#$#
+*^*li#$#</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WALTON / OLD NAVY - ST. PETE - NIGHT WORK*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="29"><job number="1346">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1346"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1346*^*span#$# Vixxo/Cosmo Prof #66214~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CLERMONT - INSTALL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRING WOOD FOR BEHIND WALL BLOCKING*^*span#$#
+*^*li#$#</job><job number="1398">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1398"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1398*^*span#$# City of Gainesville Fire Station~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EXCAVATE FOOTERS &amp; PLUMP ELECT.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="33" name="Thursday" date="30"><job number="1401-2">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1401-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1401-2*^*span#$# Fast Signs Nat'l / Jet Homeloans~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Clean &amp; Paint Monument structure &amp; install FCO letters.*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MAITLAND*^*span#$#
+*^*li#$#
+</job><job number="1416">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1416"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1416*^*span#$# Cummings Resources LLC / KFC~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: KISSIMMEE - INSTALL*^*span#$#
+*^*li#$#
+</job><job number="1432">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1432"#$#1432*^*span#$# Ison's Florida Properties/Eden's Fresh Co*^*li#$#</job></day>
+          <day ordinal="34" name="Friday" date="31"><job number="copyof1398">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1398"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1398 [CONT.] *^*span#$# City of Gainesville Fire Station~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EXCAVATE FOOTERS &amp; PLUMP ELECT.*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SET MONUMENT &amp; POUR CONCRETE*^*span#$#
+*^*li#$#
+</job><job number="1376">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1376"#$#1376*^*span#$# First Communities/Palms at Cortez*^*li#$#</job></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="9" name="September">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date=""></day>
+          <day ordinal="6" name="Friday" date=""></day>
+          <day ordinal="7" name="Saturday" date="1"><job number="1385-3">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1385-3"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1385-3*^*span#$# MS&amp;L / Egan Sign / CareSpot~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - Rmv Window/Door Vinyl - Install ONLY door vinyl and banners*^*span#$#
+*^*li#$#</job><job number="copyof1385-3">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1385-3"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1385-3 [CONT.] *^*span#$# MS&amp;L / Egan Sign / CareSpot~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - Rmv Window/Door Vinyl - Install ONLY door vinyl and banners*^*span#$#
+*^*li#$#</job></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"></day>
+          <day ordinal="9" name="Monday" date="3"><job number="1441">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1441"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1441*^*span#$# Southern Vacuum*^*li#$#</job></day>
+          <day ordinal="10" name="Tuesday" date="4"><job number="1447">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1447"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1447*^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON*^*span#$#
+*^*li#$#</job><job number="copyof1447">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1447"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1447 [CONT.] *^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - OVERNIGHT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="11" name="Wednesday" date="5"><job number="copyof1447">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1447"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1447 [CONT.] *^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - OVERNIGHT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON*^*span#$#
+*^*li#$#</job><job number="copyof1447 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1447 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1447 [CONT.] *^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - OVERNIGHT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="12" name="Thursday" date="6"><job number="1431">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1431"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1431*^*span#$# Custom Sign Center/SSS~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - PALMETTO*^*span#$#
+*^*li#$#
+</job><job number="copyof1447 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1447 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1447 [CONT.] *^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - OVERNIGHT*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRANDON*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="13" name="Friday" date="7"><job number="copyof1431">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1431"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1431 [CONT.] *^*span#$# Custom Sign Center/SSS~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - PALMETTO*^*span#$#
+*^*li#$#
+</job><job number="copyof1447">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1447"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1447 [CONT.] *^*span#$# First Communities/The Retreat~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH MARVIN - WRAP UP AS NEEDED*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="14" name="Saturday" date="8"></day>
+        </week>
+        <week ordinal="3"><day ordinal="15" name="Sunday" date="9"></day><day ordinal="16" name="Monday" date="10"><job number="1330">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_1330"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1330*^*span#$# Custom Sign Center/Kiddie Academy~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EXCAVATE FOOTER / START INTERIOR*^*span#$#
+*^*li#$#</job><job number="1445">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1445"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1445*^*span#$# Liberty IT Solutions*^*li#$#</job></day><day ordinal="17" name="Tuesday" date="11"><job number="1458">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_1458"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1458*^*span#$# MS&amp;L/ Icon (Rolling Meadows) / CVS #3175*^*li#$#</job><job number="copyof1458">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1458"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1458 [CONT.] *^*span#$# MS&amp;L/ Icon (Rolling Meadows) / CVS #3175*^*li#$#</job></day><day ordinal="18" name="Wednesday" date="12"><job number="copyof1330">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1330"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1330 [CONT.] *^*span#$# Custom Sign Center/Kiddie Academy~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: EXCAVATE FOOTER / START INTERIOR*^*span#$#
+*^*li#$#
+</job><job number="copyof1445">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof1445"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1445 [CONT.] *^*span#$# Liberty IT Solutions*^*li#$#</job></day><day ordinal="19" name="Thursday" date="13"><job number="copyof1458">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span class="copyof1458"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1458 [CONT.] *^*span#$# MS&amp;L/ Icon (Rolling Meadows) / CVS #3175*^*li#$#
+</job><job number="copyof1458 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span class="copyof1458 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1458 [CONT.] *^*span#$# MS&amp;L/ Icon (Rolling Meadows) / CVS #3175*^*li#$#
+</job><job number="1459">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1459"#$#1459*^*span#$# Cummings Resources LLC / 7-11 #35652*^*li#$#</job></day><day ordinal="20" name="Friday" date="14"><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CVS #3175 INVERNESS*^*span#$#
+*^*li#$#</job></day>"
+				<day ordinal="21" name="Saturday" date="15"></day></week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"></day>
+          <day ordinal="23" name="Monday" date="17"><job number="1414">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_1414"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1414*^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Supervised Auger Footers - Set Sonotubes - Plumb Electrical for Pylon*^*span#$#
+*^*li#$#</job><job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options"#$#
+~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#~~i class="ic-users"#$#*^*i#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CVS #3175 INVERNESS*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="24" name="Tuesday" date="18"><job number="copyof1414">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1414"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1414 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Supervised Auger Footers - Set Sonotubes - Plumb Electrical for Pylon*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: INSTALL 2 WALL SIGNS - PYLON FOOTER INSPECTION*^*span#$#
+*^*li#$#
+</job><job number="copyof1414 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof1414 [CONT.]"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1414 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Supervised Auger Footers - Set Sonotubes - Plumb Electrical for Pylon*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: INSTALL 2 WALL SIGNS - PYLON FOOTER INSPECTION*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="25" name="Wednesday" date="19"><job number="copyof1414 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof1414 [CONT.]"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1414 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Supervised Auger Footers - Set Sonotubes - Plumb Electrical for Pylon*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: INSTALL 2 WALL SIGNS - PYLON FOOTER INSPECTION*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SET SUPPORT PIPES, POUR CONCRETE - WRAP UP WALL SIGNS*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="26" name="Thursday" date="20"><job number="copyof1414 [CONT.]">~~li class="lineEntry t3" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1414 [CONT.]"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1414 [CONT.] *^*span#$# Persona / Aldi~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Supervised Auger Footers - Set Sonotubes - Plumb Electrical for Pylon*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: INSTALL 2 WALL SIGNS - PYLON FOOTER INSPECTION*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SET SUPPORT PIPES, POUR CONCRETE - WRAP UP WALL SIGNS*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MOUNT &amp; WIRE PYLON CABINET - WRAP UP ALL WORK*^*span#$#
+*^*li#$#</job><job number="1450">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1450"#$#1450*^*span#$# Wild Ocean Market*^*li#$#</job></day>
+          <day ordinal="27" name="Friday" date="21"></day>
+          <day ordinal="28" name="Saturday" date="22"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"></day>
+          <day ordinal="30" name="Monday" date="24"><job number="1440">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1440"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1440*^*span#$# Dave's Signs / Armani Outlets~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WITH JOE - NIGHT WORK - SCISSOR LIFT REQUIRED*^*span#$#
+*^*li#$#
+</job><job number="copyof1440">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span class="copyof1440"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1440 [CONT.] *^*span#$# Dave's Signs / Armani Outlets*^*li#$#</job></day>
+          <day ordinal="31" name="Tuesday" date="25"><job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ALL HANDS - 1/2 DAY COCOA SHOP DUE TO PREVIOUS NIGHT WORK*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="32" name="Wednesday" date="26"></day>
+          <day ordinal="33" name="Thursday" date="27"><job number="1452">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1452"#$#1452*^*span#$# Ruggles Sign / Bath &amp; Body Works #2094*^*li#$#</job></day>
+          <day ordinal="34" name="Friday" date="28"></day>
+          <day ordinal="35" name="Saturday" date="29"></day>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30"></day>
+          <day ordinal="37" name="Monday" date=""></day>
+          <day ordinal="38" name="Tuesday" date=""></day>
+          <day ordinal="39" name="Wednesday" date=""></day>
+          <day ordinal="40" name="Thursday" date=""></day>
+          <day ordinal="41" name="Friday" date=""></day>
+          <day ordinal="42" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="10" name="October">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date="1"><job number="1223">~~li class="lineEntry t5" title="Right-Click for Options"#$#  	 ~~span id="job_1223"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#1223*^*span#$# Rent A Center~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Still no permit docs from customer. This is guess date.*^*span#$#
+*^*li#$#</job></day>
+          <day ordinal="3" name="Tuesday" date="2"></day>
+          <day ordinal="4" name="Wednesday" date="3"></day>
+          <day ordinal="5" name="Thursday" date="4"></day>
+          <day ordinal="6" name="Friday" date="5"></day>
+          <day ordinal="7" name="Saturday" date="6"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"></day>
+          <day ordinal="9" name="Monday" date="8"></day>
+          <day ordinal="10" name="Tuesday" date="9"></day>
+          <day ordinal="11" name="Wednesday" date="10"></day>
+          <day ordinal="12" name="Thursday" date="11"></day>
+          <day ordinal="13" name="Friday" date="12"></day>
+          <day ordinal="14" name="Saturday" date="13"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"></day>
+          <day ordinal="16" name="Monday" date="15"><job number="1418">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1418"#$#1418*^*span#$# Walton Signage / Old Navy*^*li#$#</job></day>
+          <day ordinal="17" name="Tuesday" date="16"></day>
+          <day ordinal="18" name="Wednesday" date="17"><job number="1418-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1418-2"#$#1418-2*^*span#$# Walton Signage / Old Navy*^*li#$#</job></day>
+          <day ordinal="19" name="Thursday" date="18"></day>
+          <day ordinal="20" name="Friday" date="19"></day>
+          <day ordinal="21" name="Saturday" date="20"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"></day>
+          <day ordinal="23" name="Monday" date="22"></day>
+          <day ordinal="24" name="Tuesday" date="23"></day>
+          <day ordinal="25" name="Wednesday" date="24"></day>
+          <day ordinal="26" name="Thursday" date="25"></day>
+          <day ordinal="27" name="Friday" date="26"></day>
+          <day ordinal="28" name="Saturday" date="27"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"></day>
+          <day ordinal="30" name="Monday" date="29"></day>
+          <day ordinal="31" name="Tuesday" date="30"></day>
+          <day ordinal="32" name="Wednesday" date="31"></day>
+          <day ordinal="33" name="Thursday" date=""></day>
+          <day ordinal="34" name="Friday" date=""></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="11" name="November">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date="1"></day>
+          <day ordinal="6" name="Friday" date="2"></day>
+          <day ordinal="7" name="Saturday" date="3"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"></day>
+          <day ordinal="9" name="Monday" date="5"></day>
+          <day ordinal="10" name="Tuesday" date="6"></day>
+          <day ordinal="11" name="Wednesday" date="7"></day>
+          <day ordinal="12" name="Thursday" date="8"></day>
+          <day ordinal="13" name="Friday" date="9"></day>
+          <day ordinal="14" name="Saturday" date="10"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"></day>
+          <day ordinal="16" name="Monday" date="12"></day>
+          <day ordinal="17" name="Tuesday" date="13"></day>
+          <day ordinal="18" name="Wednesday" date="14"></day>
+          <day ordinal="19" name="Thursday" date="15"></day>
+          <day ordinal="20" name="Friday" date="16"></day>
+          <day ordinal="21" name="Saturday" date="17"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"></day>
+          <day ordinal="23" name="Monday" date="19"></day>
+          <day ordinal="24" name="Tuesday" date="20"></day>
+          <day ordinal="25" name="Wednesday" date="21"></day>
+          <day ordinal="26" name="Thursday" date="22"></day>
+          <day ordinal="27" name="Friday" date="23"></day>
+          <day ordinal="28" name="Saturday" date="24"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"></day>
+          <day ordinal="30" name="Monday" date="26"></day>
+          <day ordinal="31" name="Tuesday" date="27"></day>
+          <day ordinal="32" name="Wednesday" date="28"></day>
+          <day ordinal="33" name="Thursday" date="29"></day>
+          <day ordinal="34" name="Friday" date="30"></day>
+          <day ordinal="35" name="Saturday" date=""></day>
+        </week>
+      </month>
+      <month ordinal="12" name="December">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""></day>
+          <day ordinal="2" name="Monday" date=""></day>
+          <day ordinal="3" name="Tuesday" date=""></day>
+          <day ordinal="4" name="Wednesday" date=""></day>
+          <day ordinal="5" name="Thursday" date=""></day>
+          <day ordinal="6" name="Friday" date=""></day>
+          <day ordinal="7" name="Saturday" date="1"></day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"></day>
+          <day ordinal="9" name="Monday" date="3"></day>
+          <day ordinal="10" name="Tuesday" date="4"></day>
+          <day ordinal="11" name="Wednesday" date="5"></day>
+          <day ordinal="12" name="Thursday" date="6"></day>
+          <day ordinal="13" name="Friday" date="7"></day>
+          <day ordinal="14" name="Saturday" date="8"></day>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"></day>
+          <day ordinal="16" name="Monday" date="10"></day>
+          <day ordinal="17" name="Tuesday" date="11"></day>
+          <day ordinal="18" name="Wednesday" date="12"></day>
+          <day ordinal="19" name="Thursday" date="13"></day>
+          <day ordinal="20" name="Friday" date="14"></day>
+          <day ordinal="21" name="Saturday" date="15"></day>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"></day>
+          <day ordinal="23" name="Monday" date="17"></day>
+          <day ordinal="24" name="Tuesday" date="18"></day>
+          <day ordinal="25" name="Wednesday" date="19"></day>
+          <day ordinal="26" name="Thursday" date="20"></day>
+          <day ordinal="27" name="Friday" date="21"></day>
+          <day ordinal="28" name="Saturday" date="22"></day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"></day>
+          <day ordinal="30" name="Monday" date="24"></day>
+          <day ordinal="31" name="Tuesday" date="25"></day>
+          <day ordinal="32" name="Wednesday" date="26"></day>
+          <day ordinal="33" name="Thursday" date="27"></day>
+          <day ordinal="34" name="Friday" date="28"></day>
+          <day ordinal="35" name="Saturday" date="29"></day>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30"></day>
+          <day ordinal="37" name="Monday" date="31"></day>
+          <day ordinal="38" name="Tuesday" date=""></day>
+          <day ordinal="32" name="Wednesday" date=""></day>
+          <day ordinal="40" name="Thursday" date=""></day>
+          <day ordinal="41" name="Friday" date=""></day>
+          <day ordinal="42" name="Saturday" date=""></day>
+        </week>
+      </month>
+    </year>
+  </calendar>
+</calendars>

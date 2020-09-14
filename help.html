@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WIP Help</title>
+	<style>
+		a{
+			color:cadetblue;
+			text-decoration: none;
+		}
+		/*a:visited{
+			color: #97D5CD;
+			text-decoration: none;
+		}*/
+		.answerTitle a{
+			color: #FFF;
+		}
+		.answerTitle{
+			color: #FFFFFF;
+			background-color: coral;
+			padding: 7px 3px 7px 12px;
+		}
+		.coral{
+			color: coral;
+			font-weight:bold;
+		}
+		
+		.right{
+			text-align:right;
+		}
+		.left{
+			text-align: left;
+		}
+		.row-borders{
+			padding-top: 7px;
+			padding-bottom: 7px;
+			border-width: 1px 0px;
+			border-style: solid;
+			border-color: coral;
+		}
+	</style>
+</head>
+
+<body>
+	
+	
+	<!--jump list menu:-->
+	<div style="text-align:center">
+		<a id="top"> </a><h1>WIP Calendar Help Page</h1>
+		<div style="margin: 30px auto; width: 35%">
+			
+	<h3>Jump To Topic:</h3>
+	<ul style="text-align: left;">
+		<li><a href="#note">ADD  Notes</a> [Admin & Mgr Only]</li>
+		<li><a href="move">MOVE/Reschedule Job Date</a> [Admin Only]</li>
+		<li><a href="copy">COPY Job to Date(s)</a> [Admin Only]</li>
+		<li><a href="delete">DELETE Job</a> [Admin Only]</li>
+		<li><a href="assign">ASSIGN Job Status</a> [Admin Only]</li>
+		<li><a href="sort">SORT Job Order</a> [Admin Only]</li>
+		<li><a href="email">EMAIL or PRINT Calendar Month</a></li>
+		<li><a href="search">SEARCH the Calendar</a></li>
+		<li><a href="open">OPEN Pop-Up Editor</a></li>
+		<li><a href="view">VIEW Phone Directory</a></li>
+		<li><a href="report">REPORT a Bug</a></li>
+		<li style="color:lightgrey">USER MANAGEMENT (Add/Remove Users, coming soon) [Admin Only]</li>
+	</ul>
+	<p style="text-align: left"><strong>Brief Overview</strong>:<br/>
+		The WIP Calendar contains open WIP Jobs (CASper jobs in order status "<strong>W</strong>ork <strong>I</strong>n <strong>P</strong>rocess").</p>  
+			<p style="text-align: left">There is in fact a separate calendar for each company (Outdoor Images, CSC, etc).  The active company calendars are edited throughout the day by assigned admins.  Once each day, before 8:30 am, a CASper report is pulled and updated to the calendar; any WIP jobs that are either (<strong>1</strong>) not already in the company calendar, or (<strong>2</strong>) in the calendar but with a conflicting date other than the new CASper report date, are imported. (Note: only existing calendar jobs marked as 'unassigned' will be removed and newly updated when a data conflict occurs). </p>
+			<p style="text-align: left"><strong>Back-Up Schedule:</strong></p>
+			<p style="text-align: left">Each morning before 8:30 am two backups are created:<br/>
+				<ol style="text-align: left">
+				<li>"Yesterday" (A Back Up of Each Company Calendar from the EOD, previous day's admin edits)</li>
+					<li>"Current" (A Back Up of Yesterday, including the newly-imported CASper data from that morning.)</li>
+			</ol>
+				
+			
+			</p>
+		<p style="text-align:right">&uarr; <a href="#top">TOP</a></p>
+		<p>RESTORE A BACKUP</p>
+			<p style="text-align: left">
+				If you think you'd like to restore a backup for any reason, contact our web team for assistance.
+			</p>
+		<p style="text-align:right">&uarr; <a href="#top">TOP</a></p>
+		<p>USER ROLES</p>
+		<p style="text-align: left">There are currently 3 roles: 'Admin', 'Mgr', & 'User'.  When logging in, you are assigned a role for that unique session.  User-Rights:
+		<blockquote class="left">
+			<div><strong>User</strong>: View | Search | Show/Hide Jobs</div><br/> 
+			<div class="row-borders"><strong>Mgr</strong>: Same  as 'User' + Add Job and Date Notes | Save Calendar</div><br/>
+			<div><strong>Admin</strong>: 
+			</div>
+		</blockquote>
+		
+		
+		</p>
+		<p style="text-align:right">&uarr; <a href="#top">TOP</a></p>
+		</div>
+	</div>
+	
+	
+	<div style="text-align:center">
+		<h2 class="coral">Answers</h2>
+		<div style="margin: 30px auto; width: 55%; text-align: left">
+		
+			<h4 class="answerTitle"><a id="note">ADD  NOTES</a> - Admin | Mgr</h4>
+			<blockquote><strong>Important</strong>: Whenever you open a note input field, when ready, <strong>always click the Save Button beside the input field, EVEN if you change your mind and leave the note field empty</strong>.  Similarly, if you accidentally open multiple note fields, just click save for each to close them.</blockquote>
+			<p>There are 2 types of notes. Notes attached to a JOB and Lose Notes Attached to a DATE.</p>
+			<p>Open the Calendar Date in a Pop-Up Editor (pencil icon).&lt;br/&gt; <strong>To add a Job Note</strong>, Dbl-Click the job. (background turns GREEN. Click the job. An text field and &quot;SAVE&quot; button appear below the job. Type your notes into the field and click &quot;SAVE&quot;. &lt;br/&gt;<strong>To add a General Note</strong> to a Date (Ex: &quot;All Install Techs Must Do Safety Equipment Report by End of Day&quot;), do the following:<br/>
+			Open the Date Cell in a Pop-Up Editor (pencil icon); Clicking the "+" button opens a new empty line at the bottom of the date cell (marked with &quot;&gt;&quot;).  To input your note there, follow the instructions above on Adding a Job Note (Dbl-Click, etc.).
+			</p>	<p style="text-align:right">&uarr; <a href="#top">TOP</a></p>		
+			
+			<h4><a id="move">MOVE/Reschedule Job Date</a></h4>
+			<h4><a id="copy">COPY Job to Date(s)</a></h4>
+			<h4><a id="delete">DELETE Job</a></h4>
+			<h4><a id="assign">ASSIGN Job Status</a></h4>
+			<h4><a id="sort">SORT Job Order</a></h4>
+			<h4><a id="email">EMAIL or PRINT Calendar Month</a></h4>
+			<img src="assets/wip-help.png" style="margin: 30px auto" alt="Wip Support" />
+
+			<h4><a id="print">PRINT-OUT Calendar Month</a></h4>
+			<h4><a id="search">SEARCH the Calendar</a></h4>
+			<h4><a id="open">OPEN Pop-Up Editor</a></h4>
+			<h4><a id="view">VIEW Phone Directory</a></h4>
+			<h4><a id="report">REPORT a Bug</a></h4>		
+		</div>		
+	</div>
+	
+	
+	
+	
+<div style="text-align:center">
+	<p><span style="color:#B71C00;font-size:33px;font-weight:bold">!</span> No changes are recorded until SAVE UPDATES button is Clicked.  If you close the Calendar or browse away, your changes will be lost.</p>
+<br>
+	<h3 style="text-align:center;color:#189746">RE-Assigning / RE-Scheduling Jobs</h3>
+	<br>
+	<br>
+</div>
+<div style="max-width:75%;margin:25px auto; text-align:left">
+<h3 style="text-align:center;color:#189746">FAQ: EMAILING THE CALENDAR</h3>
+	<ol>
+<li>Does Save Updates Send an Email Notification Out?<br>
+	ANSWER: No.  It simply saves the current company's calendar to a permanently saved record.</li>
+<li>How Do I Email A Calendar?<br>
+	ANSWER: Browse to the MONTH You Wish to Email.  Click the Button Labeled "Email".</li>
+<li>Who Receives the Emailed Month?<br>
+	ANSWER: HOVER Over the Button "Preview Recipients" to See the List.  Note, You Can Click That Button to Copy the Entire List and Paste Into Outlook's <strong>TO:</strong> Field.  This Way, You Can Delete or Add Emails to Edit the Recipeints if You Wish. (See: Attach PDF Month to Email).</li>
+<li>How Can I Attach a PDF Month to Email?<br>
+	ANSWER: View the Calendar's HELP Link, Which Describes the Process in Detail (above).</li>
+	</ol>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+<!ENTITY nbsp "&#160;">
+]>
+<calendars>
+  <calendar id="Custom Sign Center">
+    <year ordinal="2018">
+      <month ordinal="1" name="January">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date="1"/>
+          <day ordinal="3" name="Tuesday" date="2"/>
+          <day ordinal="4" name="Wednesday" date="3"/>
+          <day ordinal="5" name="Thursday" date="4"/>
+          <day ordinal="6" name="Friday" date="5"/>
+          <day ordinal="7" name="Saturday" date="6"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"/>
+          <day ordinal="9" name="Monday" date="8"/>
+          <day ordinal="10" name="Tuesday" date="9"/>
+          <day ordinal="11" name="Wednesday" date="10"/>
+          <day ordinal="12" name="Thursday" date="11"/>
+          <day ordinal="13" name="Friday" date="12"/>
+          <day ordinal="14" name="Saturday" date="13"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"/>
+          <day ordinal="16" name="Monday" date="15"/>
+          <day ordinal="17" name="Tuesday" date="16"/>
+          <day ordinal="18" name="Wednesday" date="17"/>
+          <day ordinal="19" name="Thursday" date="18"/>
+          <day ordinal="20" name="Friday" date="19"/>
+          <day ordinal="21" name="Saturday" date="20"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"/>
+          <day ordinal="23" name="Monday" date="22"/>
+          <day ordinal="24" name="Tuesday" date="23"/>
+          <day ordinal="25" name="Wednesday" date="24"/>
+          <day ordinal="26" name="Thursday" date="25"/>
+          <day ordinal="27" name="Friday" date="26"/>
+          <day ordinal="28" name="Saturday" date="27"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"/>
+          <day ordinal="30" name="Monday" date="29"/>
+          <day ordinal="31" name="Tuesday" date="30"/>
+          <day ordinal="32" name="Wednesday" date="31"/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="2" name="February">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date="1"/>
+          <day ordinal="6" name="Friday" date="2"/>
+          <day ordinal="7" name="Saturday" date="3"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"/>
+          <day ordinal="9" name="Monday" date="5"/>
+          <day ordinal="10" name="Tuesday" date="6"/>
+          <day ordinal="11" name="Wednesday" date="7"/>
+          <day ordinal="12" name="Thursday" date="8"/>
+          <day ordinal="13" name="Friday" date="9"/>
+          <day ordinal="14" name="Saturday" date="10"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"/>
+          <day ordinal="16" name="Monday" date="12"/>
+          <day ordinal="17" name="Tuesday" date="13"/>
+          <day ordinal="18" name="Wednesday" date="14"/>
+          <day ordinal="19" name="Thursday" date="15"/>
+          <day ordinal="20" name="Friday" date="16"/>
+          <day ordinal="21" name="Saturday" date="17"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"/>
+          <day ordinal="23" name="Monday" date="19"/>
+          <day ordinal="24" name="Tuesday" date="20"/>
+          <day ordinal="25" name="Wednesday" date="21"/>
+          <day ordinal="26" name="Thursday" date="22"/>
+          <day ordinal="27" name="Friday" date="23"/>
+          <day ordinal="28" name="Saturday" date="24"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"/>
+          <day ordinal="30" name="Monday" date="26"/>
+          <day ordinal="31" name="Tuesday" date="27"/>
+          <day ordinal="32" name="Wednesday" date="28"/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="3" name="March">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date="1"/>
+          <day ordinal="6" name="Friday" date="2"/>
+          <day ordinal="7" name="Saturday" date="3"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"/>
+          <day ordinal="9" name="Monday" date="5"/>
+          <day ordinal="10" name="Tuesday" date="6"/>
+          <day ordinal="11" name="Wednesday" date="7"/>
+          <day ordinal="12" name="Thursday" date="8"/>
+          <day ordinal="13" name="Friday" date="9"/>
+          <day ordinal="14" name="Saturday" date="10"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"/>
+          <day ordinal="16" name="Monday" date="12"/>
+          <day ordinal="17" name="Tuesday" date="13"/>
+          <day ordinal="18" name="Wednesday" date="14"/>
+          <day ordinal="19" name="Thursday" date="15"/>
+          <day ordinal="20" name="Friday" date="16"/>
+          <day ordinal="21" name="Saturday" date="17"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"/>
+          <day ordinal="23" name="Monday" date="19"/>
+          <day ordinal="24" name="Tuesday" date="20"/>
+          <day ordinal="25" name="Wednesday" date="21"/>
+          <day ordinal="26" name="Thursday" date="22"/>
+          <day ordinal="27" name="Friday" date="23"/>
+          <day ordinal="28" name="Saturday" date="24"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"/>
+          <day ordinal="30" name="Monday" date="26"/>
+          <day ordinal="31" name="Tuesday" date="27"/>
+          <day ordinal="32" name="Wednesday" date="28"/>
+          <day ordinal="33" name="Thursday" date="29"/>
+          <day ordinal="34" name="Friday" date="30"/>
+          <day ordinal="35" name="Saturday" date="31"/>
+        </week>
+      </month>
+      <month ordinal="4" name="April">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"/>
+          <day ordinal="2" name="Monday" date="2"/>
+          <day ordinal="3" name="Tuesday" date="3"/>
+          <day ordinal="4" name="Wednesday" date="4"/>
+          <day ordinal="5" name="Thursday" date="5"/>
+          <day ordinal="6" name="Friday" date="6"/>
+          <day ordinal="7" name="Saturday" date="7"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"/>
+          <day ordinal="9" name="Monday" date="9"/>
+          <day ordinal="10" name="Tuesday" date="10"/>
+          <day ordinal="11" name="Wednesday" date="11"/>
+          <day ordinal="12" name="Thursday" date="12"/>
+          <day ordinal="13" name="Friday" date="13"/>
+          <day ordinal="14" name="Saturday" date="14"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"/>
+          <day ordinal="16" name="Monday" date="16"/>
+          <day ordinal="17" name="Tuesday" date="17"/>
+          <day ordinal="18" name="Wednesday" date="18"/>
+          <day ordinal="19" name="Thursday" date="19"/>
+          <day ordinal="20" name="Friday" date="20"/>
+          <day ordinal="21" name="Saturday" date="21"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"/>
+          <day ordinal="23" name="Monday" date="23"/>
+          <day ordinal="24" name="Tuesday" date="24"/>
+          <day ordinal="25" name="Wednesday" date="25"/>
+          <day ordinal="26" name="Thursday" date="26"/>
+          <day ordinal="27" name="Friday" date="27"/>
+          <day ordinal="28" name="Saturday" date="28"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"/>
+          <day ordinal="30" name="Monday" date="30"/>
+          <day ordinal="31" name="Tuesday" date=""/>
+          <day ordinal="32" name="Wednesday" date=""/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="0" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="5" name="May">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date="1"/>
+          <day ordinal="4" name="Wednesday" date="2"/>
+          <day ordinal="5" name="Thursday" date="3"/>
+          <day ordinal="6" name="Friday" date="4"/>
+          <day ordinal="7" name="Saturday" date="5"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="6"/>
+          <day ordinal="9" name="Monday" date="7"/>
+          <day ordinal="10" name="Tuesday" date="8"/>
+          <day ordinal="11" name="Wednesday" date="9"/>
+          <day ordinal="12" name="Thursday" date="10"/>
+          <day ordinal="13" name="Friday" date="11"/>
+          <day ordinal="14" name="Saturday" date="12"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="13"/>
+          <day ordinal="16" name="Monday" date="14"/>
+          <day ordinal="17" name="Tuesday" date="15"/>
+          <day ordinal="18" name="Wednesday" date="16"/>
+          <day ordinal="19" name="Thursday" date="17"/>
+          <day ordinal="20" name="Friday" date="18"/>
+          <day ordinal="21" name="Saturday" date="19"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="20"/>
+          <day ordinal="23" name="Monday" date="21"/>
+          <day ordinal="24" name="Tuesday" date="22"/>
+          <day ordinal="25" name="Wednesday" date="23"/>
+          <day ordinal="26" name="Thursday" date="24"/>
+          <day ordinal="27" name="Friday" date="25"/>
+          <day ordinal="28" name="Saturday" date="26"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="27"/>
+          <day ordinal="30" name="Monday" date="28"/>
+          <day ordinal="31" name="Tuesday" date="29"/>
+          <day ordinal="32" name="Wednesday" date="30"/>
+          <day ordinal="33" name="Thursday" date="31"/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="0" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="6" name="June">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date="1"/>
+          <day ordinal="7" name="Saturday" date="2"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="3"/>
+          <day ordinal="9" name="Monday" date="4"/>
+          <day ordinal="10" name="Tuesday" date="5"/>
+          <day ordinal="11" name="Wednesday" date="6"/>
+          <day ordinal="12" name="Thursday" date="7"/>
+          <day ordinal="13" name="Friday" date="8"/>
+          <day ordinal="14" name="Saturday" date="9"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="10"/>
+          <day ordinal="16" name="Monday" date="11"/>
+          <day ordinal="17" name="Tuesday" date="12"/>
+          <day ordinal="18" name="Wednesday" date="13"/>
+          <day ordinal="19" name="Thursday" date="14"/>
+          <day ordinal="20" name="Friday" date="15"/>
+          <day ordinal="21" name="Saturday" date="16"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="17"/>
+          <day ordinal="23" name="Monday" date="18"/>
+          <day ordinal="24" name="Tuesday" date="19"/>
+          <day ordinal="25" name="Wednesday" date="20"/>
+          <day ordinal="26" name="Thursday" date="21"/>
+          <day ordinal="27" name="Friday" date="22"/>
+          <day ordinal="28" name="Saturday" date="23"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="24"/>
+          <day ordinal="30" name="Monday" date="25"/>
+          <day ordinal="31" name="Tuesday" date="26"/>
+          <day ordinal="32" name="Wednesday" date="27"/>
+          <day ordinal="33" name="Thursday" date="28"/>
+          <day ordinal="34" name="Friday" date="29"/>
+          <day ordinal="0" name="Saturday" date="30"/>
+        </week>
+      </month>
+      <month ordinal="7" name="July">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"/>
+          <day ordinal="2" name="Monday" date="2"/>
+          <day ordinal="3" name="Tuesday" date="3"/>
+          <day ordinal="4" name="Wednesday" date="4"/>
+          <day ordinal="5" name="Thursday" date="5"/>
+          <day ordinal="6" name="Friday" date="6"/>
+          <day ordinal="7" name="Saturday" date="7"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"/>
+          <day ordinal="9" name="Monday" date="9"/>
+          <day ordinal="10" name="Tuesday" date="10"/>
+          <day ordinal="11" name="Wednesday" date="11"/>
+          <day ordinal="12" name="Thursday" date="12"/>
+          <day ordinal="13" name="Friday" date="13">
+            <job number="105957">~~li class="lineEntry t8 due t21" title="Right-Click for Options"#$#  	 ~~span id="job_105957"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#105957*^*span#$# WEN #06697 Whitby, ON~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: NEED CONTACT INFO FOR GC*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="14"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"/>
+          <day ordinal="16" name="Monday" date="16">
+            <job number="105980">~~li class="lineEntry t8 due t21" title="Right-Click for Options"#$#  	 ~~span id="job_105980"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#~~i class="ic-i-comp-alt"#$#*^*i#$#105980*^*span#$# Red Roof Plus #149~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PAINT ONLY*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SHIPPING IS EXTRA $*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="17" name="Tuesday" date="17">
+            <job number="106009">~~li class="lineEntry t10" title="Right-Click for Options"#$#  	 ~~span id="job_106009"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-ups"#$#*^*i#$#106009*^*span#$# Courtyards at Pepper Creek~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 7- ALUM*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="18" name="Wednesday" date="18"/>
+          <day ordinal="19" name="Thursday" date="19"/>
+          <day ordinal="20" name="Friday" date="20">
+            <job number="105677">~~li class="lineEntry t6" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105677"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105677*^*span#$# Simply Self Storage W Lafayette IN~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 1- FACE *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SHIP TO SUB TO INSTALL ON 7-20-18!!!*^*span#$#
+*^*li#$#</job>
+            <job number="103236-2">~~li class="lineEntry t2" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_103236-2"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#103236-2*^*span#$# Lancaster Ridge Apartments*^*li#$#</job>
+          </day>
+          <day ordinal="21" name="Saturday" date="21"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"/>
+          <day ordinal="23" name="Monday" date="23">
+            <job number="105662">~~li class="lineEntry t6" title="Right-Click for Options" style=""#$#
+~~span id="job_105662"#$#105662*^*span#$# WEN #02587  W. Melbourne, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 1 - 42" W per pattern &amp; 1- old style 42" cameo*^*span#$#
+*^*li#$#
+</job>
+            <job number="105780">~~li class="lineEntry t7" title="Right-Click for Options" style=""#$#
+~~span id="job_105780"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#105780*^*span#$# Wendy's 02524 Port Charlotte, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGNS &amp; GTC*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="24" name="Tuesday" date="24">
+            <job number="103512-4">~~li class="lineEntry t10 due t21" title="Right-Click for Options" style=""#$#  	 ~~span id="job_103512-4"#$#~~i class="ic-ups"#$#*^*i#$#103512-4*^*span#$# WEN #09177 Commerce TWP., MI~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: WARRANTY 6- BRONZE LIGHTS &amp; 1- 6' &amp; 1- 8' FLASHING*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SHIP TO - YESCO MICHIGAN ATTN: MARY ANN DETERS *^*span#$#
+*^*li#$#
+</job>
+            <job number="101285-4">~~li class="lineEntry t6" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_101285-4"#$#101285-4*^*span#$# WEN #11814 MORGANTOWN, WV*^*li#$#</job>
+            <job number="106034">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106034"#$#106034*^*span#$# Aire-Flo Corp~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MARY TO INSTALL HERE*^*span#$#
+*^*li#$#</job>
+            <job number="106166">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106166"#$#~~i class="ic-flag"#$#*^*i#$#106166*^*span#$# Store Here Jackson GA~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: REPLACEMENT CHANNEL BOX*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="25" name="Wednesday" date="25">
+            <job number="105878">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_105878"#$#105878*^*span#$# CVS #3777 Monroe, GA~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 3 - CVS POLE COVERS *^*span#$#
+*^*li#$#
+</job>
+            <job number="105666">~~li class="lineEntry t1" title="Right-Click for Options" style="" contenteditable="false"#$#
+~~span id="job_105666"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105666*^*span#$# WEN #04605 Mishawaka, IN*^*li#$#
+</job>
+            <job number="106143">~~li class="lineEntry t10" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106143"#$#~~i class="ic-ups"#$#*^*i#$#106143*^*span#$# Wendy's Site #10950*^*li#$#
+</job>
+            <job number="106125">~~li class="lineEntry t10" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106125"#$#~~i class="ic-ups"#$#*^*i#$#106125*^*span#$# WEN #03129 Nashville, TN*^*li#$#
+</job>
+            <job number="106082">~~li class="lineEntry t10" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106082"#$#~~i class="ic-ups"#$#*^*i#$#106082*^*span#$# WEN #00545  Barboursville, WV~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENU BACKS*^*span#$#
+*^*li#$#
+</job>
+            <job number="106092">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106092"#$#106092*^*span#$# Larry Bickers*^*li#$#
+</job>
+            <job number="106115">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106115"#$#106115*^*span#$# Christopher Lotte*^*li#$#
+</job>
+            <job number="106144">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106144"#$#106144*^*span#$# SP Plus*^*li#$#</job>
+            <job number="106062">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106062"#$#106062*^*span#$# Madison Health*^*li#$#</job>
+            <job number="105741">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105741"#$#105741*^*span#$# Brent Daniel~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: NEON REPAIR *^*span#$#
+*^*li#$#</job>
+            <job number="106077">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106077"#$#106077*^*span#$# SP Plus*^*li#$#</job>
+            <job number="106117">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106117"#$#106117*^*span#$# Atlas Express Auto Sales LLC*^*li#$#</job>
+            <job number="105443">~~li class="lineEntry t7" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105443"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#105443*^*span#$# Wendy's 01195 Sarasota, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE w/ GTC = ship to Florida Lighting Maintenance*^*span#$#
+*^*li#$#
+</job>
+            <job number="105759">~~li class="lineEntry t6" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105759"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105759*^*span#$# Store Here Pantego, TX~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 4- FLEX FACES *^*span#$#
+*^*li#$#
+</job>
+            <job number="105906">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105906"#$#105906*^*span#$# CVS #6136 Franklin, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 3- CVS POLE COVERS*^*span#$#
+*^*li#$#</job>
+            <job number="106152">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106152"#$#106152*^*span#$# REMAX PREMIER CHOICE*^*li#$#</job>
+            <job number="106165">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106165"#$#106165*^*span#$# Cash To Go*^*li#$#
+</job>
+            <job number="106184">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106184"#$#106184*^*span#$# KELLER WILLIAMS CAPITAL PARTNERS*^*li#$#</job>
+            <job number="106189">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106189"#$#106189*^*span#$# Rise Realty*^*li#$#</job>
+          </day>
+          <day ordinal="26" name="Thursday" date="26">
+            <job number="105425">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105425"#$#105425*^*span#$# The Courtyards at Price Farms~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: OUPS*^*span#$#
+*^*li#$#
+</job>
+            <job number="copyof105666">~~li class="lineEntry t1" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span class="copyof105666"#$#105666 [CONT.] *^*span#$# WEN #04605 Mishawaka, IN*^*li#$#</job>
+            <job number="106158">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106158"#$#106158*^*span#$# Jenesis Marketing Group*^*li#$#</job>
+            <job number="106160">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106160"#$#106160*^*span#$# Mike Altomare*^*li#$#
+</job>
+            <job number="106147-SVY">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_106147-SVY"#$#106147-SVY*^*span#$# Capitol Copy/Ohio Business Systems - Linworth, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: HOT SURVEY HERE!!*^*span#$#
+*^*li#$#</job>
+            <job number="106190">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106190"#$#106190*^*span#$# Best Service Heating &amp; Cooling*^*li#$#</job>
+          </day>
+          <day ordinal="27" name="Friday" date="27">
+            <job number="106052">~~li class="lineEntry t6" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106052"#$#~~i class="ic-ups"#$#*^*i#$#~~i class="ic-i-comp-inv"#$#*^*i#$#106052*^*span#$# Store Here Jackson GA*^*li#$#</job>
+            <job number="105760">~~li class="lineEntry t6" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105760"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105760*^*span#$# Store Here Jackson GA~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: RACEWAY CHANNELS, FACES, VINYL *^*span#$#
+*^*li#$#</job>
+            <job number="copyof105425">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof105425"#$#105425 [CONT.] *^*span#$# The Courtyards at Price Farms~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: OUPS*^*span#$#
+*^*li#$#
+</job>
+            <job number="105833">~~li class="lineEntry t6" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105833"#$#105833*^*span#$# Kiddie Academy of Little Rock, AR~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#sam*^*i#$#]: 7-20-18 Ship parts to sub Installer *^*span#$#
+*^*li#$#</job>
+            <job number="105837">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105837"#$#~~i class="ic-p-inf"#$#*^*i#$#105837*^*span#$# Welcome Inn~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SURVEY ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="106003">~~li class="lineEntry t10" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106003"#$#~~i class="ic-ups"#$#*^*i#$#106003*^*span#$# WEN #11975 Gastonia, NC~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 1- "P" ONLY FOR AN AP-3 QUOTE FROM GTC *^*span#$#
+*^*li#$#</job>
+            <job number="106056">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106056"#$#106056*^*span#$# WEN #03405  Crossville, TN~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="106090">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106090"#$#106090*^*span#$# WEN #01515  Milwaukie, OR~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="105548">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105548"#$#105548*^*span#$# Klamfoth Inc.~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 25- COROPLAST*^*span#$#
+*^*li#$#</job>
+            <job number="105966">~~li class="lineEntry t8" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105966"#$#105966*^*span#$# CVS #2338 Williamsburg, VA*^*li#$#
+</job>
+            <job number="copyof105666">~~li class="lineEntry t1" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span class="copyof105666"#$#105666 [CONT.] *^*span#$# WEN #04605 Mishawaka, IN*^*li#$#</job>
+            <job number="106057">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106057"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#106057*^*span#$# WEN #12177  Hickory, NC~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="106041">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106041"#$#106041*^*span#$# Charles Ashton~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: NEON *^*span#$#
+*^*li#$#
+</job>
+            <job number="106084">~~li class="lineEntry t10" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106084"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#~~i class="ic-ups"#$#*^*i#$#106084*^*span#$# Lawton Construction Company~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 4- DOOR PANELS*^*span#$#
+*^*li#$#
+</job>
+            <job number="106170">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106170"#$#106170*^*span#$# Epcon Design Center~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: VINYL*^*span#$#
+*^*li#$#
+</job>
+            <job number="106171">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106171"#$#106171*^*span#$# Courtyards at Muirfield Ridge*^*li#$#
+</job>
+            <job number="106183">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106183"#$#106183*^*span#$# KELLER WILLIAMS CAPITAL PARTNERS*^*li#$#</job>
+            <job number="105933">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105933"#$#105933*^*span#$# Courtyards at The Ravines*^*li#$#
+</job>
+            <job number="105934">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105934"#$#105934*^*span#$# Courtyards at New Albany*^*li#$#
+</job>
+            <job number="106192">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106192"#$#106192*^*span#$# Compass Homes*^*li#$#</job>
+          </day>
+          <day ordinal="28" name="Saturday" date="28"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"/>
+          <day ordinal="30" name="Monday" date="30">
+            <job number="106107">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106107"#$#~~i class="ic-users"#$#*^*i#$#106107*^*span#$# Front Street Garage~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: INSTALL ACM'S &amp; ALSO DELIVER COROPLAST*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL ONLY TO INSTALL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: BOB WITH MICHAEL HERE*^*span#$#
+*^*li#$#</job>
+            <job number="106139">~~li class="lineEntry t8" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106139"#$#106139*^*span#$# WEN #12087  Mesquite, NV*^*li#$#</job>
+            <job number="106130">~~li class="lineEntry t8" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106130"#$#106130*^*span#$# WEN #04662  Las Vegas, NV*^*li#$#</job>
+            <job number="104021-1">~~li class="lineEntry t8" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_104021-1"#$#104021-1*^*span#$# WEN #05184  Las Vegas, NV*^*li#$#</job>
+            <job number="105634">~~li class="lineEntry t7" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105634"#$#105634*^*span#$# Wendy's 01037 Bardstown, KY~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE W/ GTC*^*span#$#
+*^*li#$#</job>
+            <job number="105042">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105042"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#105042*^*span#$# Kiddie Academy of Dublin, OH*^*li#$#
+</job>
+            <job number="105298">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105298"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105298*^*span#$# Bickford Assisted Living and Memory Care~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 1- DF HDU SIGN*^*span#$#
+*^*li#$#
+</job>
+            <job number="105565">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105565"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#105565*^*span#$# Boyer/ Joe Maxx Brecksville, OH*^*li#$#</job>
+            <job number="105329">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105329"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105329*^*span#$# WEN #06698  Uxbridge, ON~~span class="admin-note"#$# [~~i style="color:#f00"#$#sam*^*i#$#]: Menus *^*span#$#
+*^*li#$#
+</job>
+            <job number="104926">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_104926"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#104926*^*span#$# WEN #06441  Nepean, ON~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="105995">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105995"#$#105995*^*span#$# FORTYTHREE HOMES*^*li#$#</job>
+            <job number="102655-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_102655-2"#$#102655-2*^*span#$# Wendy's Site #11615*^*li#$#
+</job>
+            <job number="106188">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106188"#$#106188*^*span#$# Brian Kennedy*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="31">
+            <job number="105865">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105865"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105865*^*span#$# WEN #06432  Whitby, ON~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENU ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="105542">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105542"#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105542*^*span#$# Columbus City Schools - Northtowne ES~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: DF GROUND SIGN W/ READER BOARD , FONT, BOX*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SET POLE HERE &amp; GET INSP. &amp; CRETE*^*span#$#
+*^*li#$#
+</job>
+            <job number="106081">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106081"#$#~~i class="ic-users"#$#*^*i#$#106081*^*span#$# Epcon Design Center~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: ACRYLIC W/ STAND OFFS*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: WITH MICHAEL ALSO HERE*^*span#$#
+*^*li#$#</job>
+            <job number="105604">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105604"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105604*^*span#$# Shades~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: HDU STUD MOUNTED LETTERS*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL ONLY TO INSTALL*^*span#$#
+*^*li#$#</job>
+            <job number="106148">~~li class="lineEntry t8" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106148"#$#106148*^*span#$# CVS #0566 Binghamton, NY*^*li#$#</job>
+            <job number="106141">~~li class="lineEntry t10" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106141"#$#~~i class="ic-ups"#$#*^*i#$#106141*^*span#$# Wendy's Site #08129~~span class="admin-note"#$# [~~i style="color:#f00"#$#sam*^*i#$#]: OCS Wing *^*span#$#
+*^*li#$#</job>
+            <job number="105588-1">~~li class="lineEntry t10" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105588-1"#$#~~i class="ic-ups"#$#*^*i#$#105588-1*^*span#$# WEN #12034  Charlotte, NC*^*li#$#</job>
+            <job number="106028">~~li class="lineEntry t10" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106028"#$#~~i class="ic-ups"#$#*^*i#$#106028*^*span#$# Courtryards at Pepper Creek*^*li#$#</job>
+            <job number="106059">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106059"#$#106059*^*span#$# WEN #06479 Toronto, ON~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#</job>
+            <job number="105942">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105942"#$#105942*^*span#$# Wendy's Site #00728~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: CHICAGO, IL = PACKAGE &amp; GTC*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SHIP TO SIGN EFFECTZ MILWAUKEE, WISCONSIN*^*span#$#
+*^*li#$#</job>
+            <job number="105295">~~li class="lineEntry t2" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105295"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105295*^*span#$# Bickford Assisted Living and Memory Care*^*li#$#
+</job>
+            <job number="105296">~~li class="lineEntry t2" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105296"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105296*^*span#$# Bickford Assisted Living*^*li#$#
+</job>
+            <job number="105959">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105959"#$#105959*^*span#$# N. Wasserstrom &amp; Sons Inc. DCS Group~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 20- RIGHT TO KNOW BOARD*^*span#$#
+*^*li#$#</job>
+            <job number="102505-1">~~li title="Right-Click for Options" class="lineEntry t6" style=""#$#  	 ~~span id="job_102505-1"#$#102505-1*^*span#$# Kiddie Academy of Apopka, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: REPLACEMENT CHANNEL LETTER FACES "ACADEMY"*^*span#$#
+*^*li#$#
+</job>
+            <job number="105590">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105590"#$#105590*^*span#$# CUSTOM SIGN CENTER~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 8- FORKLIFT TAG OUT COVERS*^*span#$#
+*^*li#$#
+</job>
+            <job number="106027">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106027"#$#106027*^*span#$# Wagenbrenner Professional Real Estate*^*li#$#</job>
+            <job number="101374">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_101374"#$#101374*^*span#$# The Courtyards at Bradford Court - Powell, OH*^*li#$#
+</job>
+            <job number="103799">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_103799"#$#103799*^*span#$# Simply Self Storage-Taylor MI*^*li#$#
+</job>
+            <job number="106150">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106150"#$#106150*^*span#$# Buckeye Poured Walls~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MARY TO INSTALL HERE*^*span#$#
+*^*li#$#
+</job>
+            <job number="106179">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106179"#$#106179*^*span#$# WEM #01137  Cross Lanes, WV*^*li#$#</job>
+            <job number="106180">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106180"#$#106180*^*span#$# Nagasaki*^*li#$#</job>
+          </day>
+          <day ordinal="32" name="Wednesday" date=""/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="0" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="8" name="August">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date="1">
+            <job number="copyof105542">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof105542"#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105542 [CONT.] *^*span#$# Columbus City Schools - Northtowne ES~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: DF GROUND SIGN W/ READER BOARD , FONT, BOX*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SET SIGN HERE *^*span#$#
+*^*li#$#
+</job>
+            <job number="104583">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_104583"#$#~~i class="ic-p-insp-req"#$#*^*i#$#104583*^*span#$# Boyer Signs/Wahlburgers Cincy~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: IBI TO BE DONE BY ELECTRICIAN ON OR BY HERE!! *^*span#$#
+*^*li#$#
+</job>
+            <job number="106061-svy">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106061-svy"#$#106061-svy*^*span#$# Donatos Pizza - Lebanon, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SURVEY*^*span#$#
+*^*li#$#
+</job>
+            <job number="106098-SVY">~~li class="lineEntry t2" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106098-SVY"#$#106098-SVY*^*span#$# WEN #00105  Newport, KY*^*li#$#
+</job>
+            <job number="102720">~~li title="Right-Click for Options" class="lineEntry t5" style=""#$#  	 ~~span id="job_102720"#$#102720*^*span#$# ~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: GRANDVIEW'S EDGE - OUPS - INSTALL (1) MDO W/ (2) 10' WHITE WOOD POSTS *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL TO INSTALL*^*span#$#
+*^*li#$#
+</job>
+            <job number="105041">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#
+~~span id="job_105041"#$#105041*^*span#$# CUSTOM SIGN CENTER~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: ALUMINUM DOOR PLAQUES *^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL TO INSTALL*^*span#$#
+*^*li#$#
+</job>
+            <job number="104489">~~li title="Right-Click for Options" class="lineEntry t5" style=""#$#
+~~span id="job_104489"#$#104489*^*span#$# CUSTOM SIGN CENTER~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 60 INTERIOR SIGNS TO INSTALL IN SHOP*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL TO INSTALL*^*span#$#
+*^*li#$#
+</job>
+            <job number="105629">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#
+~~span id="job_105629"#$#105629*^*span#$# CUSTOM SIGN CENTER~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: VINYL*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: TERYL TO INSTALL IN ALL TRUCKS &amp; PHOTO*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL TO INSTALL*^*span#$#
+*^*li#$#
+</job>
+            <job number="105508">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#
+~~span id="job_105508"#$#~~i class="ic-users"#$#*^*i#$#105508*^*span#$# Opus-Group~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: NEED TO INSTALL SIGN STILL*^*span#$#
+*^*li#$#
+</job>
+            <job number="105573">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105573"#$#105573*^*span#$# Faith Community Worship Center*^*li#$#</job>
+          </day>
+          <day ordinal="5" name="Thursday" date="2">
+            <job number="105638">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105638"#$#105638*^*span#$# Park Avenue Medical Building/London, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL ONLY TO INSTALL HERE*^*span#$#
+*^*li#$#</job>
+            <job number="106005">~~li class="lineEntry t5" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106005"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#106005*^*span#$# Mad River Veternary Hospital~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PVC*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MICHAEL ONLY TO INSTALL HERE*^*span#$#
+*^*li#$#</job>
+            <job number="105573-svy">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105573-svy"#$#105573-svy*^*span#$# Faith Community Worship Center~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: EUCLID, OHIO*^*span#$#
+*^*li#$#
+</job>
+            <job number="105663">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105663"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#105663*^*span#$# Boyer/ Hampton Inn &amp; Suites~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SERVICE MONUMENT SIGN*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: RETURN WITH PARTS HERE*^*span#$#
+*^*li#$#
+</job>
+            <job number="105607">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_105607"#$#~~i class="ic-users"#$#*^*i#$#105607*^*span#$# Red Roof Inn~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: INDIANAPOLIS, IN*^*span#$#
+*^*li#$#</job>
+            <job number="106017">~~li class="lineEntry t9" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106017"#$#106017*^*span#$# Duke Manufacturing~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 1- BLACK BREAD*^*span#$#
+*^*li#$#
+</job>
+            <job number="106153">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106153"#$#106153*^*span#$# Buckeye Poured Walls*^*li#$#</job>
+          </day>
+          <day ordinal="6" name="Friday" date="3">
+            <job number="102926-1">~~li title="Right-Click for Options" class="lineEntry t1"#$#  	 ~~span id="job_102926-1"#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-p-inf"#$#*^*i#$#102926-1*^*span#$# WEN #08375 Indianapolis, IN~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: FIX WRINKLES IN HI-RISE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: WEATHER PERMITTING / MUST BE DRY DUE TO LOCATION!*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: BOB ONLY HERE*^*span#$#
+*^*li#$#
+</job>
+            <job number="105654">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105654"#$#105654*^*span#$# KELLER WILLIAMS CONSULTANTS*^*li#$#
+</job>
+            <job number="105651">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105651"#$#105651*^*span#$# Core Ohio Realty Advisors*^*li#$#
+</job>
+            <job number="105647">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105647"#$#105647*^*span#$# Bobbi Bowens*^*li#$#
+</job>
+            <job number="105642">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105642"#$#105642*^*span#$# KELLER WILLIAMS CLASSIC PROPERTIES*^*li#$#
+</job>
+            <job number="106051">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106051"#$#106051*^*span#$# Best Lighting Products*^*li#$#
+</job>
+            <job number="copyof105607">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof105607"#$#~~i class="ic-users"#$#*^*i#$#105607 [CONT.] *^*span#$# Red Roof Inn~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: INDIANAPOLIS, IN*^*span#$#
+*^*li#$#
+</job>
+            <job number="106164">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106164"#$#106164*^*span#$# Wendy's 00336 Clinton Twp, MI*^*li#$#</job>
+            <job number="106174">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106174"#$#106174*^*span#$# Wendy's Site #06873*^*li#$#
+</job>
+            <job number="105613">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105613"#$#105613*^*span#$# MKJ Nails*^*li#$#</job>
+          </day>
+          <day ordinal="7" name="Saturday" date="4"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5">
+            <job number="105652">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105652"#$#~~i class="ic-p-inf"#$#*^*i#$#105652*^*span#$# S. Bret Brunner*^*li#$#</job>
+          </day>
+          <day ordinal="9" name="Monday" date="6">
+            <job number="105461">~~li class="lineEntry t7" title="Right-Click for Options"#$#  	 ~~span id="job_105461"#$#105461*^*span#$# Wendy's 00849 Naples, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC*^*span#$#
+*^*li#$#</job>
+            <job number="106073">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106073"#$#~~i class="ic-flag"#$#*^*i#$#106073*^*span#$# Wendy's 00268 Heath, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE*^*span#$#
+*^*li#$#</job>
+            <job number="105154">~~li class="lineEntry t7" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105154"#$#105154*^*span#$# WEN #11886 Winter Garden, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE *^*span#$#
+*^*li#$#
+</job>
+            <job number="101848-S">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_101848-S"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-inf"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#~~i class="ic-cog"#$#*^*i#$#101848-S*^*span#$# Tios Tacos &amp; Tequila Columbus, OH*^*li#$#
+</job>
+            <job number="103644-2">~~li title="Right-Click for Options" class="lineEntry unassigned" style=""#$#  	 ~~span id="job_103644-2"#$#~~i class="ic-flag"#$#*^*i#$#103644-2*^*span#$# WEN #01213  Shepherdsville, KY~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: HI- RISE INSTALL HERE*^*span#$#
+~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: NEED TO RETURN TO INSTALL THE ESCUTCHEON ONLY*^*span#$#
+*^*li#$#
+</job>
+            <job number="105723">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105723"#$#~~i class="ic-p-appr"#$#*^*i#$#105723*^*span#$# Wendy's 00007 Marion, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC *^*span#$#
+*^*li#$#
+</job>
+            <job number="106118">~~li class="lineEntry t7" title="Right-Click for Options"#$#  	 ~~span id="job_106118"#$#106118*^*span#$# Marion/ Ocala Heating and Air~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: 2- SF SIGNS W/ TRACK*^*span#$#
+*^*li#$#
+</job>
+            <job number="103236-1">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_103236-1"#$#103236-1*^*span#$# Lancaster Ridge Apartments*^*li#$#</job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="7">
+            <job number="105883">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_105883"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105883*^*span#$# WEN #02117  Bellingham, WA~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#
+</job>
+            <job number="105676">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105676"#$#105676*^*span#$# Keller Williams Consultant*^*li#$#
+</job>
+            <job number="105697">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105697"#$#~~i class="ic-p-inf"#$#*^*i#$#105697*^*span#$# CUSTOM SIGN CENTER*^*li#$#</job>
+            <job number="105698">~~li class="lineEntry t9" title="Right-Click for Options"#$#  	 ~~span id="job_105698"#$#105698*^*span#$# CUSTOM SIGN CENTER~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SHEEHY SIGN / PVC STUD MOUNTED*^*span#$#
+*^*li#$#</job>
+            <job number="copyof105723">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof105723"#$#105723 [CONT.] *^*span#$# Wendy's 00007 Marion, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC *^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="11" name="Wednesday" date="8">
+            <job number="copyof105723 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof105723 [CONT.]"#$#105723 [CONT.] *^*span#$# Wendy's 00007 Marion, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC *^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="12" name="Thursday" date="9">
+            <job number="copyof105723 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof105723 [CONT.]"#$#105723 [CONT.] *^*span#$# Wendy's 00007 Marion, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC *^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="13" name="Friday" date="10">
+            <job number="101374-5">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_101374-5"#$#101374-5*^*span#$# The Courtyards at Bradford Court - Powell, OH*^*li#$#
+</job>
+            <job number="105734">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105734"#$#105734*^*span#$# KELLER WILLIAMS CLASSIC PROPERTIES*^*li#$#
+</job>
+            <job number="105731">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105731"#$#105731*^*span#$# KELLER WILLIAMS CLASSIC PROPERTIES*^*li#$#
+</job>
+            <job number="105730">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105730"#$#105730*^*span#$# Berkshire  Hathaway*^*li#$#
+</job>
+            <job number="105728">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105728"#$#105728*^*span#$# Core Ohio Realty Advisors*^*li#$#</job>
+            <job number="copyof105723 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof105723 [CONT.]"#$#105723 [CONT.] *^*span#$# Wendy's 00007 Marion, OH~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC *^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="11"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"/>
+          <day ordinal="16" name="Monday" date="13">
+            <job number="105627">~~li class="lineEntry t7" title="Right-Click for Options" style=""#$#
+~~span id="job_105627"#$#105627*^*span#$# Outdoor/ The Lory of Augusta~~span class="admin-note"#$# [~~i style="color:#f00"#$#sam*^*i#$#]: Ships to a Sub Installer *^*span#$#
+*^*li#$#</job>
+            <job number="104424">~~li class="lineEntry t6" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_104424"#$#104424*^*span#$# Simply Self Storage Palmetto, FL*^*li#$#</job>
+            <job number="105819">~~li class="lineEntry t7" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105819"#$#105819*^*span#$# Wendy' 00039 Louisville, KY*^*li#$#</job>
+            <job number="106015">~~li class="lineEntry t7" title="Right-Click for Options"#$#  	 ~~span id="job_106015"#$#106015*^*span#$# Wendy's Site #04016 Franklin, TN.~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC*^*span#$#
+*^*li#$#</job>
+            <job number="106010">~~li class="lineEntry t7" title="Right-Click for Options"#$#  	 ~~span id="job_106010"#$#106010*^*span#$# Wendy's 04219 Dickson, TN~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC*^*span#$#
+*^*li#$#</job>
+            <job number="106011">~~li class="lineEntry t8" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106011"#$#106011*^*span#$# Wendy's Site #08090 Sturtevant, WI~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE &amp; GTC*^*span#$#
+*^*li#$#
+</job>
+            <job number="104597-1">~~li class="lineEntry t1" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_104597-1"#$#104597-1*^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="104597">~~li class="lineEntry t1" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_104597"#$#104597*^*span#$# Wendy's 04250 Auburn, IN*^*li#$#</job>
+            <job number="105756">~~li class="lineEntry t9" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_105756"#$#105756*^*span#$# Tom Olszewski*^*li#$#
+</job>
+            <job number="105951">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105951"#$#105951*^*span#$# Red Roof Plus 188 Northbrook, IL*^*li#$#</job>
+          </day>
+          <day ordinal="17" name="Tuesday" date="14">
+            <job number="106004">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106004"#$#~~i class="ic-flag"#$#*^*i#$#106004*^*span#$# Wastebuilt*^*li#$#</job>
+            <job number="copyof104597">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597"#$#104597 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="copyof104597-1">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597-1"#$#104597-1 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="105770">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105770"#$#105770*^*span#$# KELLER WILLIAMS CLASSIC PROPERTIES*^*li#$#
+</job>
+            <job number="105771">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105771"#$#105771*^*span#$# KELLER WILLIAMS CLASSIC PROPERTIES*^*li#$#
+</job>
+            <job number="105777">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105777"#$#105777*^*span#$# Remax Main St*^*li#$#</job>
+          </day>
+          <day ordinal="18" name="Wednesday" date="15">
+            <job number="copyof104597-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597-1 [CONT.]"#$#104597-1 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="copyof104597 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597 [CONT.]"#$#104597 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#</job>
+            <job number="106195">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106195"#$#106195*^*span#$# TD Self Storage - Woodruff*^*li#$#
+</job>
+            <job number="106196">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106196"#$#106196*^*span#$# TD Self Storage - O'Neal*^*li#$#</job>
+          </day>
+          <day ordinal="19" name="Thursday" date="16">
+            <job number="106132">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106132"#$#106132*^*span#$# Duke Manufacturing*^*li#$#</job>
+            <job number="copyof104597 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597 [CONT.]"#$#104597 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="copyof104597-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597-1 [CONT.]"#$#104597-1 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#</job>
+            <job number="106079">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106079"#$#~~i class="ic-flag"#$#*^*i#$#106079*^*span#$# The Courtyards at Jerome Village, OH*^*li#$#</job>
+            <job number="106147">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106147"#$#~~i class="ic-flag"#$#*^*i#$#106147*^*span#$# Capitol Copy/Ohio Business Systems - Linworth, OH*^*li#$#</job>
+          </day>
+          <day ordinal="20" name="Friday" date="17">
+            <job number="105835">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105835"#$#105835*^*span#$# Routte Construction*^*li#$#
+</job>
+            <job number="105826">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105826"#$#105826*^*span#$# Chris Cimino*^*li#$#
+</job>
+            <job number="105813">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105813"#$#105813*^*span#$# Keller Williams Consultants*^*li#$#
+</job>
+            <job number="copyof104597 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597 [CONT.]"#$#104597 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="copyof104597-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof104597-1 [CONT.]"#$#104597-1 [CONT.] *^*span#$# Wendy's 04250 Auburn, IN*^*li#$#
+</job>
+            <job number="105781">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105781"#$#105781*^*span#$# REMAX PREMIER CHOICE*^*li#$#</job>
+            <job number="105789">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105789"#$#105789*^*span#$# REMAX IMPACT*^*li#$#</job>
+            <job number="105845">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105845"#$#105845*^*span#$# McElroy Trucking Solutions LLC*^*li#$#
+</job>
+            <job number="102740-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_102740-1"#$#102740-1*^*span#$# WEN 02714 North Olmsed, OH*^*li#$#</job>
+            <job number="104008">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_104008"#$#104008*^*span#$# MKJ Nails*^*li#$#</job>
+            <job number="106185">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106185"#$#106185*^*span#$# WEN #07904  Wadesboro, NC*^*li#$#</job>
+          </day>
+          <day ordinal="21" name="Saturday" date="18"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"/>
+          <day ordinal="23" name="Monday" date="20">
+            <job number="106045">~~li class="lineEntry t8" title="Right-Click for Options" style="" contenteditable="false"#$#  	 ~~span id="job_106045"#$#106045*^*span#$# Kiddie Academy of Urbana MD*^*li#$#</job>
+            <job number="102653-2">~~li class="lineEntry t7" title="Right-Click for Options" style=""#$#  	 ~~span id="job_102653-2"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#102653-2*^*span#$# Wendy's 11795 Norfolk VA~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE*^*span#$#
+*^*li#$#
+</job>
+            <job number="106012">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_106012"#$#~~i class="ic-p-appr"#$#*^*i#$#106012*^*span#$# Wendy's Site #05116~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: KUHNS - BARNESVILLE, OH = SIGN PACKAGE*^*span#$#
+*^*li#$#</job>
+            <job number="105945">~~li class="lineEntry t7" title="Right-Click for Options"#$#  	 ~~span id="job_105945"#$#105945*^*span#$# Wendy's 05280 Stanley, NC~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE*^*span#$#
+*^*li#$#
+</job>
+            <job number="104977">~~li class="lineEntry t7" title="Right-Click for Options"#$#  	 ~~span id="job_104977"#$#104977*^*span#$# Wendy's 11772 Lutz, FL~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE*^*span#$#
+*^*li#$#</job>
+            <job number="106169">~~li class="lineEntry unassigned" title="Right-Click for Options" style="" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106169"#$#106169*^*span#$# Outdoor/ IFP/ Eden's Frsh Co*^*li#$#</job>
+          </day>
+          <day ordinal="24" name="Tuesday" date="21">
+            <job number="106110">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_106110"#$#106110*^*span#$# Wen# 01327 Middletown, RI~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: PACKAGE*^*span#$#
+*^*li#$#
+</job>
+            <job number="105860">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105860"#$#105860*^*span#$# Key Realty*^*li#$#</job>
+            <job number="copyof106012">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof106012"#$#106012 [CONT.] *^*span#$# Wendy's Site #05116~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: KUHNS - BARNESVILLE, OH = SIGN PACKAGE*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="25" name="Wednesday" date="22">
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: BOB - STOW, OHIO *^*span#$#
+*^*li#$#</job>
+            <job number="copyof106012 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof106012 [CONT.]"#$#106012 [CONT.] *^*span#$# Wendy's Site #05116~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: KUHNS - BARNESVILLE, OH = SIGN PACKAGE*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="26" name="Thursday" date="23">
+            <job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span class="copyof&gt;" contenteditable="false"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: BOB - STOW, OHIO *^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="27" name="Friday" date="24">
+            <job number="105840">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_105840"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105840*^*span#$# WEN #06891  Grande Prairie, AB~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: MENUS ONLY*^*span#$#
+*^*li#$#
+</job>
+            <job number="104535-1">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_104535-1"#$#104535-1*^*span#$# WEN #12054 New Milford, CT~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SILVER TRIM*^*span#$#
+*^*li#$#
+</job>
+            <job number="104535">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_104535"#$#104535*^*span#$# WEN #12054 New Milford, CT~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE*^*span#$#
+*^*li#$#</job>
+            <job number="105861">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105861"#$#105861*^*span#$# SIGNATURE REAL ESTATE*^*li#$#
+</job>
+            <job number="105873">~~li class="lineEntry t9" title="Right-Click for Options"#$#  	 ~~span id="job_105873"#$#105873*^*span#$# linda potts~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: NEON TRANSFORMER *^*span#$#
+*^*li#$#
+</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t1" title="Right Click for Options"#$#
+~~span class="copyof&gt; [CONT.]" contenteditable="false"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: BOB - STOW, OHIO *^*span#$#
+*^*li#$#
+</job>
+            <job number="106037">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106037"#$#106037*^*span#$# Wendy's Site #01473*^*li#$#</job>
+          </day>
+          <day ordinal="28" name="Saturday" date="25">
+            <job number="105888">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105888"#$#105888*^*span#$# Prudential Integerty one*^*li#$#
+</job>
+            <job number="105890">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105890"#$#105890*^*span#$# REMAX ELITE SERVICE*^*li#$#
+</job>
+            <job number="105891">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105891"#$#105891*^*span#$# SIGNATURE REAL ESTATE*^*li#$#</job>
+          </day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26">
+            <job number="105897">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105897"#$#105897*^*span#$# REAL ESTATE SIGNS &amp; SERV*^*li#$#</job>
+            <job number="105900">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105900"#$#105900*^*span#$# Parker Realty Associates*^*li#$#</job>
+          </day>
+          <day ordinal="30" name="Monday" date="27">
+            <job number="106098">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_106098"#$#106098*^*span#$# WEN #00105  Newport, KY*^*li#$#</job>
+            <job number="105923">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105923"#$#105923*^*span#$# Key Realty*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="28">
+            <job number="copyof106098">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof106098"#$#106098 [CONT.] *^*span#$# WEN #00105  Newport, KY*^*li#$#</job>
+          </day>
+          <day ordinal="32" name="Wednesday" date="29">
+            <job number="copyof106098 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span class="copyof106098 [CONT.]"#$#106098 [CONT.] *^*span#$# WEN #00105  Newport, KY*^*li#$#</job>
+          </day>
+          <day ordinal="33" name="Thursday" date="30"/>
+          <day ordinal="34" name="Friday" date="31">
+            <job number="104546">~~li class="lineEntry t6" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_104546"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#104546*^*span#$# Kiddie Academy of Orlando-Conway*^*li#$#</job>
+            <job number="105958">~~li class="lineEntry t9" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_105958"#$#105958*^*span#$# ERA Real Soulutions Realty*^*li#$#</job>
+            <job number="106176">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106176"#$#106176*^*span#$# Wendy's Site #02712*^*li#$#</job>
+            <job number="104867-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_104867-2"#$#104867-2*^*span#$# Wendy's 12216 Hudsonville, MI*^*li#$#</job>
+          </day>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="9" name="September">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date=""/>
+          <day ordinal="7" name="Saturday" date="1">
+            <job number="105974">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105974"#$#105974*^*span#$# WEN #09564  Wytheville, VA (FOR #01623)*^*li#$#</job>
+          </day>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"/>
+          <day ordinal="9" name="Monday" date="3">
+            <job number="104002">~~li title="Right-Click for Options" class="lineEntry t6" contenteditable="false"#$#  	 ~~span id="job_104002"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#104002*^*span#$# TD Self Storage/Orlando FL*^*li#$#</job>
+            <job number="106083">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106083"#$#106083*^*span#$# Store Here Kalamazoo, mI*^*li#$#</job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="4">
+            <job number="105327">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_105327"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#105327*^*span#$# WEN #06828  Ft. McMurray, AB~~span class="admin-note"#$# [~~i style="color:#f00"#$#sam*^*i#$#]: 7Panel Straight *^*span#$#
+*^*li#$#
+</job>
+            <job number="105057">~~li class="lineEntry t8" title="Right-Click for Options"#$#  	 ~~span id="job_105057"#$#105057*^*span#$# Wendy's Site #11951 Norwood, MA~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE W/ (1) WP100 PYLON ALSO*^*span#$#
+*^*li#$#
+</job>
+            <job number="105993">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105993"#$#105993*^*span#$# Wade Schnieder*^*li#$#</job>
+          </day>
+          <day ordinal="11" name="Wednesday" date="5"/>
+          <day ordinal="12" name="Thursday" date="6"/>
+          <day ordinal="13" name="Friday" date="7">
+            <job number="105985">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105985"#$#105985*^*span#$# WEN #06106  Brockville, ON*^*li#$#</job>
+            <job number="106136">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106136"#$#106136*^*span#$# Wendy's 02288 Fall River, MA*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="8"/>
+        </week>
+        <week ordinal="3"><day ordinal="15" name="Sunday" date="9"/><day ordinal="16" name="Monday" date="10"/><day ordinal="17" name="Tuesday" date="11"><job number="106068">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106068"#$#106068*^*span#$# REMAX REVEALTY*^*li#$#</job></day><day ordinal="18" name="Wednesday" date="12"/><day ordinal="19" name="Thursday" date="13"/><day ordinal="20" name="Friday" date="14"><job number="106091">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106091"#$#106091*^*span#$# Philly Buster*^*li#$#</job></day>"
+				<day ordinal="21" name="Saturday" date="15"/></week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"/>
+          <day ordinal="23" name="Monday" date="17">
+            <job number="106151">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106151"#$#106151*^*span#$# One Click Yours*^*li#$#</job>
+          </day>
+          <day ordinal="24" name="Tuesday" date="18"/>
+          <day ordinal="25" name="Wednesday" date="19"/>
+          <day ordinal="26" name="Thursday" date="20">
+            <job number="106198">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106198"#$#106198*^*span#$# Charles Ross, Charles*^*li#$#</job>
+          </day>
+          <day ordinal="27" name="Friday" date="21">
+            <job number="105472">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105472"#$#105472*^*span#$# Wendy's 00450*^*li#$#</job>
+          </day>
+          <day ordinal="28" name="Saturday" date="22">
+            <job number="106178">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106178"#$#106178*^*span#$# KELLER WILLIAMS GREATER COLS*^*li#$#</job>
+            <job number="106181">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106181"#$#106181*^*span#$# KELLER WILLIAMS CONSULTANTS*^*li#$#</job>
+            <job number="106187">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106187"#$#106187*^*span#$# Grove City Garage Door Co*^*li#$#</job>
+          </day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23">
+            <job number="106194">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106194"#$#106194*^*span#$# REMAX CONNECTION*^*li#$#
+</job>
+            <job number="106199">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106199"#$#106199*^*span#$# Parker Realty Associates*^*li#$#</job>
+          </day>
+          <day ordinal="30" name="Monday" date="24"/>
+          <day ordinal="31" name="Tuesday" date="25">
+            <job number="106109">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106109"#$#106109*^*span#$# WEN #06000  Stoney Creek, ON*^*li#$#</job>
+          </day>
+          <day ordinal="32" name="Wednesday" date="26"/>
+          <day ordinal="33" name="Thursday" date="27"/>
+          <day ordinal="34" name="Friday" date="28"/>
+          <day ordinal="35" name="Saturday" date="29"/>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30">
+            <job number="102367">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_102367"#$#102367*^*span#$# Yauger Monument*^*li#$#</job>
+          </day>
+          <day ordinal="37" name="Monday" date=""/>
+          <day ordinal="38" name="Tuesday" date=""/>
+          <day ordinal="39" name="Wednesday" date=""/>
+          <day ordinal="40" name="Thursday" date=""/>
+          <day ordinal="41" name="Friday" date=""/>
+          <day ordinal="42" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="10" name="October">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date="1"/>
+          <day ordinal="3" name="Tuesday" date="2">
+            <job number="105866">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105866"#$#105866*^*span#$# WEN #06625  Keswick, ON*^*li#$#</job>
+          </day>
+          <day ordinal="4" name="Wednesday" date="3"/>
+          <day ordinal="5" name="Thursday" date="4"/>
+          <day ordinal="6" name="Friday" date="5">
+            <job number="106145">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_106145"#$#106145*^*span#$# WEN #11852 Chicago, IL*^*li#$#</job>
+          </day>
+          <day ordinal="7" name="Saturday" date="6"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"/>
+          <day ordinal="9" name="Monday" date="8"/>
+          <day ordinal="10" name="Tuesday" date="9"/>
+          <day ordinal="11" name="Wednesday" date="10"/>
+          <day ordinal="12" name="Thursday" date="11"/>
+          <day ordinal="13" name="Friday" date="12">
+            <job number="105457">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105457"#$#105457*^*span#$# Wendy's 01886 Naples, FL*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="13"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"/>
+          <day ordinal="16" name="Monday" date="15"/>
+          <day ordinal="17" name="Tuesday" date="16"/>
+          <day ordinal="18" name="Wednesday" date="17"/>
+          <day ordinal="19" name="Thursday" date="18"/>
+          <day ordinal="20" name="Friday" date="19">
+            <job number="105045">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_105045"#$#105045*^*span#$# Wendy's 00276 Decatur, GA*^*li#$#</job>
+          </day>
+          <day ordinal="21" name="Saturday" date="20"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"/>
+          <day ordinal="23" name="Monday" date="22"/>
+          <day ordinal="24" name="Tuesday" date="23"/>
+          <day ordinal="25" name="Wednesday" date="24"/>
+          <day ordinal="26" name="Thursday" date="25"/>
+          <day ordinal="27" name="Friday" date="26"/>
+          <day ordinal="28" name="Saturday" date="27"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"/>
+          <day ordinal="30" name="Monday" date="29"/>
+          <day ordinal="31" name="Tuesday" date="30"/>
+          <day ordinal="32" name="Wednesday" date="31"/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="11" name="November">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date="1">
+            <job number="102505-2">~~li class="lineEntry t6" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_102505-2"#$#~~i class="ic-i-comp-inv"#$#*^*i#$#102505-2*^*span#$# Kiddie Academy of Apopka, FL*^*li#$#</job>
+          </day>
+          <day ordinal="6" name="Friday" date="2"/>
+          <day ordinal="7" name="Saturday" date="3"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"/>
+          <day ordinal="9" name="Monday" date="5"/>
+          <day ordinal="10" name="Tuesday" date="6"/>
+          <day ordinal="11" name="Wednesday" date="7"/>
+          <day ordinal="12" name="Thursday" date="8"/>
+          <day ordinal="13" name="Friday" date="9"/>
+          <day ordinal="14" name="Saturday" date="10"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"/>
+          <day ordinal="16" name="Monday" date="12"/>
+          <day ordinal="17" name="Tuesday" date="13"/>
+          <day ordinal="18" name="Wednesday" date="14"/>
+          <day ordinal="19" name="Thursday" date="15"/>
+          <day ordinal="20" name="Friday" date="16"/>
+          <day ordinal="21" name="Saturday" date="17"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"/>
+          <day ordinal="23" name="Monday" date="19"/>
+          <day ordinal="24" name="Tuesday" date="20"/>
+          <day ordinal="25" name="Wednesday" date="21"/>
+          <day ordinal="26" name="Thursday" date="22"/>
+          <day ordinal="27" name="Friday" date="23"/>
+          <day ordinal="28" name="Saturday" date="24"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"/>
+          <day ordinal="30" name="Monday" date="26"/>
+          <day ordinal="31" name="Tuesday" date="27"/>
+          <day ordinal="32" name="Wednesday" date="28"/>
+          <day ordinal="33" name="Thursday" date="29"/>
+          <day ordinal="34" name="Friday" date="30"/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="12" name="December">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date=""/>
+          <day ordinal="7" name="Saturday" date="1"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"/>
+          <day ordinal="9" name="Monday" date="3">
+            <job number="104482">~~li title="Right-Click for Options" class="lineEntry unassigned" style=""#$#  	 ~~span id="job_104482"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-inf"#$#*^*i#$#~~i class="ic-i-comp-inv"#$#*^*i#$#104482*^*span#$# LifeStorage~~span class="admin-note"#$# [~~i style="color:#f00"#$#Tab*^*i#$#]: SIGN PACKAGE*^*span#$#
+*^*li#$#</job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="4"/>
+          <day ordinal="11" name="Wednesday" date="5"/>
+          <day ordinal="12" name="Thursday" date="6"/>
+          <day ordinal="13" name="Friday" date="7"/>
+          <day ordinal="14" name="Saturday" date="8"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"/>
+          <day ordinal="16" name="Monday" date="10"/>
+          <day ordinal="17" name="Tuesday" date="11"/>
+          <day ordinal="18" name="Wednesday" date="12"/>
+          <day ordinal="19" name="Thursday" date="13"/>
+          <day ordinal="20" name="Friday" date="14"/>
+          <day ordinal="21" name="Saturday" date="15"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"/>
+          <day ordinal="23" name="Monday" date="17"/>
+          <day ordinal="24" name="Tuesday" date="18"/>
+          <day ordinal="25" name="Wednesday" date="19"/>
+          <day ordinal="26" name="Thursday" date="20"/>
+          <day ordinal="27" name="Friday" date="21"/>
+          <day ordinal="28" name="Saturday" date="22"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"/>
+          <day ordinal="30" name="Monday" date="24"/>
+          <day ordinal="31" name="Tuesday" date="25"/>
+          <day ordinal="32" name="Wednesday" date="26"/>
+          <day ordinal="33" name="Thursday" date="27"/>
+          <day ordinal="34" name="Friday" date="28"/>
+          <day ordinal="35" name="Saturday" date="29"/>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30"/>
+          <day ordinal="37" name="Monday" date="31"/>
+          <day ordinal="38" name="Tuesday" date=""/>
+          <day ordinal="32" name="Wednesday" date=""/>
+          <day ordinal="40" name="Thursday" date=""/>
+          <day ordinal="41" name="Friday" date=""/>
+          <day ordinal="42" name="Saturday" date=""/>
+        </week>
+      </month>
+    </year>
+  </calendar>
+</calendars>

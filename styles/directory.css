@@ -1,0 +1,332 @@
+@charset "utf-8";
+body{	
+background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(255,255,255,0) 97%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(255,255,255,0) 97%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(255,255,255,0) 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+.cursive, h1, h2, h3, h4, .calCol{
+	font-family: 'Kaushan Script', cursive;
+}
+/*
+.note{background: #FFF; font-color: #6B6B6B; }
+.note:before{content: 'Note: '}
+*/
+.btn {
+  background: #f5fce8;
+  background-image: -webkit-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: -moz-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: -ms-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: -o-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: linear-gradient(to bottom, #f5fce8, #edfcbb);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 1px 3px #ccbecc;
+  -moz-box-shadow: 0px 1px 3px #ccbecc;
+  box-shadow: 0px 1px 3px #ccbecc;
+  font-family: Arial;
+  color: #7892fa;
+  font-size: 16px;
+  font-weight:bold;
+  padding: 7px 12px 7px 12px;
+  border: solid #a5e5fa 2px;
+  text-decoration: none;
+  float:left;
+}
+
+.btn:hover {
+  background: #FFFFFF;
+  text-decoration: none;
+  cursor:pointer;
+}
+.btn{margin-left: 12px;}
+.btn:first-child{margin-left: 5px;}
+.smBtn {
+   background: #f5fce8;
+  background-image: -webkit-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: -moz-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: -ms-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: -o-linear-gradient(top, #f5fce8, #edfcbb);
+  background-image: linear-gradient(to bottom, #f5fce8, #edfcbb);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 1px 3px #ccbecc;
+  -moz-box-shadow: 0px 1px 3px #ccbecc;
+  box-shadow: 0px 1px 3px #ccbecc;
+  font-family: Arial;
+  color: #7892fa;
+  font-size: 13px;  
+  padding: 2px 6px 2px 6px;
+   border: solid #a5e5fa 2px;
+  text-decoration: none;
+  font-weight:bold;
+  float:none;
+}
+
+.smBtn:hover {
+  background: #FFFFFF;
+  text-decoration: none;
+  cursor:pointer;
+}
+.btn:focus,.smBtn:focus{
+  	outline: none !important;
+}
+.alertStyle{	
+	background:#CF0003 !important;color:#FFF !important;	
+	 border: solid #7C090B 2px;
+}
+.alertStyle:hover{	
+	background:#FC9500 !important;	
+}
+select, option, .formLabel, input{
+	color: #8ac72d;
+	font-size: 16px;	
+}
+.formLabel{
+	color: #7EAB26;
+	font-size: 17px;
+}
+h1{
+	font-size: 39px;
+	line-height: 47px;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.title{
+	text-align:center;
+	color: #989898;
+	text-shadow:#414141;
+}
+
+.calCol{
+	text-align:center;
+	/*background: #E0E7AF;*/
+	background: #FFF;
+	height: 30px;
+	vertical-align:middle;
+	border: #C0D1A9 1px solid;	
+}
+
+#calWrap, .content-row{
+	width: 78%;
+	margin-top: 0px;
+	margin-left: auto; margin-right:auto;
+}
+#calWrap{
+	margin-bottom: 30px;
+}
+.content-row{
+	padding: 10px;	
+}
+.row, #calFooter{
+	float:left;
+	width:100%;
+}
+.row {
+	height: auto;
+	min-height: 31px;
+	font-size: 16px;
+	line-height: 23px;
+	color: #236FBF;
+	border-collapse:collapse;
+}
+
+
+
+#calFooter{
+	font-size: 13px;
+	text-align:right;
+	color: #FFF;
+	background: #8ac72d;
+	font-style:italic;
+	box-sizing:border-box;
+	padding: 6px 12px;
+	border-radius: 0px 0px 5px 5px; /* top left, top right, bottom right, bottom left */
+	border: #8ac72d 1px solid;
+	margin-top: 18px;
+}
+#message{
+	border-radius: 5px;
+	border: 3px #BADB3F solid;
+	background:#E0EFB4;
+	color: #82282A;
+	font-size: 17px;
+	text-align:center;
+	display:none;
+	height:0px;
+	position:absolute;
+	top: 120px;
+	width:31% !important;
+	left: 33%;
+	padding:0px;
+}
+#message p{
+	line-height: 23px;
+}
+.fifty-pct{	
+	display: inline;
+	max-width: 48%;
+	width: auto !important;
+	margin-right: 2%;
+	box-sizing:border-box;
+	float:left;
+}
+
+.hide{
+	display:none !important;
+}
+
+@page {
+  size: A4, landscape;
+  font-size:  0.75pt;
+}
+@page :left {
+  margin-left: 3cm;
+}
+@page :right {
+  margin-left: 4cm;
+}
+@page :top-right {
+    content: "Page " counter(page);
+ }
+h1 { 
+  string-set: pageTitle content(); 
+}
+@page :right {
+  @top-right {
+    content: string(pageTitle);
+    margin: 30pt 0 10pt 0;
+    font-size: 8pt;
+  }
+}
+@page :img{
+	display:none;	
+}
+/*EFFECTIVELY HIDES WEEKENDS IN THE CALENDAR 
+/* if you hide weekends again, remember to set width from 14.2% to 19.88% on .empty, .date, .calCol in this file.
+#headerDays > div:first-child, #headerDays > div:last-child, .month > .row > div:first-child, .month > .row > div:last-child{
+	visibility:hidden;
+	width:0%;
+	display:none;
+}
+*/
+
+#wait{
+	top: 33%;
+	left: 52%;
+	position:absolute;
+	z-index: 999999;
+}
+#reschedule{
+	width: 110px;
+	color: #0E43AF;
+	background-color:#EBFF5D;
+}
+/***** TOOL TIP ****
+
+used like:
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+*********/
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #029500;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/* hover shows js trigger edit button on each job entry -- allow a single left click to show context menu. */
+/*li.lineEntry:hover:after {
+	
+	content: '<img id="OpenMenu" style="padding-left: 8px" src="../assets/pencil.png" />';
+	
+	}*/
+.row{
+	border-width: 0 1px 1px 1px;
+	border-color:aquamarine;
+}
+.row:nth-child(odd) {background: #E3EEF0}
+.sixt{	
+	width:15%;	
+}
+.sevent{
+	width:17.8%;
+}
+.fift{
+	width:14%;
+}
+.sixt,.fift,.sevent
+{
+	box-sizing:border-box;
+	padding: 5px;
+}
+label.sixt{
+	display:inline-block;
+}
+.seventy{	
+	width:70px;
+}
+.eighty{	
+	width:80px;
+}
+.fifty{
+	width:50px;
+	
+}
+.sixty{
+	width:60px;
+	
+}
+.inline{
+	display:inline-block;
+}
+.inline,input{overflow: hidden}
+.ghosted, .ghosted .p{
+	color: #8AC0A3 !important;
+}
+#topHeaders{	
+	border-top: #C0D1A9 solid 3px;
+	padding-top: 10px;
+	margin-top: 10px;	
+	background: #FFF !important;	
+	line-height: 30px;
+	font-size: 22px !important;
+	font-weight:bold !important;
+	vertical-align: middle;
+	color: #B4BCC3;
+	box-sizing: border-box;
+}
+#topHeaders .inline{
+	border-width: 0 1px 1px 0;
+	border-color:#E0E0E0;	
+}
+#pageTitle{color:#1889B8}
+#btnEditGroup{padding: 6px 0; box-sizing: border-box;}
+

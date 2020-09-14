@@ -1,0 +1,47 @@
+/*pdf.css*/
+@page :right {
+	margin-top: 3cm;
+	margin-left: 4cm;
+	margin-right: 4cm;
+	margin-bottom: 4cm;
+	header: html_myHeader;
+}
+input {display:none !important;}
+
+#t11,.unassigned,#unassigned,.ic-flag{	
+	background-color: #E1E481 !important;
+}
+.ic-flag{color:#D71E21 !important;}
+.ic-i-crane,.ic-i-ret-trip,.ic-i-comp-inv,.ic-i-comp-alt,.ic-users{color: #0d58a1 !important;background-color:#FFFFFF !important}
+.ic-ups{color: #4f3605 !important;}
+.ic-p-appr,.ic-p-inf,.ic-p-insp-appr,.ic-p-insp-req { 
+  color: #0f8040 !important;
+	background-color:#FFFFFF !important;
+}
+.ic-asterisk{color: #FFFFFF !important}
+
+.date, .calCol, .empty{
+	width: 13.6% !important;
+	float:left;	
+	padding: 2px;	
+}
+.iconrow, .iconrow li, ol,ul{
+	list-style-type: none !important;
+	list-style-image: none;
+	list-style: none;
+}
+
+#teams .row{
+    box-sizing: border-box;
+    border-collapse: collapse;  
+    height: auto;
+    float: left;
+    width: 100%;
+}
+.iconrow{
+	width:10.5%;margin-left: 11px; display:inline-block; margin-top: 0px;
+}
+.iconrow:first-child{margin-left:0px;}
+
+
+

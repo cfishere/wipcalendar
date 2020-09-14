@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.nav .nav-container{
+    margin: 0 auto;
+}
+nav a{
+    color: #fff;
+}
+nav {
+    margin: 0px;
+    background-color: #FFF;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+
+}
+nav ul li{
+    display: block;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+nav ul li:hover:nth-child(1n+2) {
+	background-color: #E7EDE8;
+}
+nav a{
+    display:block;
+    padding:0 10px; 
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+nav a:hover{
+    background:#E7F1BA;
+    color: #000;
+    text-decoration: none;
+}
+/*flyout UL*/
+nav ul ul{
+    visibility: hidden;
+    position: absolute;
+    top: 90px;
+    opacity:0;
+  	transform: translate(0,90);
+  	transition:all 0.5s ease-in-out;
+  	left:100px;
+	
+}
+nav ul li:hover > ul{
+    visibility: visible;
+    opacity:1;
+	
+
+}
+nav #ulContextMenu > li > ul {
+	
+	min-width: 160px;
+	max-width: 270px;
+	width:auto;
+}
+nav ul li:hover > ul{ 
+  top: -25px;  
+  transform: translate(12px,48px); 
+  -webkit-transform: translate(12px,48px); /** Chrome & Safari **/
+  -o-transform: translate(12px,48px); /** Opera **/
+  -moz-transform: translate(12px,48px); /** Firefox **/
+  left:111px;
+	
+}
+
+nav ul li ul li{
+	
+	border-bottom: #32C1EC dotted 1px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	
+}
+nav ul li ul li:hover{
+	background-color: #F4F8E9;
+}
+
+/* Fisrt Tier Dropdown 
+nav ul ul li {
+    width:170px;
+    float:none;
+    display:block;
+    position: relative;
+}*/
+/* Second, Third and more Tiers 
+nav ul ul ul li {
+    position: relative;
+    top:-60px; 
+    left:170px;
+}*/
+.nav-container {
+	width: 270px;
+}
+
+.nav-container{
+	margin-right: auto;
+	margin-left: auto;
+	*zoom: 1;
+}
+.nav-container:before,
+.nav-container:after
+ {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+
+.navbar .nav-container {
+	width: auto;
+}
+.nav-container {
+	background-color: #fff;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
+	
+	/*-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.05);*/
+}
+

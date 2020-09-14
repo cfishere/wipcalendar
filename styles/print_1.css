@@ -1,0 +1,198 @@
+/* version 1.6 Jan 10, 2020 */
+/*
+html *{
+	display:none;	
+}*/
+.hidePrint, img.modalImg, .hide, .hide *{
+	display:none !important;	
+	border:none;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display:inline-block;
+}
+.calCol,span#date,span#curTime,.edit,#mo,#yr,.date,.day,.edit *,.empty,.edit li{display:inline-block;}
+span#yr::before{content:"  "; margin-left: 5px;}
+/*display icomoon stuff
+*/
+i[class^="ic-"], .box-label i, .due{display:inline;}
+.ic-asterisk{color: #FFFFFF !important; background-color: #007F16 !important;}
+#pageTitle,#weeks,.calRow,#topHeaders,body,h1,#headerDays,.month,#icons,#icons *{
+	
+	display:block;
+}
+#icons,.j,.p{width:100%; clear:both}
+.due{
+border: #E00E12 solid 2px !important;
+	padding:3px !important;
+}
+.edit{padding:0;margin:0}
+.edit *, .edit,.empty{
+	box-sizing: border-box;
+}
+
+.edit li{margin-left: 6px; margin-bottom: 1px;}
+
+span#date{margin-right: 20px;}
+#calWrap, .content-row{
+	width: 100%;
+	margin-top: 0px;	
+}
+#calWrap{
+	margin-bottom: 30px;
+}
+.calCol{
+	text-align:center;
+	/*background: #E0E7AF;*/
+	background: #FFF;
+	height: 30px;
+	vertical-align:middle;
+	border: #C0D1A9 1px solid;	
+}
+
+.today{
+	
+	border: #8ac72d 2px solid;
+}
+#mo,#yr{	
+	text-align:center;
+	font-size: 14pt; 
+	font-weight:bold;
+}
+.edit *{
+	font-size: 10px;
+}
+
+.yellow-bg li.lineEntry:hover{
+	background:#DBFF95
+}
+/* permit color */
+.p{color:#007F16}
+/* job status color */
+.j{color:#236FBF}
+
+
+ul.edit li{text-align:left}
+#t1,#t2,#t3,#t4,#t6,#t7,#t8,#t9,#t10,#t11,#t12,#t13,#t14,#t15,#t16,#t17,#t18,#t19,#t20,#t21,#t22,.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8,.t9,.t10,.t11,.t12,.t13,.t14,.t15,.t16,.t17,.t18,.t19,.t20,.t21,.t22{
+	 font-weight: bold;
+}
+
+#t1,.t1{color:#B92426;}
+#t2,.t2{color:#510FBC;}
+#t4,.t4{color:#BCB82A;}
+#t5,.t5{color:#000000}
+#t6,.t6{color:#E3A201}
+#t3,.t3{color:#52a815}
+/* UPS Brown */
+.ic-ups, #t10, .t10{color:#6E4503}
+#t7,.t7{color:#0064FF}
+/* crimson #t7,.t7{color:#801214} */
+/* dark blue */
+#t8,.t8{color:#000EAE}
+#t9,.t9{color:#F218F8}
+#delete{color:#C90D10; background-color:#FFFFFF !important}
+/*#t10,.t10{color:}*/
+/*#t3,.unassigned{color:#000}*/
+#unassigned,.unassigned,#t11{background:#FCFFA1;}
+/*.unassigned:before{
+	content: '! ';
+	font-weight: bold;	
+	color: #CC0A0D;
+	padding-left: 3px;
+}*/
+.hold:before /* stop sign */, .t5/* UPS */ { /* if there is any ! or other content before the list tag contents, remove it. */
+	content: '';		
+}
+/*
+.hold_small, .hold {
+	padding-left: 20px;
+	background-image:url(../assets/stop_sign.png);	
+	background-repeat:no-repeat;
+	background-position: 2px 2px;
+	border: #E00E12 solid 1px;
+}
+.hold_small{
+	padding-left: 18px;
+	background-image:url(../assets/small_stop_sign.png);
+	background-position: 1px 0px;	
+	color: #67593C;
+}
+*/
+ 
+
+
+#t5{
+	/*color: #52A815;*/
+	background: #FFF;
+	font-weight: bold;
+}
+
+.completed{
+	background:#A1E35D !important;
+	/*color: #FFF; remain the team color */
+	font-weight: bold;	
+	border:none;	
+	
+}
+.date{
+	border: #E5E5E5 1px solid;
+	margin-bottom: 3px;
+}
+
+.date, .calCol, .empty{
+	width: 14.28%;
+	float:left;	
+	padding: 3px;	
+}
+#curTime{
+	padding-left:12px;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.headerDays, .calCol, .calRow, .empty, .today, .day, .date {
+    box-sizing: border-box;
+}
+.calRow {
+    border-collapse: collapse;
+    color: #236fbf;
+    font-size: 16px;
+    height: auto;
+}
+#headerDays, .calRow, #weeks, #calFooter {
+    float: left;
+    width: 100%;
+}
+.iconrow{
+	margin-left: 16px; float:left; margin-top: 12px;
+}
+.iconrow:first-child{margin-left:0px;}
+.icon-box{
+	display:inline; float:left; border: 2px #eee solid; width: 11px; height: 11px; margin-top: 2px; margin-left: 20px;
+}
+.b1{margin-left:0px}
+.box-label{
+	margin-left: 8px; display:inline; float:left; font-size: 15px; font-weight: bold; line-height: 20px;
+}
+.unassigned{font-weight:normal !important; color:#554B44 !important; }
+.b1{background-color:#B92426}.b2{background-color:#510FBC}.b3{background-color:#000000}.b4{background-color:#E3A201}.b5{background-color:#6E4503}.b6{background-color:#0064FF}.b7{background-color:#000EAE}.b8{background-color:#F218F8}.b9{background-color:#000000}.b10{background-color:#525252}
+input[type="checkbox"]{
+	/*visibility:hidden;*/
+	display:none !important;
+}
+/* modal printing */
+#modal, #modal *, #modal li.lineEntry{
+	font-size: 16px !important;
+}
+#modal button, #modal img.modalImg {display:none !important; visibility:hidden !important; width:0px;}
+#printBody #modal *{
+	font-size: 16px;
+}

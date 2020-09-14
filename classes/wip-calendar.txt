@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+[class^="ic-"], [class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  height:23px;
+	width:22px;
+  padding-right: 2px;
+
+  /* Better Font Rendering =========== */
+ 
+}
+
+.ic-ups {	
+	background-color: rgba(255,255,255,0);
+	background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-ups.png") !important;
+	background-repeat: no-repeat !important;
+	background-size: 23px 22px !important;
+	
+}
+.ic-i-ret-trip { 
+	background-color: rgba(255,255,255,0) !important;
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-ret-trip.png") !important;
+	height:22px;
+	width:23px; 
+}
+.ic-i-comp-inv { 
+	background-color: rgba(255,255,0,0.5) !important;
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-comp-inv.png") !important;
+	background-size: 23px 22px !important;
+}
+.ic-i-comp-alt { 
+	background-color: rgba(255,255,0,0.5) !important;
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-comp-alt.png") !important;
+	padding:12.5px;
+}
+.ic-i-crane { 
+	background-color: transparent !important;
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-crane.png") !important;
+	padding:12.5px;
+}
+.ic-p-appr { 
+	background-color: transparent !important;
+ background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-appr.png") !important;
+	height:22px;
+	width:23px; 
+}
+.ic-p-inf { 
+	background-color: transparent !important;
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-inf.png") !important;
+	height:22px;
+	width:23px; 
+}
+.ic-p-insp-appr { 
+	background-color: transparent !important;
+ background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-insp-appr.png") !important;
+}
+.ic-p-insp-req { 
+	background-color: transparent !important;
+ background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-insp-req.png") !important;
+	height:22px;
+	width:23px; 
+}
+.ic-user {
+	 background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-insp-req.png") !important;
+	height:22px;
+	width:23px; 
+}
+.ic-flag {
+	background-color: transparent !important;
+	 background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-flag.png") !important;
+	height:22px;
+	width:23px; 
+}
+.ic-cog {
+	background-color: transparent !important;
+	 background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-cog.png") !important;
+	height:22px;
+	width:23px; 
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<div style="max-width: 800px; margin: 30px auto; font-size:16px; line-height: 27px;">
+	<h1 style="text-align: center;color:#4281BC; font-size: 38px; line-height: 49px">Importing Data from CASper to Update the WIP Calendar Application</h1>
+	<p>You will export a CASper report, save it in Excel as a .csv file, and then import the file into the WIP Calendar.</p>
+	<h3 style="text-align: center;color:#4281BC">What You Will Need</h3>
+	<ol style="margin-left:70px">
+		<li>Access to CASper for the Company you want to update.</li>
+		<li><strong>Admin</strong> access to the WIP Calendar</li>
+		<li>
+		  An Internet Connection
+		</li>
+		<li>
+		  FTP Access (optional).  See a Web Team Dept Member for FTP assistance.
+		</li>
+	</ol>
+	<br/><h1 style="text-align: center;color:#4281BC; font-size: 38px; line-height: 49px">BEFORE YOU PROCEED</h1>
+	<p><strong>Make a BACKUP</strong> of the file you will be writing to during the update process, using FTP.  The .xml file you will be updating is located in the following remote directory on our web host server:
+		calendar/models/.  And the name of each company xml file that you could update are as follows:<br/>
+		<ul>
+			<li>csc.xml</li>
+			<li>boy.xml</li>
+			<li>jg.xml</li>
+			<li>mar.xml</li>
+			<li>out.xml</li>
+	</ul>
+	<br/>
+	A Backup of each xml models file should be FTP downloaded to X Drive at wwwroot\customsigncenter.com\calendar\models\backups\yesterday\ (Saving Yesterday's Calendar in case something goes wrong)<br/>
+	
+	<div style="color:#35BF74;font-size: 18px;">
+	<p><strong>STEP 1</strong>: After backing up the remote xml files, export a csv file, by logging into CASper and opening the Custom Sign Center company profile.<br/><br/>
+		<strong>STEP 2</strong>: Open REPORTS from the main panel, and select WIP Calendar CSV Report.<br/><br/>
+		Select the Report type as "Due Date", and for the report period, choose dates 1 month before and 2 months after the current date.<br/><br/>
+		<strong>STEP 3</strong>: Save the report as a "Comma Delimited Report" .csv, using the File->Save As menu in Excel.  (Save it to your local hard drive).</div><br/><br/>
+	<pre>-- Close CASper; Go Online to http://customsigncenter.com/calendar and login with admin credentials.<br/>If you do not see the large "IMPORT CSV" button, you are not logged in as an Administrator.<br/>Speak with Judy, Sam, or Tabitha to see if you can use their credentials --</pre><br/><br/>
+	<div style="color:#35BF74;font-size: 18px">
+		<strong>STEP 4</strong>: On the csv import utility page, <span style="color:red"><strong>SELECT THE CORRECT COMPANY</strong></span> from the dropdown.  <span style="color:blueviolet">( </span><strong><span style="color:red">FAILURE</span></strong> to select the correct company will result in all of the jobs from one company saving into the wrong company calendar.  <u>BAD</u>.  You will need to go to the calendar view, search for and delete each job manually, and then save the calendar. <span style="color:blueviolet">)</span>&nbsp; SUMMARY: Selecting the incorrect company will import multiple job records into the wrong calendar.  Avoid that!<br/><br/>
+		<strong>STEP 5</strong>: Click the Button "Choose Files" to select the .csv file you saved from CASper.<br/><br/>
+		<strong>STEP 6</strong>: (Final Step)  Click button "Import CSV to Calendar".  See *NOTE below. This will (a) upload the selected file to the remote server, and (b) search through the entire Calendar, only adding in csv data for jobs that (1) do not already exist somewhere, or (2) do exist AND are marked "unassigned" AND are on a different date than its corresponding data in the csv.  If there is a date-conflict for unassigned jobs, the calendar's job is deleted, and the CASper update's job is written into the app at the appropriate date. *NOTE: If  your csv filename matches a previously imported filename, you will see a warning at the bottom of the import page. You will see a &quot;DELETE&quot; file link. Click that to remove the duplicate-named file and retry uploading your CASper csv.<br/><br/>
+		<strong>STEP 7</strong>: (Optional) It is strongly encouraged to now backup the updated version, but do not overwrite "yesterdays" version.  FTP download your changed xml files to x:\wwwroot\customsigncenter.com\calendar\models\backups\ You now have a backup prior to the update (Yesterday) and a backup including your new updates (Backup).</div></p>
+		<br/><br/>
+		Note: If you try to upload a csv file twice (or a file with the same name), you will be stopped by a warning, and the import app will ask you if you want to delete the remote file and try again.  Click "delete" and upload the file to complete the import.<br/>
+		
+		<br/>
+	<h1 style="text-align: center;color:#4281BC; font-size: 38px; line-height: 49px">What does the Import Do? Additional Reading:</h1>
+	<p>During import, ALL assigned jobs are skipped. An assigned job has been modified in some way by a calendar admin. All csv imported jobs are searched in the calendar, and if not found in the date cell matching the csv due date, then it is search for over the entire calendar. If found, and if &quot;unassigned&quot;, then the unassigned job is deleted, and the job is written to the calendar on the due date CASper provided in the csv report.<br/><br/>You could run the same csv import several times in a row and it will not make any changes at all after the first import.</p>
+	<h2 style="text-align: center;color:#4281BC; font-size: 27px; line-height: 36px">What if Something Goes Wrong?</h2>
+	<p>If you refresh or hit the submit button on the calendar you updated and the calendar does not fully load, there is a problem with the updated XML file (e.g., the csc.xml file).  This may occur 1 in 100 times... on very rare occasions.  I have only had this occur when the .csv file had corrupt data in a field, usually the date field is &quot;out of scope&quot;--meaning it has a year like 2043. Bad dates interrupt the importation process. This happens because for each year, date and month, the import script has to locate a corresponding node representing each.  If it can only find a year node with a value of "2018", it will probably only do a partial import and stop when it gets to the corrupted csv record.</p><br/><br/>
+	<strong>Calendar Will Not Display Correctly after My Update--Fix It in 4 steps:</strong>
+<ol>
+	    <li> FTP Uploading to the &quot;/models&quot; directory the backup XML file you saved in the yesterday folder prior to your failed csv import.  If you did not save that, then you will have to use the old version from the models/backup folder, which <strong>does not include all of the changes the WIP admin made the day before</strong>.  They will not be happy toward you when you delete all their hard work..</li>
+		<li>Reload the calendar.  See if it is now loading correctly.</li>
+		<li>Open the local csv with excel and examine, particularly, the date column to ensure these are within the date range of the online WIP Calendar.</li>
+		<li>To Do the Import Again: Fix or delete any malformed records in the csv.  Save and upload the file again using importcsv.</li>
+	</ol>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".gitignore" server="70.39.250.251" local="131376144346469753" remote="131375080800000000" Dst="2" />
+<file name=".jshintrc" server="70.39.250.251" local="131376144357251975" remote="131375080800000000" Dst="2" />
+<file name=".travis.yml" server="70.39.250.251" local="131376144362408054" remote="131375080800000000" Dst="2" />
+<file name="CHANGELOG.md" server="70.39.250.251" local="131376144371783536" remote="131375080800000000" Dst="2" />
+<file name="CONTRIBUTING.md" server="70.39.250.251" local="131376144374908699" remote="131375080800000000" Dst="2" />
+<file name="Gruntfile.js" server="70.39.250.251" local="131376144385846841" remote="131375080800000000" Dst="2" />
+<file name="LICENSE.md" server="70.39.250.251" local="131376144389128167" remote="131375080800000000" Dst="2" />
+<file name="README.md" server="70.39.250.251" local="131376144398816162" remote="131375080800000000" Dst="2" />
+<file name="bower.json" server="70.39.250.251" local="131376144402253919" remote="131375080800000000" Dst="2" />
+<file name="default.css" server="70.39.250.251" local="131376144412879460" remote="131375080800000000" Dst="2" />
+<file name="default.date.css" server="70.39.250.251" local="131376144418348418" remote="131375080800000000" Dst="2" />
+<file name="legacy.js" server="70.39.250.251" local="131376144428036417" remote="131375080800000000" Dst="2" />
+<file name="package.json" server="70.39.250.251" local="131376144519916073" remote="131375080800000000" Dst="2" />
+<file name="picker.date.js" server="70.39.250.251" local="131376144541456588" remote="131375080800000000" Dst="2" />
+<file name="picker.js" server="70.39.250.251" local="131376144541612678" remote="131375080800000000" Dst="2" />
+<file name="picker.time.js" server="70.39.250.251" local="131376144542397638" remote="131375080800000000" Dst="2" />
+<file name="version-bump.js" server="70.39.250.251" local="131376144542397638" remote="131375080800000000" Dst="2" />
+<file name="version-commit.js" server="70.39.250.251" local="131376144542674566" remote="131375080800000000" Dst="2" />
+</dwsync>

@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Calendar PDF</title>
+
+    
+	
+	<link href="http://customsigncenter.com/calendar/styles/print_1.css" rel="stylesheet" />
+	<link href="http://customsigncenter.com/calendar/styles/pdf.css" rel="stylesheet" />
+	<link href="http://customsigncenter.com/calendar/assets/icomoon/style.css" rel="stylesheet" />
+
+</head>
+<body style="border:0;margin:0;">
+<h1 id="pageTitle" class="cursive font-effect-3d-float" style="margin: 6px auto;text-align:center;color:#000">Custom Sign Center WIP Calendar</h1><span id="date">1/17/2020</span><span id="curTime">9:08 AM</span><div class="container-fluid clearfix" id="checkboxWrapper">
+	    		  <div name="teamdata" id="teamSelection"> <!--js id to show/hide ticked checkbox assignments-->
+				<div class="row">		   
+				    <div class="iconrow">      
+					    <!--chkbx attrib is used to show / hide jobs having matched css class (i.e. t21) -->    	
+						               
+						<div class="box-label due"> Overdue</div>
+					</div>
+				</div><!--/row-->
+				
+				<div id="teams"><div class="row"><span style="padding-top:12px;float:left; clear:left">Assignment: &nbsp;</span><div class="iconrow"><div class="box-label t1" id="l1"><li id="t1" class="t1" onclick="jobAssignment(1, this)" option="1">RobertC</li></div></div><div class="iconrow"><div class="box-label t2" id="l2"><li id="t2" class="t2" onclick="jobAssignment(2, this)" option="2">Ali</li></div></div><div class="iconrow"><div class="box-label t3" id="l3"><li id="t3" class="t3" onclick="jobAssignment(3, this)" option="3">Mary</li></div></div><div class="iconrow"><div class="box-label t5" id="l5"><li id="t5" class="t5" onclick="jobAssignment(5, this)" option="5">Donald</li></div></div><div class="iconrow"><div class="box-label t6" id="l6"><li id="t6" class="t6" onclick="jobAssignment(6, this)" option="6">SubInstall</li></div></div><div class="iconrow"><div class="box-label t7" id="l7"><li id="t7" class="t7" onclick="jobAssignment(7, this)" option="7">CSC Transp</li></div></div><div class="iconrow"><div class="box-label t8" id="l8"><li id="t8" class="t8" onclick="jobAssignment(8, this)" option="8">Shipping</li></div></div><div class="iconrow"><div class="box-label t9" id="l9"><li id="t9" class="t9" onclick="jobAssignment(9, this)" option="9">Cust PU</li></div></div><div class="iconrow"><div class="box-label" id="l10"><li id="ups" class="t10" onclick="jobAssignment('ups', this)" option="ups">&nbsp;<i class="ic-ups"></i>UPS</li><!--1--></div><!--2--></div><div class="iconrow"><div class="box-label" id="l11"><li id="unassigned" class="t11" onclick="jobAssignment('unassigned', this)" option="unassigned">&nbsp;<i class="ic-flag"></i>UnAssigned</li><!--1--></div><!--2--></div></div><div class="j row"><span style="padding-top:12px;float:left; color:#0d58a1;">Job Status: &nbsp;</span><div class="iconrow"><div class="box-label" id="l12"><li id="ic-i-ret-trip" onclick="jobAssignment('trip', this)" option="trip"><i class="ic-i-ret-trip"></i> Service</li></div></div><div class="iconrow"><div class="box-label" id="l13"><li id="13" onclick="jobAssignment('crew', this)" option="crew"><i class="ic-users"></i> 2-Man</li></div></div><div class="iconrow"><div class="box-label ic-i-comp" id="l14"><li id="14" onclick="jobAssignment('crane', this)" option="crane"><i class="ic-i-crane"></i> 100ft Crane</li></div></div><div class="iconrow"><div class="box-label" id="l15"><li id="15" onclick="jobAssignment('parts', this)" option="parts"> <i class="ic-cog"></i> Part Needed</li></div></div><div class="iconrow"><div class="box-label" id="l16"><li id="16" onclick="jobAssignment('comp', this)" option="comp"><i class="ic-i-comp-alt"></i> Ready to Invoice</li></div></div><div class="iconrow"><div class="box-label" id="l17"><li id="17" onclick="jobAssignment('inv', this)" option="inv"><i class="ic-i-comp-inv"></i> Collect</li></div></div></div><div class="p row"><span style="padding-top:12px;float:left;color:#0f8040">Permit Status: </span><div class="iconrow"><div class="box-label" id="l18"><li id="18" onclick="jobAssignment('info', this)" option="info"><i class="ic-p-inf"></i> Need Info</li></div></div><div class="iconrow"><div class="box-label" id="l19"><li id="19" onclick="jobAssignment('inspr', this)" option="inspr"><i class="ic-p-insp-req"></i> Insp. Req'ed</li></div></div><div class="iconrow"><div class="box-label" id="l20"><li id="20" onclick="jobAssignment('inspa', this)" option="inspa"><i class="ic-p-insp-appr"></i> Insp. Appr'd</li></div></div><div class="iconrow"><div class="box-label" id="l21"><li id="21" onclick="jobAssignment('pappr', this)" option="pappr" title="Prmt Completed or Not Required"><i class="ic-p-appr"></i> Done/Not Needed</li></div></div><div class="iconrow"><div class="box-label" id="l22"><li id="22" onclick="jobAssignment('prmt', this)" option="prmt"><i class="ic-asterisk"></i> Prmt Only</li></div></div></div></div><!--/.row /#teams-->
+				</div>
+			 </div><span class="cursive" id="mo" oridnal="" ordinal="1">January</span><span class="year cursive" id="yr" ordinal="2020">2020</span><div id="headerDays" class="clearfix">
+              <div class="calCol morPad bold weekend">SUN</div>          
+              <div class="calCol morPad bold">MON</div>
+              <div class="calCol morPad bold">TUE</div>
+              <div class="calCol morPad bold">WED</div>          
+              <div class="calCol morPad bold">THU</div>
+              <div class="calCol morPad bold">FRI</div>
+              <div class="calCol morPad bold weekend">SAT</div>
+         </div><div class="month hide" ordinal="5" yr="2019"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="6" yr="2019"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="empty" ordinal="4"></div><div class="empty" ordinal="5"></div><div class="empty" ordinal="6"></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="35" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div></div><div class="calRow clearfix" id="row6"><div class="date" ordinal="36" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="empty" ordinal="37"></div><div class="empty" ordinal="38"></div><div class="empty" ordinal="39"></div><div class="empty" ordinal="40"></div><div class="empty" ordinal="41"></div><div class="empty" ordinal="42"></div></div></div><div class="month hide" ordinal="7" yr="2019"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="date" ordinal="2" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="3" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="33"></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="8" yr="2019"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="empty" ordinal="4"></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="35" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div></div></div><div class="month hide" ordinal="9" yr="2019"><div class="calRow clearfix" id="row1"><div class="date" ordinal="1" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="2" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="3" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="empty" ordinal="31"></div><div class="empty" ordinal="32"></div><div class="empty" ordinal="33"></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="10" yr="2019"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="date" ordinal="3" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="11" yr="2019"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="empty" ordinal="4"></div><div class="empty" ordinal="5"></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="35" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div></div></div><div class="month hide" ordinal="12" yr="2019"><div class="calRow clearfix" id="row1"><div class="date" ordinal="1" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="2" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="3" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="26"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" style="">  	 <span id="job_111089"><i class="ic-flag"></i><i class="ic-p-appr"></i>111089</span> Monro/TC 232 Athens OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (2) SETS OF CHANNELS BY OTHERS </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1-7-2020 = MISSING (1) SET OF "CENTER" CHANNEL LETTERS FROM OTHERS TO COMPLETE ASAP !!!!! </span>
+</li></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="32"></div><div class="empty" ordinal="33"></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month" ordinal="1" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="date" ordinal="4"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"><li class="lineEntry" title="Right-Click for Options" style="">  	 <span id="job_110941-1"><i class="ic-i-comp-alt"></i>110941-1</span> Wendy's Site #11311 Dale, IN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PERMITS ONLY </span>
+</li></ul></div><div class="date" ordinal="5"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"><li class="lineEntry t9" title="Right-Click for Options" style="">  	 <span id="job_111257"><i class="ic-i-comp-alt"></i>111257</span> Monro, Inc/MT Various locations<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2 BANNERS </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: READY FOR PICK UP NOW IN SHIPPING DEPT. 3200 </span>
+</li></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="9"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" style="">  	 <span id="job_111105-1"><i class="ic-flag"></i>111105-1</span> Laurels of Columbus West - Columbus, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 3- PERMITS ONLY</span>
+</li></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="13"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_111367">111367</span> Prime Storage (NC12) - 5002 US-70 New Bern, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BANNERS = SHIP TO OUR SUB FOR INSTALL</span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_111369">111369</span> Prime Storage (NC14) - Newport, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BANNERS = SHIP TO OUR SUB FOR INSTALL</span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_111378">111378</span> Prime Storage (NC15) - Cedar Point, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BANNERS = SHIP TO OUR SUB FOR INSTALL</span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_111364">111364</span> AZ01 Prime Storage - Phoenix, AZ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BANNERS = SHIP TO OUR SUB FOR INSTALL </span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_111366">111366</span> NC13 Prime Storage - 3403 Neuse Rd. New Bern, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BANNERS = SHIP TO OUR SUB FOR INSTALL </span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_110581"><i class="ic-i-comp-alt"></i>110581</span> Wendy's Site #12950 Hampton, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+</li><li class="lineEntry t6" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_108194"><i class="ic-i-comp-alt"></i>108194</span> Simply Self Storage - Barnegat</li><li class="lineEntry unassigned" title="Right-Click for Options" style="">  <i class="ic-flag"> </i>	 <span id="job_110775-1">110775-1</span> Excutive Office Group, LLC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PERMITS ONLY</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" style="">  	 <span id="job_111184-P"><i class="ic-flag"></i>111184-P</span> CPR - Grove City, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PERMITS ONLY</span>
+</li></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="16"><div class="day">
+						    
+
+						    13</div><ul modalid="d13" class="edit"><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_110976"><i class="ic-i-comp-alt"></i>110976</span> Wendy's Site #01556 Seattle, WA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WANTS TO DELIVER ON 1-16-2020!! </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111139"><i class="ic-i-comp-alt"></i>111139</span> Wendy's Site #04547 Port Hueneme, CA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111095"><i class="ic-p-appr"></i>111095</span> Monro/TC 236 Washington Couthouse, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (3) RACEWAY SETS OF CHANNELS BY OTHERS</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111254">111254</span> WEN #09150  Waldo, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1st STOP = DELIVER TO WALDO JOB SITE ADDRESS!!!  </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111264">111264</span> Marion / Ocala Horse<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2 - PAN FACES </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1st STOP = DELIVER TO WALDO JOB SITE ADDRESS!!! </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_110599-1">110599-1</span> Wendy's Site #01771 St. Augustine, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) NON STD OLD STYLE WP54 FACE MUST USE FULL SIGN PATTERN </span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: = SHIP TO OUTDOOR IMAGES </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111390">111390</span> MARION / Kingsguard Capital<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- BANNER </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111382">111382</span> OUTDOOR / Calrkson-Kissimmee<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1-  ACM</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111318">111318</span> OUTDOOR / Clarkson-Valrico<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2- CHANNEL LETTERS &amp; 2 - FLAT FACES</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111189">111189</span> Outdoor / Clarkson Eyecare Partners</li>
+<li class="lineEntry t7" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111188">111188</span> Outdoor / Clarkson Eyecare Partners</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111272">111272</span> Marion / Culligan Water<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 4- PAN FACES</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_108214"><i class="ic-i-comp-inv"></i>108214</span> Simply Self Storage Land O Lakes, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: = SHIP TO SUB ON THE ORDER </span>
+</li><li class="lineEntry t9" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_110809">110809</span> Victorious Living Church Grove City, OH</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_110599">110599</span> Wendy's Site #01771 St. Augustine, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- NON STD OLD STYLE WP54 FACE = SHIP TO OUR SUB OUTDOOR FOR INSTALL </span>
+</li></ul></div><div class="date" ordinal="17"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"><li class="lineEntry t6 due t21" title="Right-Click for Options" style="">  	 <span id="job_111322-SVY">111322-SVY</span> Wendy's Site #08222 Pittsburgh, PA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SURVEY NEEDED </span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_111280"><i class="ic-i-comp-inv"></i>111280</span> KY09 - Prime Storage Jeffersontown KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BANNERS = SHIP TO OUR SUB FOR INSTALL </span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111093"><i class="ic-p-appr"></i>111093</span> Monro/TC 170 Newark, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (1) RACEWAY SET OF CHANNELS BY OTHERS</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111077-1"><i class="ic-i-comp-alt"></i>111077-1</span> Wendy's Site #07408 Weirton, WV<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" style="">  <i class="ic-flag"> </i>	 <span id="job_111224-P">111224-P</span> The Courtyards at The Beulah Park<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PERMITS ONLY</span>
+</li></ul></div><div class="date" ordinal="18"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"><li class="lineEntry t8 due t21" title="Right-Click for Options" style="">  	 <span id="job_111140">111140</span> TH#7922 Buffalo, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: FLUSH CHANNELS &amp; 5- LED DIRECTIONAL'S  = FOR CUSTOMER PICK UP !!! </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: NEED TO CONFIRM MAY SHIP ALSO .....</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111157">111157</span> Wendy's Site #00861 New Berlin, WI<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE</span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: NEEDS TO BE TO SUB BY OR ON 1-15-2020</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111157-1">111157-1</span> Wendy's Site #00861 New Berlin, WI<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS &amp; CREATIVE PALETTE SIGNS ALSO</span>
+</li>
+<li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_110892"><i class="ic-i-comp-inv"></i>110892</span> JG / First Care Pharmacy<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE FOR CSC TO INSTALL </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MUST BE DONE BY 1-16-2020!!! </span>
+</li>
+<li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111001">111001</span> JG / ITR Manufacturing St. Henry, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY 2- PVC LETTERS TO INSTALL </span>
+</li>
+<li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111197">111197</span> Monro/TC 212 Marysville OH</li>
+<li class="lineEntry t2" title="Right-Click for Options" style="">  	 <span id="job_110765-SVR2">110765-SVR2</span> Flyer's Pizza Grove City, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: ALI TO COMPLETE SERVICE </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_110998-1">110998-1</span> Persona Watertown, SD<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY = (1) RM5200 PAINT KIT &amp; MENU LOUVERS </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111124">111124</span> Wendy's Site #11928 Palmdale, CA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WANTS DELIVERED ON 1-31-20 OF BEFORE ....</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111227">111227</span> CVS #3242 Reading, PA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- CVS POLE COVER</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_108198"><i class="ic-i-comp-inv"></i>108198</span> Simply Self Storage - Trenton, NJ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+</li><li class="lineEntry t10 due t21" title="Right-Click for Options" style="">
+  	 <span id="job_111111"><i class="ic-ups"></i>111111</span> Wendy's Site #01048 San Antonio, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111112"><i class="ic-ups"></i>111112</span> Jonathan Altgilbers Highland, IL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 6 pull pin kits &amp; ballasts &amp; menu parts</span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_108184"><i class="ic-p-inf"></i><i class="ic-i-comp-inv"></i>108184</span> Life Storage Austin, TX<span class="admin-note"> [<i style="color:#f00">sam</i>]: Faces </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SHIP TO OUR SUB FOR INSTALLATION</span>
+</li>
+<li class="lineEntry t6" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111424">111424</span> Persona Watertown, SD</li></ul></div><div class="date" ordinal="19"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111092"><i class="ic-p-appr"></i>111092</span> Monro/TC 238 Mt Vernon OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (3) SETS OF RACEWAY CHANNELS BY OTHERS</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111132">111132</span> Wendy's Site #08845 Kingsland, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WOULD LIKE BY 1-20-20</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111187">111187</span> Strong Electric Miami, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 4 - INT MENUS </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: ORDER NOW CALLS FOR 3 MENUS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111320"><i class="ic-ups"></i>111320</span> Pfefferle Management Appleton, WI<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PVC </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_109748-1"><i class="ic-ups"></i>109748-1</span> Wendy's Site #06418 Renfrew, ON<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) REPLACEMENT RHR POWER SUPPLY CORD ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111440"><i class="ic-ups"></i>111440</span> Prime Storage (AZ01) - Phoenix, AZ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 4- BANNERS TO SHIP = NOTE flags drop shipped by others already.</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111441"><i class="ic-ups"></i>111441</span> Prime Storage Mesa (AZ02) c/o AZ01 Prime Storage<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 4- BANNERS TO SHIP = NOTE flags drop shipped by others already.</span>
+</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_107886-3">107886-3</span> Wendy's Site #08043 Waco, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY = SHIP (1) WP171 RB FACE TO OUR SUB FOR INSTALL</span>
+</li></ul></div><div class="date" ordinal="20"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"><li class="lineEntry t8 due t21" title="Right-Click for Options" style="">  	 <span id="job_111207">111207</span> Clockwork Construction WEN #09086 Los Angeles, CA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li>
+<li class="lineEntry t8 due t21" title="Right-Click for Options" style="">  	 <span id="job_110909-1">110909-1</span> ID ASSOCIATES Dothan, AL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) RM5200 MENU ONLY </span>
+</li>
+<li class="lineEntry t8 due t21" title="Right-Click for Options" style="">  	 <span id="job_111135">111135</span> Treasure State Signs WEN #03475 Three Forks, MT<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111088">111088</span> Kessler Sign Company Zanesville, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1 - 42" old style "E" only </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: = FOR CUSTOMER PICK UP !!! / DO NOT SHIP !!! </span>
+</li>
+<li class="lineEntry t1" title="Right Click for Options" style="">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: JORDAN DICK OFF HERE </span>
+</li><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111090">111090</span> Monro/TC 482 Bexley OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (1) SET RACEWAY CHANNELS BY OTHERS</span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span class="copyof111090">111090 [CONT.] </span> Monro/TC 482 Bexley OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (1) SET RACEWAY CHANNELS BY OTHERS</span>
+</li><li class="lineEntry t2" title="Right-Click for Options" style="">
+  	 <span id="job_110849">110849</span> Reserve at Vinmar Galena, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 41- ACM's on posts to install = NEED TO OUPS </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111194"><i class="ic-i-comp-inv"></i>111194</span> Wendy's Site #04928 Whitesburg, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU ONLY </span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: KIM HAS CC ON FILE FOR $</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111195"><i class="ic-i-comp-inv"></i>111195</span> Wendy's Site #05172 Manchester, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU ONLY</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: KIM HAS CC ON FILE FOR $</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111196"><i class="ic-i-comp-inv"></i>111196</span> Wendy's Site #05613 Pikeville, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU ONLY</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: KIM HAS CC ON FILE FOR $</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111198"><i class="ic-i-comp-inv"></i>111198</span> Wendy's Store #07910 Chapmanville, WV<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU ONLY </span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: KIM HAS CC ON FILE FOR $</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111236">111236</span> Wendy's Site #11170 St. Louis, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111237">111237</span> Wendy's Site #04098 St. Peters, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111240">111240</span> Wendy's Site #11164 St. Charles, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111242">111242</span> WEN #11160  O'Fallon, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111243">111243</span> Wendy's Site #04287 St. Louis, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111244">111244</span> WEN #11161 O'Fallon, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111245">111245</span> Wendy's Site #11169 O'Fallon, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- Straight menu</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111265"><i class="ic-ups"></i>111265</span> Wendy's Site #04961 Ruston, LA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111259"><i class="ic-ups"></i>111259</span> Wendy's Site #11222 Poquoson, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111338"><i class="ic-ups"></i>111338</span> Wendy's Site #09501 Milwaukee, WI<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- SILVER TOWER </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111343"><i class="ic-ups"></i>111343</span> Wendy's Site #07863 Miramar, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107081-2"><i class="ic-ups"></i>107081-2</span> WEN #09502  Sterling Hts, MI<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) SILVER TOWER </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_110332-1"><i class="ic-ups"></i>110332-1</span> Wendy's Site #03589 Conway, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) SILVER TOWER</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111462"><i class="ic-ups"></i>111462</span> Kiddie Academy of Park Ridge<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INFANTS &amp; TODDLERS &amp; SCHOOL AGE SIGNS</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111467"><i class="ic-ups"></i>111467</span> WEN #11347  Plymouth, MA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: (6) LED LIGHTS FOR WENDY'S CANOPIES</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111466"><i class="ic-ups"></i>111466</span> WEN #02962  Elizabethtown, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- 18' CHANGER ARM </span>
+</li><li class="lineEntry t6" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_100329-SVR3">100329-SVR3</span> WEN #11496 Hagerstown, MD</li><li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_108197-1">108197-1</span> Simply Self Storage - Neptune Twp<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY VINYL = SHIP TO OUR SUB FOR INSTALL </span>
+</li></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="23"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"><li class="lineEntry t1" title="Right Click for Options" style="">
+
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: 8AM = INSTALL MEETING WITH JUDY EVERY MONDAY!</span>
+</li>
+<li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111101">111101</span> Wendy's Site #05132 Indianapolis, IN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: STORE PACKAGE = 1st stop</span>
+</li>
+<li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111205"><i class="ic-p-appr"></i>111205</span> Monro/TC 857 Upper Arlington<span class="admin-note"> [<i style="color:#f00">Tab</i>]: ALI TO HELP MILES HERE !!! </span>
+</li>
+<li class="lineEntry t2" title="Right-Click for Options" style="">
+  	 <span class="copyof110849">110849 [CONT.] </span> Reserve at Vinmar Galena, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 41- ACM's on posts to install = NEED TO OUPS </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111277"><i class="ic-i-comp-inv"></i>111277</span> WEN #01322 Cincinnati, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2 - NON STD FACES READING "BREAKFAST"</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111274">111274</span> Wendy's Site #08942 Cromwell, CT<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1-  NON STD EXIT DIRECTIONAL </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111275">111275</span> Wendy's Site #11184 Feeding Hills, MA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1 - 46" replacement round cameo w/ 2" trimcap</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111068">111068</span> Monro/TC 1618 Riverside, CA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111069">111069</span> Monro/TC#1619 Riverside, CA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111071">111071</span> Monro/TC 1620 Upland, CA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111229"><i class="ic-ups"></i>111229</span> WEN #09194  Battle Creek, MI<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_75278-1"><i class="ic-ups"></i>75278-1</span> Wendy's Site #11282 Rockmart, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 3- REPLACEMENT OLD STYLE OVAL CAMEOS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107937-2"><i class="ic-ups"></i>107937-2</span> Wendy's Site #02832 Henderson, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108621-3"><i class="ic-ups"></i>108621-3</span> WEN #04270 Edison, NJ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_109162-1"><i class="ic-ups"></i>109162-1</span> WEN #06427  Ancaster, ON<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- WINVIEW ABS LCD CENTER MENU PANEL </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111225"><i class="ic-ups"></i>111225</span> WEN #00383 Carson City, NV<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111421"><i class="ic-ups"></i>111421</span> Prime Storage (MA18) Salem, MA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: RE SIGN PANELS &amp; FRAME</span>
+</li></ul></div><div class="date" ordinal="24"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_110778"><i class="ic-ups"></i>110778</span> Monro/TC Various Locations<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 60- MORE BANNERS TO SHIP </span>
+</li><li class="lineEntry t2" title="Right-Click for Options" style="">  	 <span id="job_110777">110777</span> CUSTOM SIGN CENTER-CSC Restroom Signs<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 12- PVC RESTROOM SIGNS</span>
+</li><li class="lineEntry t2" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111430">111430</span> CUSTOM SIGN CENTER (WILSON)</li><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span class="copyof111101">111101 [CONT.] </span> Wendy's Site #05132 Indianapolis, IN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: STORE PACKAGE = 1st stop</span>
+</li><li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_110681"><i class="ic-p-appr"></i><i class="ic-i-comp-inv"></i>110681</span> Bright Minds Daycare</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_108986-7">108986-7</span> Wendy's Site #07389 Jacksonville, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) WP25 FACE  </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111295">111295</span> Wendy's Site #12954 Knoxville, TN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_109421-2"><i class="ic-ups"></i>109421-2</span> Wendy's Site #08867 Charleston, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t9" title="Right-Click for Options" style="">  	 <span id="job_111228"><i class="ic-i-comp-inv"></i>111228</span> Marsden's Tropical Vibes<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- DF ILLUM CABINET FOR EXISTING POLE </span>
+</li>
+<li class="lineEntry t9" title="Right-Click for Options" style="">  	 <span id="job_110460"><i class="ic-i-comp-inv"></i>110460</span> Hoyo's Kitchen<span class="admin-note"> [<i style="color:#f00">Tab</i>]: DF ILLUM PROJECTING SIGN </span>
+</li>
+<li class="lineEntry t5" title="Right Click for Options" style="">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: YESCO 2 MAN SERVICE HERE </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">  <i class="ic-flag"> </i>	 <span id="job_111484">111484</span> Kiddie Academy of Katy, TX</li></ul></div><div class="date" ordinal="25"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span class="copyof111101 [CONT.]">111101 [CONT.] </span> Wendy's Site #05132 Indianapolis, IN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: STORE PACKAGE = 1st stop</span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111094">111094</span> Monro/TC 312 Pickerington, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (1) RACEWAY SET OF CHANNELS BY OTHERS</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107493-3"><i class="ic-ups"></i>107493-3</span> WEN #03099 Orangeburg, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111239"><i class="ic-ups"></i>111239</span> The Sign Clinic Mooresville, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107745-1"><i class="ic-ups"></i>107745-1</span> WEN #02152  Chalmette, LA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_106741-1"><i class="ic-ups"></i>106741-1</span> WEN #00856 London, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_109287-SVR2">109287-SVR2</span> Madison Health West Jefferson</li></ul></div><div class="date" ordinal="26"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111076"><i class="ic-p-appr"></i>111076</span> Simply Self Storage - W 10th St</li><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_82905-1">82905-1</span> Wendy's Site #10522 Bluffton, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1 - NON STD PAINTED PAN FACE TO BE INSTALLED </span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111210">111210</span> The Courtyards on Hoover - Grove City, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- STOP SIGN TO INSTALL = NEED TO OUPS </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: LEAVE EXISTING POLE ON SITE BY POOL </span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_108417-3">108417-3</span> Heritage Town Center<span class="admin-note"> [<i style="color:#f00">Tab</i>]: STOP &amp; STRET SIGN TO INSTALL</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111136"><i class="ic-i-comp-inv"></i>111136</span> Wendy's Site #01214 Dewitt, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SMALL SIGN PACKAGE</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107886-4"><i class="ic-ups"></i>107886-4</span> Wendy's Site #08043 Waco, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107988-2"><i class="ic-ups"></i>107988-2</span> WEN #03337  Augusta, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108303-3"><i class="ic-ups"></i>108303-3</span> WEN #12337  Knoxville, TN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108833-2"><i class="ic-ups"></i>108833-2</span> Wendy's Site #12500 Canton, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108869-1"><i class="ic-ups"></i>108869-1</span> WEN #12255 Sugar Land, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_109703-4"><i class="ic-ups"></i>109703-4</span> WEN #12179  Ft. Lauderdale, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_110127-1"><i class="ic-ups"></i>110127-1</span> WEN #00174 Clearwater, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107654-2"><i class="ic-ups"></i>107654-2</span> WEN #11982  McDonough, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107678-1"><i class="ic-ups"></i>107678-1</span> Wendy's Site #04955 Memphis, TN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108441-2"><i class="ic-ups"></i>108441-2</span> Wendy's Site #12636 Seymour, CT<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107282-7"><i class="ic-ups"></i>107282-7</span> Wendy's Site #12330 Kilmarnock, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li></ul></div><div class="date" ordinal="27"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"><li class="lineEntry t1" title="Right Click for Options" style="">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: BOB &amp; HELPER OFF HERE DUE TO SATURDAY INSTALL</span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_106965-1">106965-1</span> Courtyards at Muirfield Ridge<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 14 - ADDRESSES &amp; 2- PVC SIGNS ON POSTS  FOR CSC TO INSTALL = NEED TO OUPS !! </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_110985">110985</span> Wendy's Site #12193 Davenport, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_110823">110823</span> Wendy's Site #12340 Tampa, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111118">111118</span> Wendy's Site #09250 Boynton Beach, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111262">111262</span> Piros Signs WEN #08726 Florissant, MO<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1 - NON STD OLD STYLE ENTER DIRECTIONAL </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111339">111339</span> Caldara &amp; Sons Contracting Inc. - CVS #1192<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- CVS POLE COVER</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111337">111337</span> CVS #6431 Antioch, TN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- CVS POLE COVER</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111385">111385</span> Wendy's Site #11508 Staten Island, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: A LOT OF MENU PARTS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_104973-2"><i class="ic-ups"></i>104973-2</span> WEN #12060 Southport, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107896-3"><i class="ic-ups"></i>107896-3</span> Wendy's Site #12198 Lake City, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108681-2"><i class="ic-ups"></i>108681-2</span> Wendy's Site #02853 Sumter, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_109454-1"><i class="ic-ups"></i>109454-1</span> Wendy's Site #04699 Charlotte, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108796-1"><i class="ic-ups"></i>108796-1</span> WEN #12090 Houston, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_108874-1"><i class="ic-ups"></i>108874-1</span> WEN #11897  Bradenton, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_105045-4"><i class="ic-ups"></i>105045-4</span> Wendy's #00276 Decatur, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_106339-3"><i class="ic-ups"></i>106339-3</span> Wendy's Site #11874 Bellefonte, PA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_106733-1"><i class="ic-ups"></i>106733-1</span> Wendy's Site #02049 Jeffersonville, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_106792-1"><i class="ic-ups"></i>106792-1</span> WEN #04814 Shelby, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_106948-2"><i class="ic-ups"></i>106948-2</span> WEN #02284 Stoughton, MA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107333-4"><i class="ic-ups"></i>107333-4</span> Wendy's Site #00751 Aurora, IL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_107824-1"><i class="ic-ups"></i>107824-1</span> Wendy's Site #05799 Orlando, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY </span>
+</li>
+<li class="lineEntry t9" title="Right-Click for Options" style="">  	 <span id="job_111461">111461</span> The Courtyards at The Beulah Park Grove City, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PVC's , Acrylic , standoffs </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111175-2"><i class="ic-p-inf"></i><i class="ic-ups"></i>111175-2</span> WEN #01267  Albany, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 3 - WINK WALL FRAMES FROM CREATIVE PALETTE</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111508">111508</span> MARION / Guest Parking (Ocala, FL)</li></ul></div><div class="date" ordinal="28"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false">  	 <span id="job_110112">110112</span> Kiddie Academy of Downtown Columbus, OH</li><li class="lineEntry unassigned" title="Right-Click for Options" style="">  <i class="ic-flag"> </i>	 <span id="job_111126-1">111126-1</span> The Courtyards on Hyaland Run<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PERMITS ONLY </span>
+</li></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="30"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111322"><i class="ic-p-appr"></i>111322</span> Wendy's Site #08222 Pittsburgh, PA</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111310">111310</span> OUTDOOR/FC-The Lory of Perimeter<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO WARREN ROBIN SUPPLY IN WARNER ROBINS, GA 31099</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111175">111175</span> WEN #01267  Albany, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111175-1">111175-1</span> WEN #01267  Albany, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS &amp; CREATIVE PALETTE SIGNS ALSO</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111482">111482</span> MARION/Culligan Water (Ocala, FL)<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1-ACM </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_109995">109995</span> Outdoor Images, Inc. Cocoa FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- DF ILLUM GROUND SIGN &amp; 1- FONT</span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SHIP TO OUTDOOR IMAGES</span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111212">111212</span> OUTDOOR / Clarkson-Tampa<span class="admin-note"> [<i style="color:#f00">Tab</i>]: RACEWAY CHANNELS </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SHIP TO OUTDOOR IMAGES</span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111406">111406</span> MARION / U-Haul/1011<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2 - PAN FACES </span>
+</li><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111473">111473</span> Outdoor / Kidz Therapy Zone (Winter Garden, FL)<span class="admin-note"> [<i style="color:#f00">Tab</i>]: vinyls </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111341">111341</span> Wendy's Site #04981 Camden,  SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BRIGHT RED CORRUGATED METAL PANELS , SILVER TRIM , EVO</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111346">111346</span> Wendy's Site #05514 Ft. Mill, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BRIGHT RED CORRUGATED METAL PANELS , SILVER TRIM , EVO</span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111347">111347</span> Wendy's Site #05565 Blythewood, SC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BRIGHT RED CORRUGATED METAL PANELS , SILVER TRIM , EVO </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111348">111348</span> WEN #05012 Charlotte, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: BRIGHT RED CORRUGATED METAL PANELS , SILVER TRIM , EVO</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111349"><i class="ic-ups"></i>111349</span> Wendy's Site #08386 Cannonsburg, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS ONLY</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111340"><i class="ic-ups"></i>111340</span> Wendy's Site #00510 Middle Town, CT<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1 - 42" replacement old style oval cameo</span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111388"><i class="ic-ups"></i>111388</span> Wendy's Site #07817 Harrodsburg, KY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111396"><i class="ic-ups"></i>111396</span> Wendy's Site #01865 Austintown, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111397"><i class="ic-ups"></i>111397</span> Wendy's Site #07907 Poland, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111399"><i class="ic-ups"></i>111399</span> Wendy's Site #09202 Youngstown, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111401"><i class="ic-ups"></i>111401</span> Wendy's Site #07908 Canfield, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU PARTS </span>
+</li>
+<li class="lineEntry t6 due t21" title="Right-Click for Options" style="">  	 <span id="job_110878-SVY">110878-SVY</span> Wendy's Site #09462 Portage, IN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: TERYL TO GET SUB TO SURVEY ASAP !!! </span>
+</li></ul></div><div class="date" ordinal="31"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111155">111155</span> WEN #12335 Bristol, PA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE </span>
+</li>
+<li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span class="copyof111322">111322 [CONT.] </span> Wendy's Site #08222 Pittsburgh, PA</li></ul></div><div class="date" ordinal="32"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span class="copyof111322 [CONT.]">111322 [CONT.] </span> Wendy's Site #08222 Pittsburgh, PA</li>
+<li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111226">111226</span> The Courtyards on Hyatts Powell, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: (1) DF MDO W/ POSTS FOR CSC TO INSTALL = NEED TO OUPS </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111312">111312</span> Wendy's Site #03028 Pigeon Forge, TN<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111436"><i class="ic-ups"></i>111436</span> Prime Storage (NC15) Cedar Point, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MISC. SITE SIGNS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111437"><i class="ic-ups"></i>111437</span> Prime Storage (NC14) Newport, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MISC. SITE SIGNS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111438"><i class="ic-ups"></i>111438</span> Prime Storage (NC13) Neuse Blvd-New Bern, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MISC. SITE SIGNS </span>
+</li><li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111439"><i class="ic-ups"></i>111439</span> Prime Storage (NC12) 5002 US-70 New Bern, NC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MISC. SITE SIGNS </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111507">111507</span> Wendy's Site #06399 Simcoe, ON</li></ul></div><div class="date" ordinal="33"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_110794"><i class="ic-i-comp-inv"></i>110794</span> TH#2544 Hamburg, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE TO BE INSTALLED </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: TERYL </span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111064"><i class="ic-p-appr"></i>111064</span> Monro/TC #601 Gahanna, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE FOR CSC TO INSTALL </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options">  	 <span id="job_111442"><i class="ic-ups"></i>111442</span> Prime Storage (AZ01) Phoenix, AZ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MISC. SITE SIGNS</span>
+</li></ul></div><div class="date" ordinal="34"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span class="copyof110794"><i class="ic-i-comp-inv"></i>110794 [CONT.] </span> TH#2544 Hamburg, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE TO BE INSTALLED </span>
+<span class="admin-note"> [<i style="color:#f00">Tab</i>]: TERYL </span>
+</li><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span class="copyof111064">111064 [CONT.] </span> Monro/TC #601 Gahanna, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE FOR CSC TO INSTALL </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111267">111267</span> Hoarel Sign WEN #12778 Pampa, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY</span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111370">111370</span> HUB Sign &amp; Crane Corp WEN #04485 Elizabeth, NJ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS ONLY </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_108360"><i class="ic-p-inf"></i>108360</span> Wendy's Site #02512 Greenvale, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: package</span>
+</li><li class="lineEntry t9" title="Right-Click for Options" style="">  	 <span id="job_109686">109686</span> CUSTOM SIGN CENTER<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- HUNTINGTON DOUBLE FACES LED ILLUM MONUMENT SIGN W/ FLAT FACES </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_110810-2">110810-2</span> Dennis WEN Fayetteville, NC</li></ul></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="2" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="empty" ordinal="4"></div><div class="empty" ordinal="5"></div><div class="empty" ordinal="6"></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="9"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"><li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111190">111190</span> Wendy's Site #08286 Virginia Beach, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE</span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111190-1">111190-1</span> Wendy's Site #08286 Virginia Beach, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENUS &amp; CREATIVE PALETTE SIGNS ALSO</span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111286">111286</span> Wendy's Site #10659 Virginia Beach, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options" style="">  	 <span id="job_111286-1">111286-1</span> Wendy's Site #10659 Virginia Beach, VA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- STRAIGHT INT. MENU , 2- SILVER TOWERS, 1- RHR , CREATIVE PALETTE SIGNS = SHIP TO SITE ATTN: GC !!!! </span>
+</li>
+<li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111201"><i class="ic-p-appr"></i>111201</span> Monro/TC #854 S. State St., Westerville, OH</li><li class="lineEntry t5" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111206"><i class="ic-p-appr"></i>111206</span> Monro/TC 879 Karl Rd Columbus, OH</li>
+<li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_107995-1">107995-1</span> H B Marble &amp; Granite Fort Myers, FL<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) REPLACEMENT CHANNEL LOGO FACE = SHIP FOR INSTALL </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">  <i class="ic-flag"> </i>	 <span id="job_110961-1">110961-1</span> Be You &amp; WinkPretty</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">  <i class="ic-flag"> </i>	 <span id="job_111405">111405</span> The Wasserstrom Company Columbus, OH</li></ul></div><div class="date" ordinal="10"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111000"><i class="ic-p-insp-req"></i>111000</span> Wendy's Site #01486 Akron, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MONUMENT SIGN FOR CSC TO INSTALL = NEED TO OUPS !!! </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111414">111414</span> YESCO Chicago wen #02419 Schaumburg, IL</li></ul></div><div class="date" ordinal="11"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span class="copyof111000"><i class="ic-p-insp-req"></i>111000 [CONT.] </span> Wendy's Site #01486 Akron, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MONUMENT SIGN FOR CSC TO INSTALL = NEED TO OUPS !!! </span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111420">111420</span> Wendy's Site #03596 Corbin, KY</li></ul></div><div class="date" ordinal="12"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"><li class="lineEntry t1" title="Right-Click for Options" style="">  	 <span id="job_111096">111096</span> Monro/MT 392 Westerville OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: INSTALLATION OF (1) RACEWAY SET OF CHANNELS BY OTHERS</span>
+</li>
+<li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_111372">111372</span> Courtyards at The Ravines Lewis Center, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: ALOT OF SIGNS FOR COMMUNITY ON POSTS TO BE INSTALLED = NEED TO OUPS </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111394">111394</span> CVS #4351 Willoughby, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- CVS POLE COVER </span>
+</li>
+<li class="lineEntry t10" title="Right-Click for Options" style="">  	 <span id="job_111352"><i class="ic-ups"></i>111352</span> Apple-Tree Homes<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 77 - ROUTED PVC ADDRESSES</span>
+</li>
+<li class="lineEntry t9" title="Right-Click for Options" style="">  	 <span id="job_111241">111241</span> Grove City Coins &amp; Currency<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2- FLAT FACES </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" style="">  <i class="ic-flag"> </i>	 <span id="job_111345-P">111345-P</span> Fluid Power Solutions<span class="admin-note"> [<i style="color:#f00">Tab</i>]: PERMITS ONLY</span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">  <i class="ic-flag"> </i>	 <span id="job_111445">111445</span> Courtyards at New Albany</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">  <i class="ic-flag"> </i>	 <span id="job_111460">111460</span> WEN #08772 Versailles, KY</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111528">111528</span> The Wasserstrom Company</li> </ul></div><div class="date" ordinal="13"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_111204"><i class="ic-p-appr"></i>111204</span> Monro/TC 856 Prairie Twp, OH</li>
+<li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span class="copyof111372">111372 [CONT.] </span> Courtyards at The Ravines Lewis Center, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: ALOT OF SIGNS FOR COMMUNITY ON POSTS TO BE INSTALLED = NEED TO OUPS </span>
+</li><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111025">111025</span> Wendy's Site #06533 Gibsons, BC<span class="admin-note"> [<i style="color:#f00">Tab</i>]: MENU ONLY </span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111426">111426</span> OUTDOOR / Clarkson 2225</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111453">111453</span> Wendy's Site #11186 St. Louis, MO</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111458">111458</span> Wendy's Site #11199 St. Peters, MO</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111459">111459</span> Wendy's Site #11121 Fairview Heights, IL</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111455">111455</span> The Sign Clinic WEN #04956 &amp; #03230</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111451">111451</span> WEN #02955  Frankfort, KY</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_110973-2">110973-2</span> Wendy's Site #00483 Virginia Beach, VA</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111448">111448</span> WEN #11178 Bridgeton, MO</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111449">111449</span> Wendy's Site #09675 Wynne, AR</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111464">111464</span> WEN #07925  Tallahassee, FL</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111472">111472</span> WEN #08697 Hampshire, IL</li>
+<li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_110094">110094</span> Wendy's Site #13011 Snellville, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: FULL SIGN PACKAGE TO SHIP TO OUR SUB FOR INSTALL</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111509">111509</span> Wendy's Site #05291 Wheeling, WV</li></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="16"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span id="job_110878">110878</span> Wendy's Site #09462 Portage, IN</li>
+<li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_111392">111392</span> CVS #3971 Richeyville, PA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SPECIAL 2- CVS WINDOW PANELS </span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" style="">  <i class="ic-flag"> </i>	 <span id="job_98882-2">98882-2</span> Wendy's Site #07919 Hope, AR<span class="admin-note"> [<i style="color:#f00">Tab</i>]: WARRANTY (1) WP171 READER BOARD CABINET ONLY FOR HIGH WIND LOAD = FOR CSC TO INSTALL WHEN IN THE AREA IN 2020</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" style="">  	 <span id="job_108677-1"><i class="ic-flag"></i>108677-1</span> WEN #09980  Oxford, MS<span class="admin-note"> [<i style="color:#f00">Tab</i>]: FREIGHT FOR CSC TO PICK UP AND RETURN </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111498">111498</span> Nova Triad Partners llc Winston-Salem, NC</li></ul></div><div class="date" ordinal="17"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span class="copyof110878">110878 [CONT.] </span> Wendy's Site #09462 Portage, IN</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111402">111402</span> WEN #06684  Oakville, ON</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111499">111499</span> CUSTOM SIGN CENTER (WILSON)</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111504">111504</span> Compass Homes Powell, OH (CPU)</li></ul></div><div class="date" ordinal="18"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"><li class="lineEntry t1" title="Right-Click for Options" contenteditable="false" style="">  	 <span class="copyof110878 [CONT.]">110878 [CONT.] </span> Wendy's Site #09462 Portage, IN</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111419">111419</span> The Courtyards at Jerome Village, Jermone Townshio, OH</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  	 <span id="job_111151"><i class="ic-flag"></i><i class="ic-p-appr"></i>111151</span> TH#5638 Columbus, OH</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111477">111477</span> Wendy's Site #04678 Manistee, MI</li></ul></div><div class="date" ordinal="19"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"><li class="lineEntry t5" title="Right Click for Options">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: DONALD PERRY OFF HERE!! </span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  	 <span id="job_109831"><i class="ic-flag"></i><i class="ic-p-appr"></i>109831</span> The Printed Image Columbus, OH</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111425">111425</span> Jerrod Burkhart Reynoldsburg, OH</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111474">111474</span> Bianco Contractors (CVS Column Covers) New Town Square, PA</li></ul></div><div class="date" ordinal="20"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"><li class="lineEntry t5" title="Right Click for Options" style="">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: DONALD PERRY OFF HERE !! </span>
+</li>
+<li class="lineEntry t8" title="Right-Click for Options">  	 <span id="job_110682">110682</span> Wendy's Site #12805 Newark, NJ<span class="admin-note"> [<i style="color:#f00">Tab</i>]: NON STD SIGN PACKAGE WITH CREATIVE PALETTE SIGNS ALSO = SHIP TO OUR SUB FOR INSTALL</span>
+</li>
+<li class="lineEntry t6" title="Right-Click for Options" style="">  	 <span id="job_104892-4">104892-4</span> WEN #12243 Weatherford, OK<span class="admin-note"> [<i style="color:#f00">Tab</i>]: warranty LED blade lighting end caps &amp; touch up paint ship to our sub for install </span>
+</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">  <i class="ic-flag"> </i>	 <span id="job_111362-P">111362-P</span> Rick's Freshmade</li>
+<li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111086">111086</span> Afra Grill Columbus,OH</li></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="23"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111524-1">111524-1</span> Wendy's Site #04928 Whitesburg, KY</li> <li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111524">111524</span> Wendy's Site #04928 Whitesburg, KY</li> <li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111463">111463</span> Wendy's Site #13035 NY, NY</li> </ul></div><div class="date" ordinal="24"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"><li class="lineEntry t8" title="Right-Click for Options" style="">  	 <span id="job_109777">109777</span> WEN #02482  Elmont, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE w/ CREATIVE PALETTE ALSO</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111469">111469</span> Kiddie Academy Of Hendersonville, TN</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111476">111476</span> Mr. Tire 871 Sawmill Rd. Columbus, OH</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111490">111490</span> WEN #07826  Medina, OH</li></ul></div><div class="date" ordinal="25"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_110655">110655</span> NC12 Prime Storage (US-70) - New Bern</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_110656">110656</span> NC13 Prime Storage (Neuse Blvd) - New Bern</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_110659">110659</span> NC14 Prime Storage - Newport</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_110660">110660</span> NC15 Prime Storage - Cedar Point, NC</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111505">111505</span> Wendy's #00276 Decatur, GA</li> </ul></div><div class="date" ordinal="26"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_109968-3">109968-3</span> LSI Industries/ Phill 66</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111519">111519</span> Madison Health London, OH</li> </ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="30"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111525">111525</span> Prairie Township Road Department</li> </ul></div><div class="date" ordinal="31"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"><li class="lineEntry t5" title="Right-Click for Options" style="">  	 <span id="job_109176-2"><i class="ic-p-inf"></i>109176-2</span> Turning Stone<span class="admin-note"> [<i style="color:#f00">Tab</i>]:  SIGNS ON POSTS TO INSTALL = NEED TO OUPS 1st</span>
+</li></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="35" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div></div></div><div class="month hide" ordinal="3" yr="2020"><div class="calRow clearfix" id="row1"><div class="date" ordinal="1"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"><li class="lineEntry t9" title="Right-Click for Options">  	 <span id="job_110576">110576</span> CUSTOM SIGN CENTER<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- RM5200 KIT TEST </span>
+</li></ul></div><div class="date" ordinal="2"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options">  <i class="ic-flag"> </i>	 <span id="job_107825-1">107825-1</span> Crooked Can Brewing Company Hillard, OH<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 1- VINYL TO INSTALL WHEN WARM </span>
+</li>
+<li class="lineEntry t7" title="Right Click for Options">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: NOAH HAS DOCTOR HERE @ 10:20AM !!!! = HE WILL BE IN AFTER!! </span><div id="x">
+
+</div>
+</li></ul></div><div class="date" ordinal="3" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="6"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options">  <i class="ic-flag"> </i>	 <span id="job_109777-1">109777-1</span> WEN #02482  Elmont, NY<span class="admin-note"> [<i style="color:#f00">Tab</i>]: 2- ENGINEERING FEE ONLY</span>
+</li></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="9"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"><li class="lineEntry t7" title="Right-Click for Options">  	 <span id="job_111323">111323</span> Wendy's Site #12936 Buford, GA<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE SHIP TO OUR SUB FOR INSTALL </span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag"> </i>	 <span id="job_111497">111497</span> Whilshire Lewis Center, OH</li></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="16"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"><li class="lineEntry t7" title="Right-Click for Options">  	 <span id="job_111171">111171</span> Wendy's Site #13120 Oklahoma City, OK<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+</li>
+<li class="lineEntry t7" title="Right-Click for Options">  	 <span id="job_111169">111169</span> Wendy's Site #12540 Enid, OK<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL</span>
+</li><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111450-P">111450-P</span> Absolute Hearing Solutions</li> </ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="23"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"><li class="lineEntry t7" title="Right-Click for Options">  	 <span id="job_111384">111384</span> Wendy's Site #12858 San Angelo, TX<span class="admin-note"> [<i style="color:#f00">Tab</i>]: SIGN PACKAGE = SHIP TO OUR SUB FOR INSTALL </span>
+</li></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="31"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style="">
+<span id="job_102367"><i class="ic-flag"></i><i class="ic-i-comp-inv"></i>102367</span> Yauger Monument</li></ul></div><div class="empty" ordinal="32"></div><div class="empty" ordinal="33"></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="4" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="10"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"><li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false">  <i class="ic-flag" *=""> </i>	 <span id="job_111532">111532</span> Wendy's Site #02362 Avalon, PA</li> </ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="27"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"><li class="lineEntry t7" title="Right Click for Options">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: NOAH OFF HERE</span>
+</li></ul></div><div class="date" ordinal="28"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"><li class="lineEntry t7" title="Right Click for Options">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: NOAH OFF HERE</span>
+</li></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"><li class="lineEntry t7" title="Right Click for Options">
+<span id="admin-note" contenteditable="false">&gt;</span><span class="admin-note"> [<i style="color:#f00">Tab</i>]: NOAH OFF HERE</span>
+</li></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="5" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="empty" ordinal="4"></div><div class="empty" ordinal="5"></div><div class="empty" ordinal="6"></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="35" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div></div><div class="calRow clearfix" id="row6"><div class="date" ordinal="36" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="37" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="38"></div><div class="empty" ordinal="39"></div><div class="empty" ordinal="40"></div><div class="empty" ordinal="41"></div><div class="empty" ordinal="42"></div></div></div><div class="month hide" ordinal="6" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="date" ordinal="2" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="3" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="empty" ordinal="32"></div><div class="empty" ordinal="33"></div><div class="empty" ordinal="34"></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="7" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="date" ordinal="4" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div><div class="date" ordinal="5" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="6" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="35"></div></div></div><div class="month hide" ordinal="8" yr="2020"><div class="calRow clearfix" id="row1"><div class="empty" ordinal="1"></div><div class="empty" ordinal="2"></div><div class="empty" ordinal="3"></div><div class="empty" ordinal="4"></div><div class="empty" ordinal="5"></div><div class="empty" ordinal="6"></div><div class="date" ordinal="7" style="border:none"><div class="day">
+						    
+						    1</div><ul modalid="d1" class="edit"></ul></div></div><div class="calRow clearfix" id="row2"><div class="date" ordinal="8" style="border:none"><div class="day">
+						    
+						    2</div><ul modalid="d2" class="edit"></ul></div><div class="date" ordinal="9" style="border:none"><div class="day">
+						    
+						    3</div><ul modalid="d3" class="edit"></ul></div><div class="date" ordinal="10" style="border:none"><div class="day">
+						    
+						    4</div><ul modalid="d4" class="edit"></ul></div><div class="date" ordinal="11" style="border:none"><div class="day">
+						    
+						    5</div><ul modalid="d5" class="edit"></ul></div><div class="date" ordinal="12" style="border:none"><div class="day">
+						    
+						    6</div><ul modalid="d6" class="edit"></ul></div><div class="date" ordinal="13" style="border:none"><div class="day">
+						    
+						    7</div><ul modalid="d7" class="edit"></ul></div><div class="date" ordinal="14" style="border:none"><div class="day">
+						    
+						    8</div><ul modalid="d8" class="edit"></ul></div></div><div class="calRow clearfix" id="row3"><div class="date" ordinal="15" style="border:none"><div class="day">
+						    
+						    9</div><ul modalid="d9" class="edit"></ul></div><div class="date" ordinal="16" style="border:none"><div class="day">
+						    
+						    10</div><ul modalid="d10" class="edit"></ul></div><div class="date" ordinal="17" style="border:none"><div class="day">
+						    
+						    11</div><ul modalid="d11" class="edit"></ul></div><div class="date" ordinal="18" style="border:none"><div class="day">
+						    
+						    12</div><ul modalid="d12" class="edit"></ul></div><div class="date" ordinal="19" style="border:none"><div class="day">
+						    
+						    13</div><ul modalid="d13" class="edit"></ul></div><div class="date" ordinal="20" style="border:none"><div class="day">
+						    
+						    14</div><ul modalid="d14" class="edit"></ul></div><div class="date" ordinal="21" style="border:none"><div class="day">
+						    
+						    15</div><ul modalid="d15" class="edit"></ul></div></div><div class="calRow clearfix" id="row4"><div class="date" ordinal="22" style="border:none"><div class="day">
+						    
+						    16</div><ul modalid="d16" class="edit"></ul></div><div class="date" ordinal="23" style="border:none"><div class="day">
+
+						    
+						    17</div><ul modalid="d17" class="edit"></ul></div><div class="date" ordinal="24" style="border:none"><div class="day">
+						    
+						    18</div><ul modalid="d18" class="edit"></ul></div><div class="date" ordinal="25" style="border:none"><div class="day">
+						    
+						    19</div><ul modalid="d19" class="edit"></ul></div><div class="date" ordinal="26" style="border:none"><div class="day">
+						    
+						    20</div><ul modalid="d20" class="edit"></ul></div><div class="date" ordinal="27" style="border:none"><div class="day">
+						    
+						    21</div><ul modalid="d21" class="edit"></ul></div><div class="date" ordinal="28" style="border:none"><div class="day">
+						    
+						    22</div><ul modalid="d22" class="edit"></ul></div></div><div class="calRow clearfix" id="row5"><div class="date" ordinal="29" style="border:none"><div class="day">
+						    
+						    23</div><ul modalid="d23" class="edit"></ul></div><div class="date" ordinal="30" style="border:none"><div class="day">
+						    
+						    24</div><ul modalid="d24" class="edit"></ul></div><div class="date" ordinal="31" style="border:none"><div class="day">
+						    
+						    25</div><ul modalid="d25" class="edit"></ul></div><div class="date" ordinal="32" style="border:none"><div class="day">
+						    
+						    26</div><ul modalid="d26" class="edit"></ul></div><div class="date" ordinal="33" style="border:none"><div class="day">
+						    
+						    27</div><ul modalid="d27" class="edit"></ul></div><div class="date" ordinal="34" style="border:none"><div class="day">
+						    
+						    28</div><ul modalid="d28" class="edit"></ul></div><div class="date" ordinal="35" style="border:none"><div class="day">
+						    
+						    29</div><ul modalid="d29" class="edit"></ul></div></div><div class="calRow clearfix" id="row6"><div class="date" ordinal="36" style="border:none"><div class="day">
+						    
+						    30</div><ul modalid="d30" class="edit"></ul></div><div class="date" ordinal="37" style="border:none"><div class="day">
+						    
+						    31</div><ul modalid="d31" class="edit"></ul></div><div class="empty" ordinal="38"></div><div class="empty" ordinal="39"></div><div class="empty" ordinal="40"></div><div class="empty" ordinal="41"></div><div class="empty" ordinal="42"></div></div></div>"
+
+	</body>
+</html>

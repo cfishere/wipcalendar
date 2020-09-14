@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.timeblock{
+	
+	width: 0.1424%;
+
+	padding: 6px 0.05% 6px 0;	
+	
+	display:inline;
+	
+	background: #FFF;
+	
+	border:#8C62E3 1px solid;
+	
+	height: 90px;
+	
+}
+.timeblock:last-child{	
+	padding-right:0;
+}
+
+.timeRow{	
+	width: 96%;
+	margin: 0px auto 6px auto;
+	
+	
+}
+.timeRow h2{
+	background: #FFF;
+	border-bottom: #C7C7C7 solid 2px;
+	padding-bottom: 5px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+#sched1,#sched2,#sched3{		
+	
+}
+#morning,#morning2,#morning3{
+	
+}
+#afternoon,#afternoon2,#afternoon3{
+	
+}
+#lateafternoon,#lateafternoon2,#lateafternoon3{
+	
+}
+
+.timeblock,.timeRow,#sched1,#sched2,#sched3,#afternoon,#afternoon2,#afternoon3,#lateafternoon,#lateafternoon2,#lateafternoon3{
+	box-sizing: border-box;
+}
+.hide{	
+	display:none;
+}

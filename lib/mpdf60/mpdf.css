@@ -1,0 +1,236 @@
+
+
+
+/* LISTS */
+
+/* 
+A default margin-top/bottom for lists is NOT set in config.php - (standard browsers give outermost list a top and bottom margin).
+[mPDF default CSS set in config.php only works on basic elements, cannot do selectors such as "ol ol"]
+Need to add the following to do this, but also prevent margins in nested lists as per default HTML in most browsers: 
+*/
+
+ul, ol { margin-top: 0.83em; margin-bottom: 0.83em; list-style:none; }
+ul ul, ul ol, ol ul, ol ol { margin-top: 0; margin-bottom: 0; }
+li{margin:0, 0, 2px, 0;}
+.addNewLine,img{visibility:hidden}
+
+
+
+/* INDEXES */
+div.mpdf_index_main {
+	font-family: sans-serif;
+	line-height: normal;
+}
+div.mpdf_index_entry {
+	line-height: normal;
+	text-indent: -1.5em;
+}
+div.mpdf_index_letter {
+	font-family: sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: normal;
+	text-transform: uppercase;
+	page-break-after: avoid; 
+	margin-top: 0.3em; 
+	margin-collapse: collapse;
+}
+a.mpdf_index_link { 
+	color: #000000; 
+	text-decoration: none; 
+}
+
+
+
+/* TABLE OF CONTENTS */
+div.mpdf_toc {
+	font-family: sans-serif;
+	line-height: normal;
+}
+a.mpdf_toc_a  {
+	text-decoration: none;
+	color: black;
+}
+div.mpdf_toc_level_0 {		/* Whole line level 0 */
+	line-height: 1.5;
+	margin-left: 0;
+	padding-right: 0em;	/* should match the outdent specified for ToC; 0 is default; suggested value 2em */
+}
+span.mpdf_toc_t_level_0 {	/* Title level 0 - may be inside <a> */
+	font-weight: bold;
+}
+span.mpdf_toc_p_level_0 {	/* Page no. level 0 - may be inside <a> */
+}
+div.mpdf_toc_level_1 {		/* Whole line level 1 */
+	margin-left: 2em;
+	text-indent: -2em;
+	padding-right: 0em;	/* should match the outdent specified for ToC; 0 is default; suggested value 2em */
+}
+span.mpdf_toc_t_level_1 {	/* Title level 1 */
+	font-style: italic;
+	font-weight: bold;
+}
+span.mpdf_toc_p_level_1  {	/* Page no. level 1 - may be inside <a> */
+}
+div.mpdf_toc_level_2 {		/* Whole line level 2 */
+	margin-left: 4em;
+	text-indent: -2em;
+	padding-right: 0em;	/* should match the outdent specified for ToC; 0 is default; suggested value 2em */
+}
+span.mpdf_toc_t_level_2 {	/* Title level 2 */
+}
+span.mpdf_toc_p_level_2 {	/* Page no. level 2 - may be inside <a> */
+}
+
+html *,.hide, .hide *{
+	display:none;	
+}
+
+
+
+.calCol,span#date,span#curTime,.edit,#mo,#yr,.date,.day,.edit *,.empty,.edit li{
+	
+	display:inline-block;
+}
+#pageTitle,#weeks,.row,#topHeaders,body,h1,#headerDays,.month,#icons,#icons *{
+	
+	display:block !important;
+}
+.edit{padding:0;margin:0}
+.edit *, .edit,.empty{
+	box-sizing: border-box;
+}
+
+.edit li{margin-left: 6px; margin-bottom: 1px;}
+
+span#date{margin-right: 20px;}
+
+.calCol{
+	text-align:center;
+	/*background: #E0E7AF;*/
+	background: #FFF;
+	height: 30px;
+	vertical-align:middle;
+	border: #C0D1A9 1px solid;	
+}
+
+.today{
+	
+	border: #8ac72d 2px solid;
+}
+#mo,#yr{	
+	text-align:center;
+	font-size: 14pt; 
+	font-weight:bold;
+}
+.edit *, li{
+	font-size: 10px;
+}
+#t1,#t2,#t3,#t4,#t6,#t7,#t8,#t9,#t10,
+.t1,.t2,.t3,.t4,.t6,.t7,.t8,t9,t10{
+	 font-weight:bold;
+}
+
+#t1,.t1{color:#B92426;}
+#t2,.t2{color:#510FBC;}
+#t3,.t3{color:#000000}
+#t4,.t4{color:#E3A201}
+#t5,.t5{color:#52a815}
+#t6,.t6{color:#0064FF}
+#t7,.t7{color:#801214}
+#t8,.t8{color:#F218F8}
+#t9,.t9{color:#000000}
+/*#t10,.t10{color:}*/
+/*#t3,.unassigned{color:#000}*/
+.unassigned{background:#FCFFA1;}
+.unassigned:before{
+	content: '! ';
+	font-weight: bold;	
+	color: #CC0A0D;
+	padding-left: 3px;
+}
+#t5{
+	color: #52A815;
+	background: #FFF;
+}
+.completed{
+	background:#A1E35D;
+	/*color: #FFF; remain the team color */
+	font-weight: bold;
+	padding-left: 3px;
+}
+.completed:before{ /* leading checkmark */
+	content: "\2713  ";
+	color: #FFF;
+	font-size: 14px;
+}
+.date{
+	border: #E5E5E5 1px solid;
+	margin-bottom: 3px;
+}
+
+.hide *{
+	display:none !important;	
+	border:none;
+	visibility:hidden;
+}
+.date, .calCol, .empty{
+	width: 17.70%;
+	float:left;
+	padding: 2px;	
+}
+.weekend{
+	background: #FCFCFC;
+	color:#C0C0C0;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.headerDays, .calCol, .row, .empty, .today, .day, .date {
+    box-sizing: border-box;
+}
+.row {
+    border-collapse: collapse;
+    color: #236fbf;
+    font-size: 16px;
+    height: auto;
+}
+#headerDays, .row, #weeks, #calFooter {
+    float: left;
+    width: 100%;
+}
+.iconrow {
+    float: left;
+    margin-left: 16px;
+    margin-top: 12px;
+    display:inline-block;
+}
+.iconrow:first-child{margin-left:0px;}
+
+.b1{margin-left:0px}
+.box-label{
+	margin-left: 8px; display:inline-block; float:left; font-size: 15px; font-weight: bold; line-height: 20px;
+}
+.b1 {
+    background-color: #b92426;
+}
+.b1 {
+    margin-left: 0;
+}
+
+.unassigned{font-weight:normal !important; color:#554B44 !important; }
+.b1{background-color:#B92426}.b2{background-color:#510FBC}.b3{background-color:#000000}.b4{background-color:#E3A201}.b5{background-color:#52a815}.b6{background-color:#0064FF}.b7{background-color:#801214}.b8{background-color:#F218F8}.b9{background-color:#000000}.b10{background-color:#525252}
+
+#headerDays > div:first-child, #headerDays > div:last-child, .month > .row > div:first-child, .month > .row > div:last-child{
+	visibility:hidden;
+	width:0%;
+	display:none;
+}
+.weekend,.icon-box,#select-1,select-2,select-3,select-4,select-5,select-6,select-7,select-8,select-9,select-10,input{	
+	display:none !important;
+	visibility:hidden !important;
+}

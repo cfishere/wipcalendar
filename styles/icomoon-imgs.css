@@ -1,0 +1,84 @@
+/* this file is to render icons in PDF generated with mPDF lib.
+   the html calendar uses <i> to display icomoon font icons
+   but mPdf was not rendering those.
+*/
+
+[class^="ic-"], [class*=" ic-"] {
+  padding: 5px 11px 6px 11px !important;
+  /*display:inline-block;*/
+  margin:0,1.5px; 
+}
+
+
+/* mPDF seems to use decimal lists for an LI element that is not in a UL
+*/
+ul, ol{
+	list-style-type: none !important;
+}
+li{
+	list-style-type:none;
+}
+.ic-ups {	
+	
+	background-image: url("ic-ups.jpg") !important;
+	
+	
+}
+.ups-relativepath {	
+	
+	background-image: url("../classes/ic-ups.jpg") !important;	
+	
+}
+.ic-i-ret-trip { 
+	
+  background-image: url("home/custo299/public_html/calendar/assets/icomoon/imgs/ic-i-ret-trip.jpg") !important;
+	
+}
+.ic-i-comp-inv { 
+	
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-comp-inv.jpg") !important;
+	
+}
+.ic-i-comp-alt { 
+	
+  background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-comp-alt.jpg") !important;
+	
+}
+.ic-i-crane { 
+	
+  background-image: url("https://customsigncenter.com/calendar/assets/icomoon/imgs/ic-i-crane.jpg") !important;
+	
+}
+.ic-p-appr { 
+	
+ background-image: url("https://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-appr.jpg") !important;
+
+}
+.ic-p-inf { 
+	
+  background-image: url("https://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-inf.jpg") !important;
+	
+}
+.ic-p-insp-appr { 
+	
+ background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-insp-appr.jpg") !important;
+}
+.ic-p-insp-req { 
+	
+ background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-insp-req.jpg") !important;
+	
+}
+.ic-user {
+	 background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-p-insp-req.jpg") !important;
+	 
+}
+.ic-flag {
+	
+	 background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-flag.jpg") !important;
+	
+}
+.ic-cog {
+	
+	 background-image: url("http://customsigncenter.com/calendar/assets/icomoon/imgs/ic-cog.jpg") !important;
+	
+}
